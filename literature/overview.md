@@ -58,6 +58,10 @@ Before analyzing the "digital," we need clarity on Marx's own framework.
 | **Christian Fuchs** | *Digital Capitalism* (2022), *Communication and Capitalism* (2020) | Triadic theory: economy/politics/culture; systematic Marxist media theory | Europe/global South focus | Epistemic: ★★★★★ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★★ |
 | **Nick Srnicek** | *Platform Capitalism* (2017) | Platform as new organizational form; periodization: surveillance → platform | UK/global | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
 | **Philipp Staab** | *Digitaler Kapitalismus* (2019) | "Economy of non-scarcity"; network effects, data control, monopoly power | Germany | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+| **Klaus Dörre** | *Überlebenskampf. Die Arbeitsgesellschaft in der Krise des Kapitalismus* (2019), *Das Eindringen der kapitalistischen Marktgesellschaft* (2023) | "Capitalist market society" (KMG); platform capitalism as deceleration/re-territorialization | Germany | Epistemic: ★★★★☆ Empirical: ★★★★☆ Political: ★★★★★ Synthetic: ★★★★☆ |
+| **Oliver Nachtwey** | *Die Abstiegsgesellschaft* (2016), *Falsche Versprechen* (2023) | Declining society; precarity; labor market dualization; platform work integration | Germany | Epistemic: ★★★★☆ Empirical: ★★★★★ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **Robert Reichmann** | *Digitalisierung und Kapitalismus* (2021), various | Digital transformation of labor; algorithmic management from German perspective | Germany | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+| **Robert Kurtz** | *Digitaler Kapitalismus: Zur Politischen Ökonomie der Daten* (2022) | Marxist critique of data capitalism; value theory approach | Germany | Epistemic: ★★★★☆ Empirical: ★★☆☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
 | **Martijn Konings** | *Capital and Time* (2018) | Financial temporality; technology and speculation | Australia | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
 
 ### 2.2 Cognitive Capitalism Debate

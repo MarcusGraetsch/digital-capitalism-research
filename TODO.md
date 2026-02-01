@@ -3,7 +3,7 @@
 ## HIGH PRIORITY (This Week)
 
 - [x] Verify existence of "Shan - Digital China (2025)" — ~~may be hallucinated by original LLM~~ **CONFIRMED: Hallucinated source, removed from overview**
-- [ ] Add German-language sources to literature overview
+- [x] Add German-language sources to literature overview
   - Klaus Dörre (platform capitalism, deceleration)
   - Robert Kurtz ("Digitaler Kapitalismus")
   - Robert Reichmann
