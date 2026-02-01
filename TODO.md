@@ -13,7 +13,7 @@
 
 ## MEDIUM PRIORITY (This Month)
 
-- [ ] Acquire priority sources (identify which 10-20 to read first)
+- [x] Acquire priority sources (identify which 10-20 to read first) → See PRIORITY_READING_LIST.md
 - [ ] Fill geographic gaps in literature map
   - [ ] Latin American perspectives
   - [ ] African tech studies (beyond Graham)
