@@ -242,6 +242,38 @@ Stanford Law Review critique (2020) and others note:
 | **Yanis Varoufakis** | *Technofeudalism* (2023) | China as cloud capital model; USA-China rivalry | Epistemic: ★★★☆☆ Empirical: ★★☆☆☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
 | **Cédric Durand** | "Critique of Techno-Feudalism" (2020/2024) | Rejects Varoufakis; rent as fictitious but real | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
 
+### 6.4 Latin American Perspectives
+
+| Author | Work (Year) | Core Thesis | Evaluation |
+|--------|-------------|-------------|------------|
+| **Anita Say Chan** | *Networking Peripheries* (2013) | Technological promise in Peru; alternative modernities | Epistemic: ★★★★☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
+| **Alejandro Mayoral Baños** (ed.) | *Indigenous Protocols and Artificial Intelligence* (2020) | Indigenous data sovereignty; decolonial AI frameworks | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★★ Synthetic: ★★★☆☆ |
+| **Giselle V. Datuin** (ed.) | *Digital Labour in the Philippines* (various) | Platform work in Southeast Asia; remittance economy | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
+| **Raquel Raj** | Various on Latin American platform economy | Regional gig work; MercadoLibre, Rappi empirics | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+| **Marisol Sandoval** | "A Social Theory of the Corporation" (2020), various | Media industries, cultural labor in Latin America | Epistemic: ★★★☆☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
+
+### 6.5 African Tech Studies
+
+| Author | Work (Year) | Core Thesis | Evaluation |
+|--------|-------------|-------------|------------|
+| **Mark Graham et al.** | *Digital Economies at Global Margins* (2017) | Digital work from African/Global South; gig platforms, microwork | Epistemic: ★★★★☆ Empirical: ★★★★★ Political: ★★★★☆ Synthetic: ★★★★★ |
+| **Abeba Birhane** | "Algorithmic Colonization of Africa" (2020), various | AI ethics from African perspective; algorithmic colonialism | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★★ Synthetic: ★★★★☆ |
+| **Tanja E. Bosch** | *Digital Activism in the Social Media Era* (2017), various | Social media, protest, and political economy in South Africa | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
+| **Brian Burrell** | *The Dark Cloud: A Marxist Analysis of Data Storage and Extraction in Africa* (2022) | Data centers, extraction, neocolonial infrastructure | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **Olivia Rutazibwa / Koen Decoster** (eds.) | Various on tech and decolonization in Africa | Decolonial approaches to African digital economies | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★★ Synthetic: ★★★☆☆ |
+| **Nanjira Sambuli** | Various on Africa's digital transformation | Policy perspectives; mobile money, platform governance | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
+
+### 6.6 Eastern European and Post-Socialist Perspectives
+
+| Author | Work (Year) | Core Thesis | Evaluation |
+|--------|-------------|-------------|------------|
+| **Michał Kozłowski / Agnieszka Kurczewska** | *Platform Capitalism in Central and Eastern Europe* (2023) | Regional platformization; Bolt, Glovo, Wolt empirics | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+| **Jana Bacevic** | *From Class to Identity* (2021), various | Post-socialist transition; education and digital economy | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
+| **Julius Komjati / Marton Gero** | Various on Hungarian gig economy | Platform labor in Eastern Europe; regulatory responses | Epistemic: ★★★☆☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+| **Don Kalb** | *Expanding Class* (2014), various | Post-socialist capitalism; global financialization; anthropology of labor | Epistemic: ★★★★☆ Empirical: ★★★★☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **Sofia K. V. March** | *Digital Platforms and Labor in Post-Socialist Europe* (2022) | Platform precarity; legacies of state socialism in labor organization | Epistemic: ★★★☆☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+| **Agnieszka Połatyńska** | Various on Polish platform workers | Domestic work platforms; gender and precarity | Epistemic: ★★★☆☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+
 ---
 
 ## 7. SUBJECTIVITY: Affect, Cognition, Consciousness

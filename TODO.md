@@ -14,10 +14,10 @@
 ## MEDIUM PRIORITY (This Month)
 
 - [x] Acquire priority sources (identify which 10-20 to read first) → See PRIORITY_READING_LIST.md
-- [ ] Fill geographic gaps in literature map
-  - [ ] Latin American perspectives
-  - [ ] African tech studies (beyond Graham)
-  - [ ] Eastern European platform studies
+- [x] Fill geographic gaps in literature map
+  - [x] Latin American perspectives (Chan, Mayoral Baños, Raj, Sandoval)
+  - [x] African tech studies (Graham, Birhane, Bosch, Burrell + more)
+  - [x] Eastern European platform studies (Kozłowski, Bacevic, Kalb + more)
 - [ ] Add missing theorists
   - [ ] McKenzie Wark (hacker class/vectoralist class)
   - [ ] Yuk Hui (technodiversity)
