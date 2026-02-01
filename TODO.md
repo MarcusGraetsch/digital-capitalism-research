@@ -2,11 +2,10 @@
 
 ## HIGH PRIORITY (This Week)
 
-- [ ] Fix web research capability — BLOCKED: Brave API not accessible from user's location
-  - ~~web_search~~: Requires Brave API key — NOT AVAILABLE in user's region
-  - ~~browser~~: Chrome extension relay not connected
-  - **WORKAROUND**: Use `web_fetch` for direct URL access (no API key needed)
-  - **Test**: Verify which sites are accessible via web_fetch
+- [x] Fix web research capability — **COMPLETED**
+  - ✅ web_search: Brave API key configured and working
+  - ✅ Environment variable BRAVE_API_KEY set
+  - ✅ Tested successfully: Christian Fuchs Digital Capitalism search
 - [x] Verify existence of "Shan - Digital China (2025)" — ~~may be hallucinated by original LLM~~ **CONFIRMED: Hallucinated source, removed from overview**
 - [x] Add German-language sources to literature overview
   - Klaus Dörre (platform capitalism, deceleration)
