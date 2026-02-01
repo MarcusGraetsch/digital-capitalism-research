@@ -9,7 +9,7 @@
   - Robert Reichmann
   - Oliver Nachtwey
 - [x] Create bibliography.bib file with proper citations (~60 core entries, Zotero-compatible)
-- [ ] Set up reading note template
+- [x] Set up reading note template (exists at notes/templates/reading_note.md)
 
 ## MEDIUM PRIORITY (This Month)
 
