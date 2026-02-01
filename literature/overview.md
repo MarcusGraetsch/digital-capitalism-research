@@ -90,6 +90,41 @@ The "General Intellect" reading of the *Grundrisse* may overstate Marx's positio
 | **Mark Andrejevic** | *Infoglut* (2013), *Automated Media* (2020) | Information fetishism; surveillance as infrastructure | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
 | **Nathan Newman** | "The Costs of Lost Privacy" (2014) | Economic harm of surveillance; not just civil liberties | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
 
+### 2.4 Class Analysis: Hacker and Vectoralist Classes
+
+| Author | Work (Year) | Core Thesis | Evaluation |
+|--------|-------------|-------------|------------|
+| **McKenzie Wark** | *A Hacker Manifesto* (2004) | "Hacker class" produces new abstractions; "vectoralist class" controls vectors of information; class struggle over intellectual property | Epistemic: ★★★★★ Empirical: ★★☆☆☆ Political: ★★★★☆ Synthetic: ★★★★★ |
+| **McKenzie Wark** | *The Beach Beneath the Street* (2011), *The Spectacle of Disintegration* (2013) | Situationist legacy; radical media theory; derive in digital space | Epistemic: ★★★★☆ Empirical: ★★☆☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **McKenzie Wark** | *Capital Is Dead* (2019) | "Is this really capitalism or something worse?"; vectoral power beyond capitalism | Epistemic: ★★★★☆ Empirical: ★★☆☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **McKenzie Wark** | *Reverse Cowgirl* (2020), various | Trans/feminist interventions in media theory | Epistemic: ★★★★☆ Empirical: ★★☆☆☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
+
+**Wark's Contribution:**
+Wark introduces a distinctive class analysis for the information age:
+- **Hacker class**: Produces new information, abstractions, concepts (not necessarily coding)
+- **Vectoralist class**: Controls the "vectors" (channels, platforms, infrastructure) along which information flows
+- **Worker class**: Traditional industrial labor
+- **Peasant class**: Agricultural and informal labor
+
+This framework offers an alternative to both orthodox Marxist class analysis and post-workerist "multitude" concepts. The "vectoralist" anticipates platform capitalism analysis by over a decade.
+
+### 2.5 Technodiversity and Cosmotechnics
+
+| Author | Work (Year) | Core Thesis | Evaluation |
+|--------|-------------|-------------|------------|
+| **Yuk Hui** | *The Question Concerning Technology in China* (2016) | "Cosmotechnics" — technology as culture-specific; critiques universalist technology narratives | Epistemic: ★★★★★ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
+| **Yuk Hui** | *Recursivity and Contingency* (2019) | Philosophical foundations of cybernetics; alternative modernities | Epistemic: ★★★★★ Empirical: ★★☆☆☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+| **Yuk Hui** | *Art and Cosmotechnics* (2021) | Aesthetics and technology; non-Western epistemes | Epistemic: ★★★★☆ Empirical: ★★☆☆☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
+| **Yuk Hui** (ed.) | *Technodiversity* (2023) | Diversity of technological civilizations; against platform universalism | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+
+**Hui's Contribution:**
+Hui provides a philosophical counterweight to the universalism of platform capitalism narratives. His "cosmotechnics" framework asks:
+- Is "digital capitalism" the same everywhere, or does it take different forms in different cosmologies?
+- Can Chinese, African, Indigenous technological traditions offer alternatives to Silicon Valley model?
+- How does recursivity (feedback loops) function differently across cultural contexts?
+
+This challenges the assumption that digital capitalism is a homogeneous global system, suggesting instead a "technodiverse" landscape where platform logic encounters local resistance and transformation.
+
 **Marxist Critique of Zuboff:**
 Stanford Law Review critique (2020) and others note:
 - Remains at business model level without value theory

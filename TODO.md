@@ -18,10 +18,10 @@
   - [x] Latin American perspectives (Chan, Mayoral Baños, Raj, Sandoval)
   - [x] African tech studies (Graham, Birhane, Bosch, Burrell + more)
   - [x] Eastern European platform studies (Kozłowski, Bacevic, Kalb + more)
-- [ ] Add missing theorists
-  - [ ] McKenzie Wark (hacker class/vectoralist class)
-  - [ ] Yuk Hui (technodiversity)
-  - [ ] Frank Pasquale (legal/political economy)
+- [x] Add missing theorists
+  - [x] McKenzie Wark (hacker class/vectoralist class) → Added section 2.4
+  - [x] Yuk Hui (technodiversity) → Added section 2.5
+  - [x] Frank Pasquale (legal/political economy) → Already in sections 6.2 and 8.2
 - [ ] Create concept development files for key debates
   - [ ] Rent vs. profit in platforms
   - [ ] Value of data
