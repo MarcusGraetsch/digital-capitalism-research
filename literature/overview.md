@@ -232,7 +232,7 @@ Stanford Law Review critique (2020) and others note:
 
 | Author | Work (Year) | Core Thesis | Evaluation |
 |--------|-------------|-------------|------------|
-| **Shan** | *Digital China* (2025) | Digital socialism as counter-model? (Note: Verify existence) | Epistemic: ??? Empirical: ??? Political: ??? Synthetic: ??? |
+| ~~**Shan**~~ | ~~*Digital China* (2025)~~ | ~~Digital socialism as counter-model?~~ | ~~**SOURCE NOT FOUND — Likely LLM hallucination**~~ |
 | **Hong Yu** | Various on Chinese platform economy | State-platform relations | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
 | **Jing Wang** | *Brand New China* (2008), various | Digital civil society; commercialization | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
 | **Yanis Varoufakis** | *Technofeudalism* (2023) | China as cloud capital model; USA-China rivalry | Epistemic: ★★★☆☆ Empirical: ★★☆☆☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
