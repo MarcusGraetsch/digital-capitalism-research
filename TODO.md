@@ -8,7 +8,7 @@
   - Robert Kurtz ("Digitaler Kapitalismus")
   - Robert Reichmann
   - Oliver Nachtwey
-- [ ] Create bibliography.bib file with proper citations
+- [x] Create bibliography.bib file with proper citations (~60 core entries, Zotero-compatible)
 - [ ] Set up reading note template
 
 ## MEDIUM PRIORITY (This Month)
