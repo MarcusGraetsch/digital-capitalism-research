@@ -22,10 +22,10 @@
   - [x] McKenzie Wark (hacker class/vectoralist class) → Added section 2.4
   - [x] Yuk Hui (technodiversity) → Added section 2.5
   - [x] Frank Pasquale (legal/political economy) → Already in sections 6.2 and 8.2
-- [ ] Create concept development files for key debates
-  - [ ] Rent vs. profit in platforms
-  - [ ] Value of data
-  - [ ] Periodization (is this a new stage?)
+- [x] Create concept development files for key debates
+  - [x] Rent vs. profit in platforms → notes/concepts/rent_vs_profit.md
+  - [x] Value of data → notes/concepts/value_of_data.md
+  - [x] Periodization (is this a new stage?) → notes/concepts/periodization.md
 
 ## BACKLOG (Future)
 
