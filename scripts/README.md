@@ -55,3 +55,7 @@ git clone https://github.com/YOUR_USERNAME/digital-capitalism-research.git /root
 - API keys (see SECRETS.md)
 - GitHub SSH keys (if using SSH auth)
 - System-level configurations
+
+## Cloud Storage Integration (Optional)
+
+For off-server backup storage, see CLOUD_STORAGE.md for setup instructions.
