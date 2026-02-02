@@ -39,6 +39,25 @@
 - [ ] Interview guide for potential worker interviews
 - [ ] Literature in other languages (French, Spanish, Chinese sources)
 
+## FROM NEWS DIGEST (2026-02-02)
+
+- [ ] **ILO platform economy standards** — Track international policy chapter
+  - Monitor ILO standard-setting process timeline
+  - Research supporting/opposing countries
+  - Source: Business Today, 2026-01-29
+- [ ] **India gig worker data** — Add to empirical database
+  - 40% earn under ₹15,000/month (~$170)
+  - Algorithm transparency regulatory proposals
+  - Source: Economic Survey 2025-26
+- [ ] **"Temper" app research** — European gig work case study
+  - UK retail sector gigification
+  - Below-minimum-wage enforcement issues
+  - Source: The Guardian, 2026-01-31
+- [ ] **Side income prevalence data** — Verify survey methodology
+  - 72% of workers rely on secondary income
+  - Compare with Pew/Eurostat studies
+  - Source: PR Newswire, 2026-02-02
+
 ## ARCHIVED (Completed)
 
 - [x] Initialize repository
