@@ -57,6 +57,11 @@ Varoufakis argues that we have left capitalism behind and entered **"Techno-Feud
 ### On Cloud Rent Extraction
 > "Die Konzerne, die diesen 'Cloud-Kapitalismus' betreiben, nehmen außerdem 40 Prozent des Preises. Sie kassieren also enorme Summen, ohne dafür etwas zu produzieren."
 
+**⚠️ VERIFICATION NOTE:** See `notes/verification/varoufakis_40_percent_claim.md`
+- **Uber:** ✅ Accurate — 42% average take rate, up to 70% on some trips (NELP 2025)
+- **Amazon:** ❌ Inflated — 15% typical referral fee
+- **Airbnb:** ❌ Inflated — 15.5% host fee
+
 ### On State-Platform Relations
 > "Die großen Technologiekonzerne sind die Machtbasis jeder Regierung. [...] Die neuen Tech-Feudalisten [geben ihm] das Geld, das sie wegen ihrer Mieten im Übermaß einnehmen."
 
