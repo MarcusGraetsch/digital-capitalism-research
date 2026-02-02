@@ -161,6 +161,25 @@ Stanford Law Review critique (2020) and others note:
 - Fuchs: Data labor produces surplus value, not rent
 - Christophers: Rent is structural to contemporary capitalism, not deviation
 
+### 3.2a Techno-Feudalism: A Radical Reframing
+
+| Author | Work (Year) | Core Thesis | Evaluation |
+|--------|-------------|-------------|------------|
+| **Yanis Varoufakis** | *Technofeudalism* (2023), Interview (2026) | "Cloud capital" creates digital fiefdoms; platforms extract rent without production; we have left capitalism for techno-feudalism | Epistemic: ★★★★☆ Empirical: ★★☆☆☆ Political: ★★★★★ Synthetic: ★★★★☆ |
+| **Cédric Durand** | "Critique of Techno-Feudalism" (2024) | Rent is fictitious but *internal* to capitalism; rejects periodization claim | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
+
+**Varoufakis's Core Contribution:**
+- **Cloud capital**: The capacity to connect buyers/sellers and extract "cloud rent" (40% of transaction value)
+- **Digital fiefdoms**: Users locked in, cannot bypass the platform lord
+- **Algorithm as Gosplan**: Soviet central planning logic within private platforms
+- **Genius Act**: Privatization of dollar creation through stablecoins; tech lords become state creditors
+- **Geopolitical implication**: US-China duopoly in cloud capital; Europe structurally irrelevant without it
+
+**Critical Assessment:**
+- **Strengths**: Captures *experience* of platform power; bridges micro-platforms to macro-geopolitics; Genius Act analysis novel
+- **Weaknesses**: Overstates rupture with capitalism; rent extraction has historical precedents (landlords, patents); weak on worker agency; "40% rent" claim needs verification
+- **Integration**: Use for vivid description of platform power; pair with Durand critique for theoretical grounding
+
 ### 3.3 Financialization-Technology Nexus
 
 | Author | Work (Year) | Core Thesis | Evaluation |
@@ -274,7 +293,7 @@ Stanford Law Review critique (2020) and others note:
 | ~~**Shan**~~ | ~~*Digital China* (2025)~~ | ~~Digital socialism as counter-model?~~ | ~~**SOURCE NOT FOUND — Likely LLM hallucination**~~ |
 | **Hong Yu** | Various on Chinese platform economy | State-platform relations | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
 | **Jing Wang** | *Brand New China* (2008), various | Digital civil society; commercialization | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
-| **Yanis Varoufakis** | *Technofeudalism* (2023) | China as cloud capital model; USA-China rivalry | Epistemic: ★★★☆☆ Empirical: ★★☆☆☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
+| **Yanis Varoufakis** | *Technofeudalism* (2023), Interview (2026) | China as cloud capital model; USA-China rivalry; $4.5T dollar reserves mean China *preserves* dollar system while preparing digital hedges (stablecoins, payment systems) against potential exclusion | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
 | **Cédric Durand** | "Critique of Techno-Feudalism" (2020/2024) | Rejects Varoufakis; rent as fictitious but real | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
 
 ### 6.4 Latin American Perspectives
