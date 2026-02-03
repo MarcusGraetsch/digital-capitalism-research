@@ -22,6 +22,29 @@ This is a living literature map organized by **thematic clusters** (not by Capit
 
 ---
 
+## 0. CLASSICAL POLITICAL ECONOMY: Pre-Digital Foundations
+
+Before assessing what is new in digital capitalism, we must establish the classical framework — what remains valid, what requires modification, and what may be obsolete.
+
+### 0.1 Classical Political Economy (Pre-Marx)
+
+| Author | Work (Year) | Core Contribution | Digital Relevance | Status |
+|--------|-------------|-------------------|-------------------|--------|
+| **Adam Smith** | *The Wealth of Nations* (1776) | Division of labor, pin factory, "invisible hand" | Platform "ecosystems" as new division of labor; coordination without central planning | **Still relevant** — platforms as market coordination |
+| **David Ricardo** | *Principles of Political Economy* (1817) | Comparative advantage, labor theory of value precursor | Global platform labor arbitrage; race-to-bottom in gig work | **Modified** — digital trade transforms comparative advantage |
+| **Karl Polanyi** | *The Great Transformation* (1944) | "Fictitious commodities" (labor, land, money); embeddedness | **Critical question**: Are data/platforms the 4th fictitious commodity? | **Highly relevant** — double movement in digital age |
+
+### 0.2 20th Century Political Economy
+
+| Author | Work (Year) | Core Contribution | Digital Application | Evaluation |
+|--------|-------------|-------------------|---------------------|------------|
+| **Joseph Schumpeter** | *Capitalism, Socialism and Democracy* (1942), *Business Cycles* (1939) | Creative destruction; innovation as driver | Platform disruption; "Uber for X" as creative destruction | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
+| **John Kenneth Galbraith** | *The New Industrial State* (1967) | Technostructure; planning replaces market | Big Tech governance; algorithmic planning vs. market | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **Paul Baran & Paul Sweezy** | *Monopoly Capital* (1966) | Surplus absorption problem; waste as solution | Platform monopoly; advertising/surveillance as surplus absorption | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **Ernest Mandel** | *Late Capitalism* (1975), *Long Waves* (1980) | Long waves of capitalist development; third technological revolution | Digital as fourth long wave; Kondratiev cycles and platformization | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+
+---
+
 ## 1. FOUNDATIONS: Marx on Technology, Machinery, and the General Intellect
 
 Before analyzing the "digital," we need clarity on Marx's own framework.
@@ -45,6 +68,25 @@ Before analyzing the "digital," we need clarity on Marx's own framework.
 | **Raniero Panzieri** | "The Capitalist Use of Machinery" (1961) | Italian operaismo on machinery as weapon against labor | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★★ Synthetic: ★★★☆☆ |
 | **Moishe Postone** | *Time, Labor, and Social Domination* (1993) | Reinterprets Marx's value theory; abstract labor as historical specificity | Epistemic: ★★★★★ Empirical: ★★☆☆☆ Political: ★★★☆☆ Synthetic: ★★★★★ |
 | **Jacques Camatte** | *The Wandering of Humanity* (1973) | Marx's "automatic subject" realized in cybernetic capitalism | Epistemic: ★★★★☆ Empirical: ★★☆☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
+
+---
+
+### 1.5 Classical Theory in the Digital Age: Continuity and Rupture
+
+This section assesses which classical Marxist concepts remain valid for analyzing digital capitalism, which require modification, and which may be obsolete.
+
+| Classical Concept | Digital Application | Modification Needed | Key Debate | Status |
+|-------------------|--------------------|---------------------|------------|--------|
+| **Labor theory of value** | Platform work, data labor, "free" user labor | Measurement of immaterial labor; surplus value from data | Fuchs (value persists) vs. Moulier-Boutang (crisis of value) | **Contested** — central theoretical dispute |
+| **Rent vs. profit distinction** | Platform fees, cloud rent, algorithmic extraction | Algorithmic rent as distinct from industrial profit | Varoufakis (techno-feudalism) vs. Durand (rent within capitalism) | **Active debate** — see notes/concepts/rent_vs_profit.md |
+| **Real subsumption** | Algorithmic management, total behavioral control | Enhanced, not replaced — platforms achieve what Taylorism only attempted | Panzieri/Fuchs (continuity) vs. Srnicek (new organizational form) | **Enhanced relevance** |
+| **Organic composition of capital** | AI, automation, "capital-biased technical change" | Higher OCC with AI; rate of profit tendency? | Classic tendency vs. counter-tendencies in digital sector | **Still relevant** — needs empirical testing |
+| **Primitive accumulation** | Data enclosure, platform imperialism, dispossession | Data as new commons enclosure | Couldry/Mejias (data colonialism) extends primitive accumulation globally | **Directly applicable** |
+| **Fictitious capital** | Crypto, platform valuations, venture capital | New forms of fictitious capital in platform economy | Konings (financial temporality) updates Marx's analysis | **Highly relevant** |
+| **General intellect** | AI, machine learning, cognitive labor | Fragment on Machines as prophecy? | Marx as prescient vs. over-reading speculative notes | **Interpretive debate** |
+| **Double movement** (Polanyi) | Platform regulation, gig worker protections | Polanyi's counter-movement in digital age | Social protections vs. platform "innovation" | **Highly relevant** |
+
+**Synthesis:** Most classical concepts remain relevant but require empirical specification for digital contexts. The central debate is whether platforms represent a **quantitative intensification** (more of the same) or **qualitative transformation** (something new) of capitalist logic.
 
 ---
 
