@@ -338,7 +338,43 @@ Stanford Law Review critique (2020) and others note:
 | **Yanis Varoufakis** | *Technofeudalism* (2023), Interview (2026) | China as cloud capital model; USA-China rivalry; $4.5T dollar reserves mean China *preserves* dollar system while preparing digital hedges (stablecoins, payment systems) against potential exclusion | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
 | **Cédric Durand** | "Critique of Techno-Feudalism" (2020/2024) | Rejects Varoufakis; rent as fictitious but real | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★☆☆ Synthetic: ★★★★☆ |
 
-### 6.4 Latin American Perspectives
+### 6.4 Platforms and State Violence
+
+**Critical emerging area:** Platform infrastructure as extension of state violence, surveillance, and border control. Documents the "platform-state nexus" where Big Tech provides technical infrastructure for deportation, policing, and population control.
+
+| Author/Source | Work (Year) | Core Thesis | Focus | Evaluation |
+|---------------|-------------|-------------|-------|------------|
+| **LabourNet Germany** | *Palantir & Co.: Die digitalen Abschiebe-helfer* (2026) | ICE-Palantir collaboration as case study of platform-state violence | ImmigrationOS, ELITE system; $30M contract for deportation infrastructure | Epistemic: ★★★★☆ Empirical: ★★★★★ Political: ★★★★★ Synthetic: ★★★★☆ |
+| **Electronic Frontier Foundation** | Various (2025-2026) | Medicaid data for deportation; Palantir "ImmigrationOS" | Legal challenges to ICE data integration; privacy violations | Epistemic: ★★★★☆ Empirical: ★★★★☆ Political: ★★★★★ Synthetic: ★★★★☆ |
+| **404 Media** | Investigative series (2025-2026) | Inside ICE's surveillance tools; Palantir's role | Tangles, Webloc, Penlink; phone tracking; social media monitoring | Epistemic: ★★★★☆ Empirical: ★★★★★ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **Netzpolitik.org / heise** | German coverage (2025-2026) | German police use of Palantir (Hessen, Bayern, NRW) | EU-US data sharing; INPOL database access requests | Epistemic: ★★★★☆ Empirical: ★★★★☆ Political: ★★★★☆ Synthetic: ★★★★☆ |
+| **Virginia Eubanks** | *Automating Inequality* (2018) | Welfare algorithms as punitive infrastructure | Pre-digital but foundational; "digital poorhouse" concept | Epistemic: ★★★☆☆ Empirical: ★★★★★ Political: ★★★★★ Synthetic: ★★★★☆ |
+| **Ruha Benjamin** | *Race After Technology* (2019) | "New Jim Code" — technological racism | Policing, surveillance, predictive algorithms | Epistemic: ★★★★☆ Empirical: ★★★★☆ Political: ★★★★★ Synthetic: ★★★★☆ |
+| **Safiya Noble** | *Algorithms of Oppression* (2018) | Search engines and structural racism | Platform complicity in violent outcomes | Epistemic: ★★★★☆ Empirical: ★★★★☆ Political: ★★★★★ Synthetic: ★★★★☆ |
+
+**Key Case Study: ICE-Palantir Collaboration (2025-2026)**
+
+The LabourNet/404 Media/EFF investigations reveal:
+
+| System | Function | Cost | Data Sources |
+|--------|----------|------|--------------|
+| **ImmigrationOS** | Central platform integrating all ICE data | $30M+ | Medicaid, IRS, DMV, social media |
+| **ELITE** | Maps deportation targets, "trust scores" | Included above | Thomson Reuters, commercial databases |
+| **Tangles/Webloc** | Phone location tracking (hundreds of millions) | $1B potential | Advertising industry location data |
+| **Clearview AI** | Facial recognition | Undisclosed | Social media scraping |
+| **Graphite (Paragon)** | Spyware (hacks phones, Signal/WhatsApp) | Undisclosed | Device-level surveillance |
+
+**Theoretical Implications:**
+1. **Platform-state nexus:** Private tech as extension of state violence
+2. **"Cloud capital" as repressive infrastructure:** Varoufakis's concept applied to state violence
+3. **Data extraction = population control:** Couldry/Mejias "data colonialism" extended to domestic populations
+4. **Worker resistance:** Capgemini divestment; Palantir employee dissent; "Resist and Unsubscribe" boycott
+
+**Research Priority:** This area is under-theorized in digital capitalism literature. Most platform studies focus on labor exploitation or market power; the direct role of platforms in state violence (deportation, policing, border control) requires more systematic analysis.
+
+---
+
+### 6.5 Latin American Perspectives
 
 | Author | Work (Year) | Core Thesis | Evaluation |
 |--------|-------------|-------------|------------|
@@ -348,7 +384,7 @@ Stanford Law Review critique (2020) and others note:
 | **Raquel Raj** | Various on Latin American platform economy | Regional gig work; MercadoLibre, Rappi empirics | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★☆☆ Synthetic: ★★★☆☆ |
 | **Marisol Sandoval** | "A Social Theory of the Corporation" (2020), various | Media industries, cultural labor in Latin America | Epistemic: ★★★☆☆ Empirical: ★★★☆☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
 
-### 6.5 African Tech Studies
+### 6.6 African Tech Studies
 
 | Author | Work (Year) | Core Thesis | Evaluation |
 |--------|-------------|-------------|------------|
@@ -359,7 +395,7 @@ Stanford Law Review critique (2020) and others note:
 | **Olivia Rutazibwa / Koen Decoster** (eds.) | Various on tech and decolonization in Africa | Decolonial approaches to African digital economies | Epistemic: ★★★★☆ Empirical: ★★★☆☆ Political: ★★★★★ Synthetic: ★★★☆☆ |
 | **Nanjira Sambuli** | Various on Africa's digital transformation | Policy perspectives; mobile money, platform governance | Epistemic: ★★★☆☆ Empirical: ★★★★☆ Political: ★★★★☆ Synthetic: ★★★☆☆ |
 
-### 6.6 Eastern European and Post-Socialist Perspectives
+### 6.7 Eastern European and Post-Socialist Perspectives
 
 | Author | Work (Year) | Core Thesis | Evaluation |
 |--------|-------------|-------------|------------|

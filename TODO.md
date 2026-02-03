@@ -85,6 +85,19 @@
   - Prevents destabilizing banks
   - Source: CoinDesk, 2025-12-23
 
+## FROM LABOURNET RESEARCH (2026-02-03)
+
+- [ ] **German police Palantir use** — Research INPOL integration
+  - Hessen, Bayern, NRW confirmed using Palantir
+  - EU-US data sharing negotiations (Visa Waiver Program)
+  - GDPR implications for police surveillance
+  - Source: LabourNet/heise/Netzpolitik
+- [ ] **Platform-State Violence** — Develop theoretical framework
+  - Palantir-ICE as flagship case study
+  - Compare to IBM-Holocaust (historical precedent)
+  - Worker resistance: Capgemini divestment, tech organizing
+  - See notes/readings/palantir_ice_case_study.md
+
 ## ARCHIVED (Completed)
 
 - [x] Initialize repository
