@@ -1,0 +1,15 @@
+# Secrets and credentials
+.moltbook_credentials.json
+SECRETS.md
+*.key
+*.pem
+.env
+
+# Backups (stored separately)
+/root/backups/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
