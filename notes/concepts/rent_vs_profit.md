@@ -24,6 +24,7 @@ This distinction matters because:
 - **Jodi Dean** — "neofeudal" tendency; platforms as digital fiefs
 - **Nick Srnicek** — platforms extract rent through infrastructure control
 - **Brett Christophers** — systematic rent theory; asset management society
+- **Yanis Varoufakis** — "cloud rent" and techno-feudalism thesis
 - **Cédric Durand** — rent is fictitious but structurally real
 
 ### Core Arguments
@@ -36,6 +37,7 @@ This distinction matters because:
 - Dean, Jodi. "The Neofeudalising Tendency of Communicative Capitalism" (2024)
 - Christophers, Brett. *Rentier Capitalism* (2020)
 - Srnicek, Nick. *Platform Capitalism* (2017), Ch. 4-5
+- Varoufakis, Yanis. *Technofeudalism* (2023)
 - Durand, Cédric. "Critique of Techno-Feudalism" (2020/2024)
 
 ---
@@ -108,6 +110,93 @@ This distinction matters because:
 
 ---
 
+## Deep-Dive: Christophers' Rent Theory
+
+### Definition (from *Rentier Capitalism*, 2020)
+
+> "Income derived from the ownership, possession or control of scarce assets under conditions of limited or no competition."
+
+### Key Assets in Contemporary Capitalism
+1. **Land** — Urban, agricultural, natural resources
+2. **Intellectual property** — Patents, copyrights, trademarks
+3. **Digital platforms** — Network effects create natural scarcity
+4. **Financial assets** — Control of credit and money creation
+
+### The Shift to "Asset Manager Society"
+- Christophers documents UK's transformation: from productive economy to rent-extraction
+- **BlackRock/Vanguard model**: Asset managers control corporations without owning majority stakes
+- **Platform parallel**: Cloud infrastructure providers (AWS, Azure) extract rent from "vassal" capitalists
+
+### Connection to Varoufakis' "Cloud Rent"
+
+| Concept | Varoufakis | Christophers |
+|---------|------------|--------------|
+| **Asset** | Cloud capital (platforms + data + algorithms) | Scarce assets with monopoly control |
+| **Extractor** | Cloudalists (Big Tech) | Rentiers (asset controllers) |
+| **Extractor** | Cloud serfs (users), vassal capitalists (advertisers) | Anyone dependent on controlled assets |
+| **Mechanism** | Cloud rent (not vulnerable to market competition) | Economic rent (limited/no competition) |
+
+### Varoufakis' Specific Claims
+1. **"Cloud capital is overpowering terrestrial capital"** — Platform rent sucks value from traditional value chains
+2. **40% cloud rent claim**: Cloud capital captures ~40% of value through advertising/prediction markets
+3. **Techno-feudalism thesis**: We've moved *beyond* capitalism to a new system with feudal characteristics
+
+### Critiques of Varoufakis
+- **Jacobin critique**: Advertising markets *are* markets — vulnerable to competition, not pure rent
+- **Durand critique**: Capitalism isn't dead; "rent" and "profit" still analytically distinct
+- **Christophers parallel**: Rentier capitalism is still *capitalism* — intensified, not transcended
+
+---
+
+## Platform Business Models: Rent vs. Profit Mapping
+
+### Type 1: Infrastructure Rent (Amazon AWS, Cloudflare)
+- **Mechanism**: Control essential infrastructure → charge for access
+- **Christophers category**: Classic rentier — scarce asset (servers, bandwidth) with network effects
+- **Labor component**: Engineers maintain systems, but core extraction is access fees
+
+### Type 2: Attention Rent (Meta, Google Ads)
+- **Mechanism**: Monopolize attention → sell prediction services to advertisers
+- **Varoufakis category**: "Cloud rent" — behavioral data as extracted surplus
+- **Debate**: Is this rent (monopoly on data) or profit (production of predictions)?
+
+### Type 3: Labor Intermediation (Uber, Deliveroo)
+- **Mechanism**: Control matching algorithm → extract from worker-customer transactions
+- **Srnicek category**: Platform as intermediary capturing surplus from both sides
+- **Debate**: Gig workers produce surplus value; platforms capture as rent-like fee
+
+### Type 4: Financialized Rent (Ant Financial, Klarna)
+- **Mechanism**: Data-driven credit → interest extraction
+- **Konings/Marx category**: Fictitious capital; value claims on future production
+- **Special case**: Rent + finance combined
+
+---
+
+## Research Questions for Empirical Investigation
+
+### Quantitative
+1. What proportion of platform revenue comes from:
+   - Access fees (rent-like)
+   - Transaction fees (intermediation)
+   - Advertising (prediction services)
+   - Financial operations (interest, speculation)
+
+2. How do profit margins compare?
+   - Traditional firms vs. platform firms
+   - Within platforms: Infrastructure vs. labor-intermediation divisions
+
+### Qualitative
+3. How do platforms maintain scarcity/control?
+   - Legal (IP, terms of service)
+   - Technical (API restrictions, data portability limits)
+   - Economic (network effects, switching costs)
+
+4. Worker/user consciousness:
+   - Do gig workers experience exploitation or "entrepreneurship"?
+   - Do users recognize their data labor?
+
+---
+
 ## Our Working Hypothesis
 
 *Tentative position for further investigation:*
@@ -146,12 +235,32 @@ This requires:
 
 ## Key Debates to Track
 
-| Debate | Participants | Status |
-|--------|--------------|--------|
-| Techno-feudalism vs. capitalism | Varoufakis vs. Durand | Ongoing |
-| Data colonialism | Couldry/Mejias | Emerging |
-| Rentier capitalism | Christophers | Established |
-| Cognitive capitalism | Moulier-Boutang vs. Jeon/Caffentzis | Contested |
+| Debate | Participants | Status | Core Disagreement |
+|--------|--------------|--------|-------------------|
+| Techno-feudalism vs. capitalism | Varoufakis vs. Durand/Jacobin | Ongoing | Have we moved beyond capitalism, or intensified its rentier tendencies? |
+| Data colonialism | Couldry/Mejias | Emerging | Is data extraction a new colonial relationship (Global South → Global North)? |
+| Rentier capitalism | Christophers | Established | How dominant is rent extraction vs. productive profit in contemporary economy? |
+| Cloud rent specifics | Varoufakis vs. Srnicek | Active | Is platform extraction "rent" (monopoly) or "profit" (production of services)? |
+| Cognitive capitalism | Moulier-Boutang vs. Jeon/Caffentzis | Contested | Is "general intellect" now the dominant productive force? |
+
+---
+
+## Connection to Other Research Themes
+
+### Marx's Machinery Analysis
+- **Fixed capital**: Platforms as machinery that dominates labor (Ch. 15)
+- **Real subsumption**: Gig work as total commodification of life-activity
+- See: `marx_machinery_digital_capitalism.md`
+
+### Value of Data
+- If data is "produced," who produces it?
+- If platforms extract "rent," from what prior production?
+- See: `value_of_data.md`
+
+### Periodization
+- Is this a new stage (techno-feudalism) or intensified capitalism?
+- Does "rentier capitalism" adequately capture the transformation?
+- See: `periodization.md`
 
 ---
 
@@ -162,4 +271,26 @@ This requires:
 
 ---
 
-*Next steps: Deep reading of Fuchs (profit) vs. Dean (rent); empirical case studies of specific platforms*
+---
+
+## Next Steps
+
+### Immediate (This Week)
+- [ ] Read Christophers Ch. 1-3 (rent theory foundations) with hard copy
+- [ ] Verify Varoufakis 40% cloud rent claim (find source, assess methodology)
+- [ ] Map one platform (Amazon/Meta/Uber) through rent/profit typology
+
+### Medium Term (This Month)
+- [ ] Compare Fuchs Ch. 5-6 (profit view) with Dean (rent view)
+- [ ] Compile empirical data: platform revenue breakdown by type
+- [ ] Draft section for dissertation: "Rent, Profit, or Hybrid?"
+
+### Open Questions
+- Does Christophers' rent definition fully capture platform dynamics?
+- Can we quantify "cloud rent" in Varoufakis' terms?
+- How does state regulation affect rent extraction potential?
+
+---
+
+*Last updated: 2026-02-03*  
+*Status: Deep-dive complete, ready for empirical investigation*
