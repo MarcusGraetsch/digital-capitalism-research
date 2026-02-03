@@ -58,6 +58,33 @@
   - Compare with Pew/Eurostat studies
   - Source: PR Newswire, 2026-02-02
 
+## FROM NEWS DIGEST (2026-02-03)
+
+- [ ] **HRW "Gig Trap" report** — Download full 155-page analysis
+  - Algorithmic wage theft documentation
+  - Amazon Flex, DoorDash, Favor case studies
+  - Source: Human Rights Watch, 2025-05-12
+  - URL: https://www.hrw.org/report/2025/05/12/the-gig-trap/
+- [ ] **California Uber/Lyft unionization** — Track implementation
+  - First contracts expected Q2 2026
+  - SB 371 exchange: union rights for reduced insurance requirements
+  - National precedent potential
+  - Source: KQED/AP, 2025-10-03
+- [ ] **Amazon JFK8 strike watch** — Monitor contract negotiations
+  - Staten Island warehouse (first unionized, 2022)
+- [ ] **EU DMA Google proceedings** — Track interoperability precedent
+  - Forced search data sharing with competitors
+  - AI provider equal access to Android
+  - Source: Reuters, 2026-01-27
+- [ ] **Dow Chemical AI layoffs** — Industrial sector automation case study
+  - 4,500 jobs cut for AI/automation focus
+  - Beyond tech sector trend
+  - Source: Houston Public Media, 2026-01-29
+- [ ] **Digital euro holding caps** — Track CBDC design philosophy
+  - Council of EU demands strict limits
+  - Prevents destabilizing banks
+  - Source: CoinDesk, 2025-12-23
+
 ## ARCHIVED (Completed)
 
 - [x] Initialize repository
