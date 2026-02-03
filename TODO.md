@@ -106,4 +106,10 @@
 
 ---
 
-*Updated: 2026-02-01*
+## DAILY NEWS SOURCES
+
+- [ ] **LabourNet Germany** — https://www.labournet.de/ (German labor news, platform-state violence focus)
+- [ ] **Brave Search** — Platform capitalism, gig economy, labor rights (rate limit: 1 req/sec)
+- [ ] Consider adding: FAZ, SZ, Spiegel, Zeit (German); El País, Le Monde (broader EU)
+
+*Updated: 2026-02-03*
