@@ -112,4 +112,44 @@
 - [ ] **Brave Search** — Platform capitalism, gig economy, labor rights (rate limit: 1 req/sec)
 - [ ] Consider adding: FAZ, SZ, Spiegel, Zeit (German); El País, Le Monde (broader EU)
 
-*Updated: 2026-02-03*
+## FROM NEWS DIGEST (2026-02-04)
+
+- [ ] **California driver unionization deal** — Deep dive on SB 371 exchange
+  - Union rights traded for reduced insurance requirements
+  - Implementation timeline: first contracts expected Q2 2026
+  - Could be model for EU platform worker directive
+  - Sources: AP News, Politico, KQED (Aug-Oct 2025)
+  
+- [ ] **Apple/Meta DMA penalties** — First enforcement actions under EU Digital Markets Act
+  - April 2025: First companies penalized for DMA violations
+  - Monitor Google proceedings (ongoing)
+  - Pattern of EU "discreet" enforcement approach vs. public spectacle
+  - Sources: EU Commission, Euronews (Jan 2026)
+
+- [ ] **German Leiharbeit Equal Pay victory** — EuGH precedent for platform workers
+  - DGB-Rechtsschutz threatened second EuGH referral against BAG
+  - Equal Pay principle: tariffs must match standard wages or provide compensation
+  - Potential application to platform worker classification debates
+  - Source: LabourNet.de
+
+- [ ] **DMA Data Act cloud computing provisions** — Track SME exemptions
+  - Commission relaxing requirements for SME cloud providers
+  - Draft non-contractual terms for Cloud Computing Contracts
+  - November 2025 Digital Strategy adjustments
+  - Source: TechPolicy.Press (Feb 3, 2026)
+
+- [ ] **HRW "Gig Trap" report** — Archive full 155-page primary source
+  - Algorithmic wage and labor exploitation documentation
+  - Amazon Flex, DoorDash, Favor case studies
+  - Source: Human Rights Watch (May 12, 2025)
+  - URL: https://www.hrw.org/report/2025/05/12/the-gig-trap/
+
+- [ ] **Grundsicherungsgeld reform protest** — German welfare changes impact on gig workers
+  - Bündnis "AufRecht bestehen" coalition fighting CDU/CSU-SPD reform
+  - Tighter sanctions, debt traps, housing market exclusion
+  - Relevant for digital economy precarity research
+  - Source: LabourNet.de (Jan 15, 2026)
+
+---
+
+*Updated: 2026-02-04*
