@@ -150,6 +150,91 @@
   - Relevant for digital economy precarity research
   - Source: LabourNet.de (Jan 15, 2026)
 
+## FROM NEWS DIGEST (2026-02-06)
+
+- [ ] **Spain courier reclassification law** — Track implementation as EU model
+  - Supreme Court ruling (Sept 2020) forced government action
+  - New law defines gig delivery workers as employees with full rights
+  - Compare with EU Platform Work Directive negotiations
+  - Source: LabourNet.de / Euractiv (Feb 2021 baseline, law now active)
+  
+- [ ] **Apple DMA fine precedent** — Document enforcement mechanisms
+  - April 2025 fine for steering obligation breach (Art. 5 §4 DMA)
+  - Alternative payment method restrictions
+  - Pattern: EU fining for behavior, not just structure
+  - Source: Le Diplomate / European Commission
+
+- [ ] **Amazon-Teamsters contract negotiations** — Monitor major US labor showdown
+  - JFK8 (Staten Island) authorized strike Dec 2024
+  - 7 facilities struck during holiday peak
+  - First contract would be historic precedent
+  - Sources: AP News, NPR, CNN (Dec 2024)
+
+- [ ] **Palantir police surveillance expansion** — Research Germany-wide adoption
+  - Hessen "Hessen-Data" system live
+  - Bayern, NRW also confirmed using Palantir
+  - EU-US data sharing in police context (Visa Waiver negotiations)
+  - Theoretical angle: platform-state violence, surveillance capitalism
+  - Source: LabourNet.de / Netzpolitik
+
+- [ ] **California Uber/Lyft union deal implementation** — First-of-its-kind tracking
+  - SB 371: Union rights for reduced insurance requirements
+  - First contracts expected Q2 2026
+  - Could influence EU platform worker debates
+  - Sources: AP, Politico, KQED (Aug-Oct 2025)
+
+- [ ] **Washington Post layoffs** — Bezos/media control case study
+  - 300+ journalists laid off (Jan 2026)
+  - #SaveThePost campaign by staffers
+  - Billionaire ownership + platform capitalism intersection
+  - Source: LabourNet.de / Nieman Lab
+
+- [ ] **"The Gig Trap" HRW report** — Archive for research citations
+  - 155-page analysis of algorithmic exploitation
+  - Amazon Flex, DoorDash, Favor, Gopuff, Instacart, Shipt, Uber
+  - Wage theft through algorithmic management
+  - Source: Human Rights Watch (May 12, 2025)
+  - URL: https://www.hrw.org/report/2025/05/12/the-gig-trap/
+
+- [ ] **Equal pay for temp workers** — DGB-EuGH strategy template
+  - Cologne case: Threatened second EuGH referral
+  - Employer capitulated rather than face European court
+  - Potential strategy for platform worker claims
+  - Source: LabourNet.de / Prof. Wolfgang Däubler
+
 ---
 
-*Updated: 2026-02-04*
+## FROM NEWS DIGEST (2026-02-07)
+
+- [ ] **California Uber/Lyft unionization implementation** — Monitor precedent effects
+  - First-of-its-kind collective bargaining rights for rideshare drivers
+  - Could reshape worker rights nationwide
+  - National spillover effects likely
+  - Sources: AP News, Forbes, CalMatters (Feb 2025)
+
+- [ ] **Spanish railway strike (Feb 9-11, 2026)** — Document outcomes
+  - 3-day general strike following 2 fatal accidents
+  - SEMAF, CGT Sector Federal Ferroviario, Intersindical involved
+  - Demands: safety guarantees, criminal accountability for privatization
+  - Source: LabourNet.de
+
+- [ ] **Temp worker equal pay template** — Archive lawsuit strategy
+  - Cologne case: DGB threatened second EuGH referral
+  - Employer capitulated, paid €569.52 difference
+  - Template now available for other German temp workers
+  - Source: LabourNet.de / Prof. Wolfgang Däubler
+
+- [ ] **EU TikTok DSA enforcement** — Monitor addictive design precedent
+  - First major action on addictive features under Digital Services Act
+  - Platform may face fines or forced design changes
+  - Could set precedent for platform accountability
+  - Sources: Investing.com / Reuters (Feb 6, 2026)
+
+- [ ] **EU DMA gatekeeper interpretation** — Track Commission approach
+  - Apple Maps/Ads exemption shows "significant competition" threshold
+  - Indicates how strictly Commission interprets gatekeeper criteria
+  - Source: Reuters / AppleInsider (Feb 5, 2026)
+
+---
+
+*Updated: 2026-02-07*
