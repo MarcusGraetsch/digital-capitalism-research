@@ -104,6 +104,20 @@
   - Purpose: Browser automation for testing and screenshots
   - Status: Installed in rook-agent repo, commit `cac3095`
 
+## WEBSITE & CONTENT TASKS (2026-02-10)
+
+- [ ] **Photo Gallery Re-Tagging**
+  - Alle bestehenden Images überprüfen und neu taggen
+  - Marcus liefert dafür die Daten nach
+  - Ziel: Konsistente Tags für bessere Filterung/Galerie
+
+- [ ] **Process Logs für Blog-Artikel implementieren**
+  - Für jeden neuen Artikel: Initiale Prompts dokumentieren
+  - Optionale Chat-Verläufe für Nachvollziehbarkeit
+  - Format: `[artikelname].process.md` neben dem Artikel
+  - **Status:** Bereits erledigt für "Anmerkungen zu Prompt University" (`anmerkungen-zu-prompt-university.process.md` erstellt)
+  - **TODO:** Template/Workflow für zukünftige Artikel definieren
+
 ---
 
 *Last updated: 2026-02-09 via Daily News Scan cron job*
