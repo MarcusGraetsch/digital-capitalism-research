@@ -87,22 +87,22 @@
 
 ---
 
-## SKILL INSTALLATION QUEUE (2026-02-09)
+## SKILL INSTALLATION QUEUE (2026-02-09) ✅ DONE
 
-- [ ] **Install Proactive Agent 1.2.4**
+- [x] **Install Proactive Agent 1.2.4**
   - Source: https://clawhub.ai/bodii88/proactive-agent-1-2-4
   - Purpose: Enhanced proactive behavior on heartbeats
-  - Status: Waiting for ZIP download from Marcus
+  - Status: Installed in rook-agent repo, commit `93e5ab1`
 
-- [ ] **Install Credential Manager**
+- [x] **Install Credential Manager**
   - Source: https://clawhub.ai/Callmedas69/credential-manager
   - Purpose: Secure API key/token management (alternative to .env)
-  - Status: Waiting for ZIP download from Marcus
+  - Status: Installed in rook-agent repo, commit `0420675`
 
-- [ ] **Install Agent Browser - Stagehand**
+- [x] **Install Agent Browser - Stagehand**
   - Source: https://clawhub.ai/peytoncasper/agent-browser-stagehand
   - Purpose: Browser automation for testing and screenshots
-  - Status: Waiting for ZIP download from Marcus
+  - Status: Installed in rook-agent repo, commit `cac3095`
 
 ---
 
