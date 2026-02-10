@@ -118,6 +118,14 @@
   - **Status:** Bereits erledigt für "Anmerkungen zu Prompt University" (`anmerkungen-zu-prompt-university.process.md` erstellt)
   - **TODO:** Template/Workflow für zukünftige Artikel definieren
 
+## ClawHub Publication (2026-02-11)
+
+- [ ] **Publish vps-openclaw-security-hardening to ClawHub**
+  - Source: https://github.com/MarcusGraetsch/vps-openclaw-security-hardening
+  - Version: v1.0.5
+  - Status: Ready for submission
+  - Command: `clawhub publish ./vps-openclaw-security-hardening --slug vps-openclaw-security-hardening`
+
 ---
 
-*Last updated: 2026-02-09 via Daily News Scan cron job*
+*Last updated: 2026-02-10*
