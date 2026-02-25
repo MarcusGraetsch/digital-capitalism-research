@@ -1,131 +1,72 @@
-# TODO.md - Digital Capitalism Research Project
+# TODO.md — Agent Environment & Skills
 
-## News Scan Action Items - 2026-02-09
-
-### 🔴 HIGH PRIORITY
-
-- [ ] **Download HRW "Gig Trap" report** (155 pages, May 2025)
-  - Source: Human Rights Watch
-  - URL: https://www.hrw.org/report/2025/05/12/the-gig-trap/
-  - Covers: Amazon Flex, DoorDash, Favor + 4 other platforms
-  - Focus: Algorithmic wage/labor exploitation in US platform work
-
-- [ ] **Archive Spain rail strike developments** (Feb 9-11, 2026)
-  - Source: LabourNet.de / Semaf union
-  - Angle: Privatization + worker safety after 2 fatal accidents
-  - Relevance: Infrastructure privatization critique
-
-- [ ] **Monitor India gig worker organizing pattern**
-  - Source: Hindustan Times / Economic Times
-  - Event: Feb 7, 2026 Ola/Uber/Rapido nationwide strike
-  - Angle: Cross-platform union coordination in Global South
-
-### 🟡 MEDIUM PRIORITY
-
-- [ ] **Track Apple DMA exemption case**
-  - Date: Feb 5, 2026
-  - Source: EU Commission / Reuters
-  - Angle: Regulatory capture, "competition" as loophole
-
-- [ ] **Check ECB digital euro legislation timeline**
-  - Target: 2026 adoption for 2029 issuance
-  - Source: ECB official site
-  - Relevance: Central bank digital currency vs. crypto alternatives
-
-- [ ] **Archive LabourNet equal pay precedent (Leiharbeit)**
-  - Source: LabourNet.de / Prof. Wolfgang Däubler
-  - Case: Cologne metal worker back-pay victory
-  - Potential application: Platform worker classification cases
-
-### 🟢 ONGOING MONITORING
-
-- [ ] LabourNet.de weekly check
-  - Platform work / gig economy dossier
-  - Tech worker organizing
-  - Surveillance capitalism / Palantir
-  - Digital labor rights
-
-- [ ] EU DMA enforcement developments
-  - TikTok addictive features case (Feb 6, 2026)
-  - Cloud hyperscaler regulation (AWS, Azure, GCP)
-
-- [ ] Amazon labor actions
-  - Staten Island contract negotiations
-  - Teamsters multi-hub strike follow-up
-
-## Research Gaps to Fill
-
-- [ ] AI labor automation news (search rate-limited during scan)
-  - Check: Reuters Tech, FT AI, The Verge AI sections
-  
-- [ ] German platform economy policy developments
-  - Check: Bundesregigung Plattformarbeit initiatives
-  - EU Platform Work Directive implementation
-
-- [ ] Cryptocurrency regulation beyond digital euro
-  - MiCA implementation status
-  - Bitcoin/ethereum institutional adoption
+**Scope:** Rook agent setup, skills development, disaster recovery
+**Last Updated:** 2026-02-25
 
 ---
 
-## WORKFLOW SETUP (Skills)
+## 🔴 HIGH PRIORITY — Repository Setup
 
-- [ ] **Create workflow for openai-whisper**
-  - Voice dictation → Markdown notes
-  - Auto-transcribe and commit to daily memory files
-  - Integrate with working-notes.org content pipeline
+### rook-agent Repo (Disaster Recovery)
+- [ ] **Create GitHub repo:** `MarcusGraetsch/rook-agent`
+  - Contents: SOUL.md, USER.md, AGENTS.md, TOOLS.md, HEARTBEAT.md, MEMORY.md
+  - Skills: Custom skills (not the installed ones from /usr/lib/node_modules/)
+  - NO credentials, NO .env files
 
-- [ ] **Create workflow for blogwatcher**
-  - RSS feed monitoring for LabourNet, Reuters, TechPolicy.Press
-  - KI-Digest generation (alternative to Google News)
-  - Auto-tag articles for research database
-
-- [ ] **Create workflow for obsidian-cli**
-  - Link working-notes.org with Obsidian vault
-  - Research notes sync (bidirectional)
-  - Literature map visualization
+- [ ] **Document recovery process**
+  - How to restore agent after VPS crash?
+  - Dependencies: Which skills need reinstall?
 
 ---
 
-## SKILL INSTALLATION QUEUE (2026-02-09) ✅ DONE
+## 🟡 MEDIUM PRIORITY — Infrastructure & Automation
 
-- [x] **Install Proactive Agent 1.2.4**
-  - Source: https://clawhub.ai/bodii88/proactive-agent-1-2-4
-  - Purpose: Enhanced proactive behavior on heartbeats
-  - Status: Installed in rook-agent repo, commit `93e5ab1`
-
-- [x] **Install Credential Manager**
-  - Source: https://clawhub.ai/Callmedas69/credential-manager
-  - Purpose: Secure API key/token management (alternative to .env)
-  - Status: Installed in rook-agent repo, commit `0420675`
-
-- [x] **Install Agent Browser - Stagehand**
-  - Source: https://clawhub.ai/peytoncasper/agent-browser-stagehand
-  - Purpose: Browser automation for testing and screenshots
-  - Status: Installed in rook-agent repo, commit `cac3095`
-
-## WEBSITE & CONTENT TASKS (2026-02-10)
-
-- [ ] **Photo Gallery Re-Tagging**
-  - Alle bestehenden Images überprüfen und neu taggen
-  - Marcus liefert dafür die Daten nach
-  - Ziel: Konsistente Tags für bessere Filterung/Galerie
-
-- [ ] **Process Logs für Blog-Artikel implementieren**
-  - Für jeden neuen Artikel: Initiale Prompts dokumentieren
-  - Optionale Chat-Verläufe für Nachvollziehbarkeit
-  - Format: `[artikelname].process.md` neben dem Artikel
-  - **Status:** Bereits erledigt für "Anmerkungen zu Prompt University" (`anmerkungen-zu-prompt-university.process.md` erstellt)
-  - **TODO:** Template/Workflow für zukünftige Artikel definieren
-
-## ClawHub Publication (2026-02-11)
-
-- [ ] **Publish vps-openclaw-security-hardening to ClawHub**
-  - Source: https://github.com/MarcusGraetsch/vps-openclaw-security-hardening
-  - Version: v1.0.5
-  - Status: Ready for submission
-  - Command: `clawhub publish ./vps-openclaw-security-hardening --slug vps-openclaw-security-hardening`
+### Contabo VM Lifecycle Automation
+- [ ] **Contabo API Integration for VM start/stop**
+  - Docs: https://contabo.com/de/contabo-api/
+  - Goal: Reduce costs by running VM only when needed (08:00-20:00 CET)
+  - Options to implement:
+    - **A) Automatic schedule:** GitHub Actions cron (7:55 startup, 20:00 shutdown)
+    - **B) Manual on-demand:** Telegram buttons or web interface for immediate start/stop
+  - Requirements:
+    - Contabo API token (store in `.env` / GitHub secrets)
+    - Instance ID of the VM
+    - SSH key for graceful shutdown
+  - Disaster Recovery benefit: API-based recovery if VM fails
 
 ---
 
-*Last updated: 2026-02-10*
+## 🟡 MEDIUM PRIORITY — Skills
+
+### Published Skills
+- [x] **vps-openclaw-security-hardening → ClawHub** ✅ DONE (v1.0.6 published)
+
+### Skill Workflows (Post-Recovery)
+- [ ] **openai-whisper** — Document usage pattern
+  - Extract audio → transcribe → archive
+- [ ] **blogwatcher** — Set up monitoring feeds
+  - Feeds: HRW, LabourNet, ETUI
+- [ ] **obsidian-cli** — Sync workflow with vault
+- [ ] **agent-memory-kit** — Daily log process established?
+
+---
+
+## 🟢 LOW PRIORITY — Future Skills
+
+- [ ] **Browser automation workflow** — Research use cases
+- [ ] **Credential manager integration** — Audit existing setup
+- [ ] **Proactive agent** — Evaluate if still needed
+
+---
+
+## ✅ Recently Completed
+
+- [x] Installed: openai-whisper, blogwatcher, obsidian-cli
+- [x] Installed: agent-memory-kit (templates in place)
+- [x] Created: vps-openclaw-security-hardening v1.0.5 → v1.0.6
+- [x] Published: vps-openclaw-security-hardening on ClawHub
+- [x] Created: local security repo at `/root/.openclaw/security-local/`
+
+---
+
+*Note: Krankschreibung ended 2026-02-17*
