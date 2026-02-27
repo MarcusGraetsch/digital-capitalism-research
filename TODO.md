@@ -19,6 +19,90 @@
 
 ---
 
+## 🟡 MEDIUM PRIORITY — News & Research Infrastructure
+
+### RSS Feed Optimization
+- [x] **Complete RSS restructure with priority weighting** ✅ DONE (v2.0, 39 feeds)
+- [x] **Add Fefes Blog** ✅ DONE (high priority, DE tech-politics)
+- [ ] **Evaluate additional German sources:**
+  - [ ] Kuketz-Blog (privacy/security focus) — medium priority
+  - [ ] Mastodon feeds (specific instances: chaos.social, techpolitik.social) — optional
+  - [ ] Nitter (Twitter/X proxy) for specific accounts — low priority, unstable
+
+### Newsletter Monitoring (High-Quality Sources)
+- [ ] **Set up newsletter aggregation workflow**
+  - **Tech/Labor intersections:**
+    - [ ] Platformer (Casey Newton) — Meta/Uber/Amazon insider
+    - [ ] Big Technology (Alex Kantrowitz)
+    - [ ] Garbage Day (Ryan Broderick) — internet culture + politics
+  - **US Labor:**
+    - [ ] Luke O'Neil (Welcome to Hell World) — service worker perspective
+    - [ ] Discourse Blog ( labor + culture)
+  - **Climate + Tech:**
+    - [ ] Heated (Emily Atkin) — fossil fuel industry + big tech
+  - **EU/Germany:**
+    - [ ] Netzpolitik-Newsletter
+    - [ ] Algorithm Watch Newsletter
+    - [ ] Digitale Gesellschaft Newsletter
+  - **Finance/Economics:**
+    - [ ] Matt Stoller (BIG) — monopoly power
+    - [ ] Naked Capitalism Links
+  - **Implementation:** RSS-Bridge, Kill the Newsletter, or IMAP forwarding
+
+### Podcast Transcription Pipeline
+- [ ] **Set up automated podcast transcription workflow**
+  - Target podcasts for platform capitalism research:
+    - [ ] Trashfuture (UK tech + capitalism)
+    - [ ] Tech Won't Save Us (Paris Marx)
+    - [ ] Upstream (Doughnut Economics)
+    - [ ] It Could Happen Here (labor organizing)
+    - [ ] The Dig (Jacobin — deep interviews)
+  - Workflow:
+    - [ ] RSS monitoring for new episodes
+    - [ ] Download audio (youtube-dl/yt-dlp for YT, direct for RSS)
+    - [ ] Whisper transcription (openai-whisper skill)
+    - [ ] Summarization + keyword extraction
+    - [ ] Archive to research directory with metadata
+  - Storage: `~/research/podcasts/YYYY-MM/`
+
+### Academic Alerting System
+- [ ] **Set up proactive academic paper monitoring**
+  - Platforms:
+    - [ ] Zotero Saved Searches → RSS ("platform capitalism", "gig economy", "algorithmic management")
+    - [ ] Google Scholar Alerts → RSS forwarding
+    - [ ] ResearchGate alerts for specific authors (Pasquinelli, Srnicek, Zuboff, etc.)
+    - [ ] Semantic Scholar API (free, up to 100 req/min)
+  - Key authors to track:
+    - [ ] Matteo Pasquinelli (AI + labor theory)
+    - [ ] Nick Srnicek (platform capitalism)
+    - [ ] Shoshana Zuboff (surveillance capitalism)
+    - [ ] Mary Gray & Siddharth Suri (ghost work)
+    - [ ] Julie Cohen (platform governance)
+  - Workflow:
+    - [ ] Weekly digest of new papers
+    - [ ] Priority flagging for highly relevant titles
+    - [ ] Direct download to `~/research/papers/YYYY-MM/`
+
+### Email Link Aggregation
+- [ ] **Set up email scanning for forwarded article links**
+  - **Three email addresses to monitor:**
+    - [ ] **AI-relevant:** AI developments, ML research, automation news
+    - [ ] **New Work/Tech:** Changes in work through technology, workplace transformation
+    - [ ] **Big Tech Power:** Power structures, monopolies, platform governance
+  - Implementation options:
+    - **A) IMAP polling:** Direct mailbox access (requires credentials)
+    - **B) Forwarding rules:** Auto-forward to dedicated processing address
+    - **C) API integration:** Gmail/Outlook API with filtering
+  - Workflow:
+    - [ ] Parse incoming emails for URLs
+    - [ ] Fetch article content (web fetch + readability)
+    - [ ] Categorize by topic (AI / New Work / Big Tech)
+    - [ ] Deduplicate against existing research
+    - [ ] Add to daily digest or weekly review
+  - Security: OAuth2 preferred, app passwords if necessary, store in `.env`
+
+---
+
 ## 🟡 MEDIUM PRIORITY — Infrastructure & Automation
 
 ### Contabo VM Lifecycle Automation
