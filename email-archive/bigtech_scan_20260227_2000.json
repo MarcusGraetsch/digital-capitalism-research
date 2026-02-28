@@ -1,0 +1,132 @@
+{
+  "account": "Big Tech",
+  "email": "b1gt3ch.5n5lysis@gmail.com",
+  "scanned_at": "2026-02-27T20:00:06.100822",
+  "total_emails": 16,
+  "links_found": 13,
+  "links_processed": [
+    {
+      "url": "https://lh3.googleusercontent.com/a/ACg8ocIEf2EH2nnWFjp4hzWGuhZdYubLWwLnJF3YhoLDX13a-T2mJQ=s96-c",
+      "email_subject": "Sicherheitswarnung",
+      "email_from": "Google <no-reply@accounts.google.com>",
+      "email_date": "Fri, 27 Feb 2026 15:19:18 GMT",
+      "status": "success",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png",
+      "email_subject": "Sicherheitswarnung",
+      "email_from": "Google <no-reply@accounts.google.com>",
+      "email_date": "Fri, 27 Feb 2026 15:19:18 GMT",
+      "status": "success",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://www.googlewatchblog.de/2026/02/gemini-neue-likeness-funktion-kommt-nutzer-sollen-digitales-abbild-von-sich-selbst-erstellen-teardown/",
+      "email_subject": "GoogleWatchBlog: Gemini: Neue Likeness-Funktion kommt - Nutzer sollen digitales Abbild von sich selbst erstellen (Teardown)",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Wed, 11 Feb 2026 11:32:13 +0100",
+      "status": "success",
+      "title": "Gemini: Neue Likeness-Funktion kommt - Nutzer sollen digitales Abbild von sich selbst erstellen (Teardown) - GoogleWatchBlog",
+      "preview": "Gemini: Neue Likeness-Funktion kommt – Nutzer sollen digitales Abbild von sich selbst erstellen (Teardown) VerÃ¶ffentlicht am 9. Februar 2026 von Jens Die Android-App fÃ¼r Gemini enthÃ¤lt eine Reihe von interessanten Informationen zu kommenden Features, die schon bald zum Einsatz kommen kÃ¶nnten: Ei"
+    },
+    {
+      "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-wer-hier-den-grossen-ki-crash-sieht-hat-die-technik-nicht-verstanden-01/100198064.html",
+      "email_subject": "Handelsblatt: Kommentar: Wer hier den großen KI-Crash sieht, hat die Technik nicht verstanden",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Wed, 11 Feb 2026 11:29:37 +0100",
+      "status": "paywall",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://www.golem.de/news/gartner-europa-wird-nordamerika-bei-sovereign-cloud-ueberholen-2602-205216.html",
+      "email_subject": "Golem.de: Gartner: Europa wird Nordamerika bei Sovereign Cloud überholen",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Wed, 11 Feb 2026 11:27:58 +0100",
+      "status": "success",
+      "title": "Golem",
+      "preview": "Willkommen auf Golem.de! Cookies zustimmen Besuchen Sie Golem.de wie gewohnt mit Werbung und Tracking,\n            indem Sie der Nutzung aller Cookies zustimmen.\n            Details zum Tracking finden Sie im Privacy Center . Skript wurde nicht geladen. Informationen zur Problem­behandlung finden Si"
+    },
+    {
+      "url": "https://www.gstatic.com/accountalerts/email/pc_shield_green_2x_180_180.png",
+      "email_subject": "Check your Google Account privacy settings",
+      "email_from": "Google <no-reply@accounts.google.com>",
+      "email_date": "Wed, 28 Jan 2026 09:03:48 GMT",
+      "status": "success",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png",
+      "email_subject": "Check your Google Account privacy settings",
+      "email_from": "Google <no-reply@accounts.google.com>",
+      "email_date": "Wed, 28 Jan 2026 09:03:48 GMT",
+      "status": "success",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://fortune.com/2026/02/05/what-is-upscrolled-tiktok-gen-z-rebels-startup-founded-oracle-alum/",
+      "email_subject": "Gen Z is rebelling against TikTok USA by installing another app—founded by an Oracle alum | Fortune",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Fri, 6 Feb 2026 16:29:48 +0100",
+      "status": "paywall",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://t3n.de/news/leiter-der-us-cyberbehoerde-laedt-sensible-dokumente-bei-chatgpt-hoch-und-loest-sicherheitswarnung-aus-1727314/",
+      "email_subject": "t3n: Leiter der US-Cyberbehörde lädt sensible Dokumente bei ChatGPT hoch – und löst Sicherheitswarnung aus",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Fri, 30 Jan 2026 11:07:35 +0100",
+      "status": "paywall",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://www.heise.de/news/US-Behoerden-muessen-nicht-mehr-pruefen-was-in-ihrer-Software-drin-ist-11159569.html",
+      "email_subject": "heise online: US-Behörden müssen nicht mehr prüfen, was in ihrer Software drin ist",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Fri, 30 Jan 2026 11:05:15 +0100",
+      "status": "paywall",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://www.netzwelt.de/news/250577-aktuellem-anlass-vergesst-netflix-google-paypal41-eu-dienste-statt-us-giganten.html",
+      "email_subject": "Netzwelt: Aus aktuellem Anlass: Vergesst Netflix, Google und PayPal - 41 EU-Dienste statt US-Giganten",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Wed, 28 Jan 2026 11:00:27 +0100",
+      "status": "success",
+      "title": "Aus aktuellem Anlass: Diese 41 Tools aus Europa ersetzen Amazon, Netflix und Co. | NETZWELT",
+      "preview": "Startseite DATENSCHUTZ Aus aktuellem Anlass: Diese 41 Tools aus Europa ersetzen Amazon, Netflix und Co. 28. Januar 2026 um 11:46 Uhr Birte Keller powered by Passend zum Datenschutztag der Europäischen Union präsentieren wir 41 europäische Lösungen, die US-Dienste wie Google und PayPal jetzt herausfo"
+    },
+    {
+      "url": "https://t3n.de/news/widerstand-ki-rechenzentren-1726460/",
+      "email_subject": "t3n: Widerstand gegen KI-Rechenzentren: Warum sie gehasst und trotzdem gebaut werden",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Wed, 28 Jan 2026 10:46:38 +0100",
+      "status": "paywall",
+      "title": null,
+      "preview": null
+    },
+    {
+      "url": "https://www.techspot.com/news/111081-big-tech-finally-trial-how-built-algorithms.html",
+      "email_subject": "TechSpot: Big Tech is finally on trial for how it built its algorithms",
+      "email_from": "Marcus Graetsch <marcusgraetsch@gmail.com>",
+      "email_date": "Wed, 28 Jan 2026 10:05:42 +0100",
+      "status": "http_403",
+      "title": null,
+      "preview": null
+    }
+  ],
+  "summary": {
+    "success": 7,
+    "paywall": 5,
+    "dead": 0,
+    "error": 1
+  }
+}
