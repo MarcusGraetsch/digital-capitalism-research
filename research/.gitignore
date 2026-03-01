@@ -1,0 +1,31 @@
+# Temporary files
+*.log
+*.tmp
+*.processed
+
+# State files (generated)
+scan_state_v5.json
+scan_status.json
+
+# Queue files (generated)
+llm_queue/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Database (large, regenerated)
+articles.db
+
+# Fulltext content (large, regenerated)
+fulltext/
+
+# Notification files
+notify_pending.json
+
+# Batch processing scripts (temporary)
+clean_all_articles.py
+clean_articles_stichprobe.py
+clean_with_llm.py
+process_llm_batches.py
