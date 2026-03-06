@@ -27,6 +27,9 @@ from googleapiclient.errors import HttpError
 import requests
 from bs4 import BeautifulSoup
 
+# Newsletter parsing
+from newsletter_parser import parse_newsletter, is_newsletter_email
+
 # Configuration
 SCOPES = ['https://mail.google.com/']
 WORKSPACE = Path('/root/.openclaw/workspace')
@@ -152,6 +155,19 @@ class EmailScanner:
         
         return build('gmail', 'v1', credentials=creds)
     
+    def _extract_original_sender(self, body_text):
+        """Extract the original sender from a forwarded email body"""
+        # Common forward headers: "Von:", "From:", "---------- Forwarded message ----------"
+        patterns = [
+            r'(?:Von|From):\s*.*?<([^>]+)>',
+            r'(?:Von|From):\s*(\S+@\S+)',
+        ]
+        for pattern in patterns:
+            match = re.search(pattern, body_text or '', re.IGNORECASE)
+            if match:
+                return match.group(1)
+        return None
+
     def extract_links(self, text):
         """Extract URLs from text"""
         url_pattern = r'https?://[^\s<>"\')\]]+(?:[^\s<>"\')\].,;!?])'
@@ -398,48 +414,67 @@ paywall: {content.get('paywall', False)}
                 logger.info(f"   ⏭️  Skipped (sender: {sender[:40]}...)")
                 return 0
             
-            # Get message body
+            # Get message body (both plain text and HTML)
             body = ''
+            html_body = ''
+            import base64
             if 'parts' in msg['payload']:
                 for part in msg['payload']['parts']:
-                    if part['mimeType'] == 'text/plain':
-                        import base64
+                    if part['mimeType'] == 'text/plain' and not body:
                         data = part['body'].get('data', '')
                         if data:
                             body = base64.urlsafe_b64decode(data).decode('utf-8', errors='ignore')
-                            break
-                    elif part['mimeType'] == 'text/html' and not body:
-                        import base64
+                    elif part['mimeType'] == 'text/html':
                         data = part['body'].get('data', '')
                         if data:
-                            html = base64.urlsafe_b64decode(data).decode('utf-8', errors='ignore')
-                            # Simple HTML to text
-                            soup = BeautifulSoup(html, 'html.parser')
-                            body = soup.get_text(separator=' ', strip=True)
+                            html_body = base64.urlsafe_b64decode(data).decode('utf-8', errors='ignore')
+                            if not body:
+                                soup = BeautifulSoup(html_body, 'html.parser')
+                                body = soup.get_text(separator=' ', strip=True)
             else:
                 # Single part message
-                import base64
                 data = msg['payload']['body'].get('data', '')
+                mime = msg['payload'].get('mimeType', '')
                 if data:
-                    body = base64.urlsafe_b64decode(data).decode('utf-8', errors='ignore')
-            
-            # Extract links
-            links = self.extract_links(body) + self.extract_links(subject)
-            
-            # Filter out non-article URLs
-            skip_patterns = [
-                'google.com', 'youtube.com', 'youtu.be', 'twitter.com', 'x.com',
-                'facebook.com', 'fb.me', 'instagram.com', 'amazon.com',
-                'linkedin.com', 't.me', 'wa.me', 'bit.ly', 'tinyurl',
-                'unsubscribe', 'preferences', 'track', 'click.mail'
-            ]
-            
-            filtered_links = []
-            for url in links:
-                url_lower = url.lower()
-                if not any(pattern in url_lower for pattern in skip_patterns):
-                    filtered_links.append(url)
-            
+                    decoded = base64.urlsafe_b64decode(data).decode('utf-8', errors='ignore')
+                    if 'html' in mime:
+                        html_body = decoded
+                        soup = BeautifulSoup(decoded, 'html.parser')
+                        body = soup.get_text(separator=' ', strip=True)
+                    else:
+                        body = decoded
+
+            # Try newsletter-aware parsing first if we have HTML
+            newsletter_articles = []
+            if html_body:
+                # Check the original sender (inside the forwarded email)
+                original_sender = self._extract_original_sender(body) or sender
+                if is_newsletter_email(original_sender, html_body):
+                    newsletter_articles = parse_newsletter(html_body, original_sender, subject)
+                    if newsletter_articles:
+                        logger.info(f"   📰 Newsletter detected ({len(newsletter_articles)} articles)")
+
+            # Build filtered link list
+            if newsletter_articles:
+                # Use structured newsletter links (already filtered)
+                filtered_links = [art.url for art in newsletter_articles]
+            else:
+                # Fallback to regex URL extraction
+                links = self.extract_links(body) + self.extract_links(subject)
+
+                skip_patterns = [
+                    'google.com', 'youtube.com', 'youtu.be', 'twitter.com', 'x.com',
+                    'facebook.com', 'fb.me', 'instagram.com', 'amazon.com',
+                    'linkedin.com', 't.me', 'wa.me', 'bit.ly', 'tinyurl',
+                    'unsubscribe', 'preferences', 'track', 'click.mail'
+                ]
+
+                filtered_links = []
+                for url in links:
+                    url_lower = url.lower()
+                    if not any(pattern in url_lower for pattern in skip_patterns):
+                        filtered_links.append(url)
+
             if not filtered_links:
                 logger.info(f"   ℹ️  No article links found")
                 return 0
