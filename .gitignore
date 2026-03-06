@@ -8,8 +8,15 @@ SECRETS.md
 # Backups (stored separately)
 /root/backups/
 
+# Python
+__pycache__/
+
 # Node modules
 node_modules/
 
 # Logs
 *.log
+
+# Literature pipeline
+literature_pipeline/embeddings/*.npy
+literature_pipeline/literature.db

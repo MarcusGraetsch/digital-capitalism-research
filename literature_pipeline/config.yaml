@@ -1,0 +1,37 @@
+paths:
+  source_library: "${LITERATURE_SOURCE_DIR:-/mnt/d/Library/research-sources}"
+  repo_root: "${RESEARCH_REPO:-/mnt/d/Develop/myWebsite/digital-capitalism-research}"
+
+llm:
+  default_provider: "claude"
+  providers:
+    claude:
+      api_key_env: ANTHROPIC_API_KEY
+      model: claude-sonnet-4-20250514
+    openai:
+      api_key_env: OPENAI_API_KEY
+      model: gpt-4o
+    kimi:
+      api_key_env: KIMI_API_KEY
+      base_url: "https://api.moonshot.cn/v1"
+      model: moonshot-v1-128k
+    ollama:
+      base_url: "http://localhost:11434/v1"
+      model: "llama3.1:70b"
+  tasks:
+    extract_refs: "claude"
+    extract_knowledge: "claude"
+    generate_embeddings: "openai"
+
+extraction:
+  pdf_methods: [marker, pymupdf, tesseract]
+  grobid:
+    url: "http://localhost:8070"
+    docker_image: "lfoppiano/grobid:0.8.0"
+  tesseract:
+    lang: "deu+eng"
+
+embeddings:
+  model: "text-embedding-3-small"
+  chunk_size: 512
+  chunk_overlap: 64
