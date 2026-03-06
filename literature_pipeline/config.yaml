@@ -3,7 +3,7 @@ paths:
   repo_root: "${RESEARCH_REPO:-/mnt/d/Develop/myWebsite/digital-capitalism-research}"
 
 llm:
-  default_provider: "claude"
+  default_provider: "kimi"
   providers:
     claude:
       api_key_env: ANTHROPIC_API_KEY
@@ -19,8 +19,8 @@ llm:
       base_url: "http://localhost:11434/v1"
       model: "llama3.1:70b"
   tasks:
-    extract_refs: "claude"
-    extract_knowledge: "claude"
+    extract_refs: "kimi"
+    extract_knowledge: "kimi"
     generate_embeddings: "openai"
 
 extraction:
