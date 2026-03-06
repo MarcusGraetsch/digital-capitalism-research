@@ -137,47 +137,19 @@ def process_article(article, analysis):
             result = 'error'
 
         else:
-            # Keep for LLM cleaning - mark as pending_clean
+            # Article passed heuristic checks - mark as cleaned
             cursor.execute('''
                 UPDATE articles
-                SET content_status = 'pending_clean'
+                SET content_status = 'cleaned'
                 WHERE id = ?
             ''', (article['id'],))
-            print(f"   ⏳ {analysis['reason']}: {article['title'][:50]}...")
-            result = 'pending'
+            print(f"   ✅ {analysis['reason']}: {article['title'][:50]}...")
+            result = 'cleaned'
 
         conn.commit()
         return result
     finally:
         conn.close()
-
-def create_llm_batches(articles, batch_size=5):
-    """Create batch files for LLM processing"""
-    queue_dir = RESEARCH_DIR / 'llm_queue'
-    queue_dir.mkdir(exist_ok=True)
-    
-    batches = [articles[i:i+batch_size] for i in range(0, len(articles), batch_size)]
-    
-    for idx, batch in enumerate(batches, 1):
-        batch_file = queue_dir / f'batch_{idx:04d}.json'
-        
-        batch_data = []
-        for article in batch:
-            content = read_article_content(article['fulltext_path'])
-            text = extract_text_only(content) if content else ""
-            
-            batch_data.append({
-                'id': article['id'],
-                'title': article['title'],
-                'domain': article['domain'],
-                'url': article['url'],
-                'text': text[:5000]  # Limit for JSON
-            })
-        
-        with open(batch_file, 'w', encoding='utf-8') as f:
-            json.dump(batch_data, f, indent=2, ensure_ascii=False)
-    
-    return len(batches)
 
 def main():
     print("="*70)
@@ -187,8 +159,8 @@ def main():
     articles = get_all_articles()
     print(f"\n📊 Found {len(articles)} articles to analyze\n")
     
-    stats = {'paywall': 0, 'error': 0, 'pending': 0}
-    pending_articles = []
+    stats = {'paywall': 0, 'error': 0, 'cleaned': 0}
+    cleaned_articles = []
     
     for idx, article in enumerate(articles, 1):
         if idx % 50 == 0:
@@ -198,23 +170,17 @@ def main():
         result = process_article(article, analysis)
         
         stats[result] += 1
-        
-        if result == 'pending':
-            pending_articles.append(article)
+
+        if result == 'cleaned':
+            cleaned_articles.append(article)
     
     print("\n" + "="*70)
     print("📊 HEURISTICS SUMMARY")
     print("="*70)
     print(f"Paywall previews:    {stats['paywall']}")
     print(f"Errors:              {stats['error']}")
-    print(f"Ready for cleaning:  {stats['pending']}")
-    
-    if pending_articles:
-        print(f"\n📝 Creating LLM batches for {len(pending_articles)} articles...")
-        batch_count = create_llm_batches(pending_articles)
-        print(f"   ✅ Created {batch_count} batches in llm_queue/")
-        print(f"\n   Next step: Process batches with LLM")
-        print(f"   Directory: {RESEARCH_DIR}/llm_queue/")
+    print(f"Cleaned (ready):     {stats['cleaned']}")
+    print(f"\n✅ Done! Cleaned articles are ready for labeling.")
 
 if __name__ == '__main__':
     main()

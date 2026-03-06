@@ -58,7 +58,7 @@ Weekly run (Sundays 08:00):
 Articles stored in `articles.db` with fields:
 - `id` - MD5 hash of URL
 - `url`, `domain`, `title` - Article metadata
-- `content_status` - saved/cleaned/labeled/paywall_only/error
+- `content_status` - saved → cleaned → labeled | paywall_preview | error
 - `category` - Email account (bigtech/newwork/aigen)
 - `tags` - Comma-separated topics
 - `paywall` - Boolean
