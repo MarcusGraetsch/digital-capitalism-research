@@ -187,11 +187,11 @@
         </div>
         <div class="stat-card">
             <h3>Konzepte</h3>
-            <div class="number">6</div>
+            <div class="number">12</div>
         </div>
         <div class="stat-card">
             <h3>Research Tasks</h3>
-            <div class="number">6</div>
+            <div class="number">7</div>
         </div>
         <div class="stat-card">
             <h3>Verknüpfungen</h3>
@@ -226,6 +226,10 @@
                 <li class="task-item medium">
                     <div class="task-title">Global South Perspektive</div>
                     <div class="task-meta">Priorität: Medium | Fällig: 12.07.2026</div>
+                </li>                
+                <li class="task-item high" style="border-left-color: #27ae60; background: #e8f5e9;">
+                    <div class="task-title">🌍 Ökologische Kosten der Digitalisierung</div>
+                    <div class="task-meta">Priorität: Hoch | Fällig: 13.05.2026 | 6 Konzepte verknüpft | NEU</div>
                 </li>
             </ul>
         </div>
@@ -262,6 +266,21 @@
                     <h3>Data Extractivism</h3>
                     <div class="count">-</div>
                     <p>Datenextraktion im Globalen Süden</p>
+                </div>
+                <div class="concept-card" style="border: 2px solid #27ae60; background: #e8f5e9;">
+                    <h3>🌍 Digital Climate Impact</h3>
+                    <div class="count">NEU</div>
+                    <p>CO2-Fußabdruck digitaler Infrastruktur (3-4% globaler Emissionen)</p>
+                </div>
+                <div class="concept-card" style="border: 2px solid #27ae60; background: #e8f5e9;">
+                    <h3>🌍 Critical Minerals</h3>
+                    <div class="count">NEU</div>
+                    <p>Lithium, Kobalt, Seltene Erden. Konflikte um Ressourcen</p>
+                </div>
+                <div class="concept-card" style="border: 2px solid #27ae60; background: #e8f5e9;">
+                    <h3>🌍 Green Colonialism</h3>
+                    <div class="count">NEU</div>
+                    <p>Grüne Energiewende finanziert durch Ausbeutung im Globalen Süden</p>
                 </div>
             </div>
         </div>
@@ -327,23 +346,32 @@
 // Graph data - representing the ontology
 const graphData = {
     nodes: [
-        // Concepts (red) - 6 core concepts
+        // Concepts (red) - 12 concepts now (6 original + 6 environment)
         { id: "concept_platform_capitalism", name: "Platform Capitalism", type: "concept", group: 1, size: 30 },
         { id: "concept_surveillance_capitalism", name: "Surveillance Capitalism", type: "concept", group: 1, size: 35 },
         { id: "concept_gig_economy", name: "Gig Economy", type: "concept", group: 1, size: 32 },
         { id: "concept_data_extractivism", name: "Data Extractivism", type: "concept", group: 1, size: 25 },
         { id: "concept_precarious_work", name: "Precarious Work", type: "concept", group: 1, size: 28 },
         { id: "concept_labor_organizing", name: "Labor Organizing", type: "concept", group: 1, size: 20 },
+        // NEW: Environmental concepts
+        { id: "concept_digital_climate_impact", name: "Digital Climate Impact", type: "concept", group: 1, size: 32 },
+        { id: "concept_data_center_energy", name: "Data Center Energy", type: "concept", group: 1, size: 28 },
+        { id: "concept_e_waste", name: "E-Waste", type: "concept", group: 1, size: 26 },
+        { id: "concept_critical_minerals", name: "Critical Minerals", type: "concept", group: 1, size: 30 },
+        { id: "concept_green_colonialism", name: "Green Colonialism", type: "concept", group: 1, size: 28 },
+        { id: "concept_environmental_justice", name: "Environmental Justice", type: "concept", group: 1, size: 24 },
         
-        // Tasks (green) - 6 research tasks
+        // Tasks (green) - 7 tasks now
         { id: "task_chapter_platform_capitalism", name: "Platform Capitalism Theory", type: "task", group: 2, size: 22 },
         { id: "task_gig_economy_empirics", name: "Gig Economy Empirics", type: "task", group: 2, size: 24 },
         { id: "task_labor_organizing", name: "Labor Organizing Cases", type: "task", group: 2, size: 20 },
         { id: "task_ki_labor_impact", name: "AI Labor Impact", type: "task", group: 2, size: 26 },
         { id: "task_eu_regulation", name: "EU Regulation", type: "task", group: 2, size: 18 },
         { id: "task_global_south", name: "Global South", type: "task", group: 2, size: 18 },
+        // NEW: Environmental task
+        { id: "task_environmental_impact", name: "Environmental Impact", type: "task", group: 2, size: 28 },
         
-        // Sample Articles (blue) - representing the 1,104 articles
+        // Sample Articles (blue)
         { id: "article_1", name: "Uber Labor Rights", type: "article", group: 3, size: 15 },
         { id: "article_2", name: "Amazon Union News", type: "article", group: 3, size: 15 },
         { id: "article_3", name: "Platform Coop Study", type: "article", group: 3, size: 15 },
@@ -354,9 +382,13 @@ const graphData = {
         { id: "article_8", name: "EU DMA Regulation", type: "article", group: 3, size: 15 },
         { id: "article_9", name: "AI Automation Impact", type: "article", group: 3, size: 15 },
         { id: "article_10", name: "LaborNet Report", type: "article", group: 3, size: 15 },
+        // NEW: Environmental articles
+        { id: "article_11", name: "Data Center Water Crisis", type: "article", group: 3, size: 15 },
+        { id: "article_12", name: "Cobalt Mining DRC", type: "article", group: 3, size: 15 },
+        { id: "article_13", name: "E-Waste Ghana", type: "article", group: 3, size: 15 },
     ],
     links: [
-        // Concept-Article relations (discusses_concept)
+        // Original Concept-Article relations
         { source: "article_1", target: "concept_gig_economy", type: "discusses" },
         { source: "article_1", target: "concept_precarious_work", type: "discusses" },
         { source: "article_2", target: "concept_labor_organizing", type: "discusses" },
@@ -373,7 +405,15 @@ const graphData = {
         { source: "article_9", target: "concept_surveillance_capitalism", type: "discusses" },
         { source: "article_10", target: "concept_labor_organizing", type: "discusses" },
         
-        // Task-Concept relations (covers)
+        // NEW: Environmental Concept-Article relations
+        { source: "article_11", target: "concept_data_center_energy", type: "discusses" },
+        { source: "article_11", target: "concept_digital_climate_impact", type: "discusses" },
+        { source: "article_12", target: "concept_critical_minerals", type: "discusses" },
+        { source: "article_12", target: "concept_green_colonialism", type: "discusses" },
+        { source: "article_13", target: "concept_e_waste", type: "discusses" },
+        { source: "article_13", target: "concept_environmental_justice", type: "discusses" },
+        
+        // Task-Concept relations
         { source: "task_chapter_platform_capitalism", target: "concept_platform_capitalism", type: "covers" },
         { source: "task_gig_economy_empirics", target: "concept_gig_economy", type: "covers" },
         { source: "task_gig_economy_empirics", target: "concept_precarious_work", type: "covers" },
@@ -381,13 +421,23 @@ const graphData = {
         { source: "task_ki_labor_impact", target: "concept_surveillance_capitalism", type: "covers" },
         { source: "task_eu_regulation", target: "concept_platform_capitalism", type: "covers" },
         { source: "task_global_south", target: "concept_data_extractivism", type: "covers" },
+        // NEW: Environmental Task relations
+        { source: "task_environmental_impact", target: "concept_digital_climate_impact", type: "covers" },
+        { source: "task_environmental_impact", target: "concept_data_center_energy", type: "covers" },
+        { source: "task_environmental_impact", target: "concept_critical_minerals", type: "covers" },
+        { source: "task_environmental_impact", target: "concept_green_colonialism", type: "covers" },
+        { source: "task_environmental_impact", target: "concept_environmental_justice", type: "covers" },
         
-        // Related articles (tag-based)
+        // Related articles
         { source: "article_1", target: "article_5", type: "related" },
         { source: "article_2", target: "article_6", type: "related" },
         { source: "article_3", target: "article_8", type: "related" },
         { source: "article_4", target: "article_9", type: "related" },
         { source: "article_7", target: "article_10", type: "related" },
+        // NEW: Environmental article relations
+        { source: "article_11", target: "article_12", type: "related" },
+        { source: "article_12", target: "article_13", type: "related" },
+        { source: "article_11", target: "article_13", type: "related" },
     ]
 };
 
