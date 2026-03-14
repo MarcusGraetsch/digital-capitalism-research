@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Capitalism Research - Ontology Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: #1a1a2e;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            color: #888;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card h3 {
+            color: #666;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-card .number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #1a1a2e;
+        }
+        
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem 2rem;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            margin-bottom: 1.5rem;
+            color: #1a1a2e;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        
+        .task-list {
+            list-style: none;
+        }
+        
+        .task-item {
+            padding: 1rem;
+            border-left: 4px solid #ddd;
+            margin-bottom: 1rem;
+            background: #f9f9f9;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .task-item.high {
+            border-left-color: #e74c3c;
+        }
+        
+        .task-item.medium {
+            border-left-color: #f39c12;
+        }
+        
+        .task-item.low {
+            border-left-color: #3498db;
+        }
+        
+        .task-title {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .task-meta {
+            font-size: 0.875rem;
+            color: #666;
+        }
+        
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        
+        .concept-card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+        
+        .concept-card h3 {
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+        }
+        
+        .concept-card .count {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #3498db;
+        }
+        
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .tag {
+            background: #3498db;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+        }
+        
+        .sources-list {
+            columns: 2;
+            column-gap: 2rem;
+        }
+        
+        .source-item {
+            break-inside: avoid;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .sources-list {
+                columns: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎓 Digital Capitalism Research</h1>
+        <p>Ontology Dashboard - Stand: 14. März 2026</p>
+    </div>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>Artikel gesamt</h3>
+            <div class="number">1,104</div>
+        </div>
+        <div class="stat-card">
+            <h3>Konzepte</h3>
+            <div class="number">6</div>
+        </div>
+        <div class="stat-card">
+            <h3>Research Tasks</h3>
+            <div class="number">6</div>
+        </div>
+        <div class="stat-card">
+            <h3>Verknüpfungen</h3>
+            <div class="number">8,332</div>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="section">
+            <h2>📝 Research Tasks</h2>
+            <ul class="task-list">
+                <li class="task-item high">
+                    <div class="task-title">Kapitel: Platform Capitalism Theorie</div>
+                    <div class="task-meta">Priorität: Hoch | Fällig: 13.04.2026 | 20 Artikel verknüpft</div>
+                </li>
+                <li class="task-item high">
+                    <div class="task-title">KI-Einfluss auf Arbeitswelt</div>
+                    <div class="task-meta">Priorität: Hoch | Fällig: 13.04.2026 | 1,104 Artikel verknüpft</div>
+                </li>
+                <li class="task-item high">
+                    <div class="task-title">Empirische Analyse: Gig Economy Arbeitsbedingungen</div>
+                    <div class="task-meta">Priorität: Hoch | Fällig: 28.04.2026 | 702 Artikel verknüpft</div>
+                </li>
+                <li class="task-item medium">
+                    <div class="task-title">Fallstudien: Labor Organizing in Tech</div>
+                    <div class="task-meta">Priorität: Medium | Fällig: 13.05.2026 | 38 Artikel verknüpft</div>
+                </li>
+                <li class="task-item medium">
+                    <div class="task-title">EU Regulation: DMA, DSA, AI Act</div>
+                    <div class="task-meta">Priorität: Medium | Fällig: 12.06.2026</div>
+                </li>
+                <li class="task-item medium">
+                    <div class="task-title">Global South Perspektive</div>
+                    <div class="task-meta">Priorität: Medium | Fällig: 12.07.2026</div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 Konzepte & Artikel-Verteilung</h2>
+            <div class="concept-grid">
+                <div class="concept-card">
+                    <h3>Surveillance Capitalism</h3>
+                    <div class="count">1,104 Artikel</div>
+                    <p>Datenextraktion und Überwachung durch Plattformen (Zuboff)</p>
+                </div>
+                <div class="concept-card">
+                    <h3>Precarious Work</h3>
+                    <div class="count">702 Artikel</div>
+                    <p>Unsichere Arbeit in der Gig Economy</p>
+                </div>
+                <div class="concept-card">
+                    <h3>Gig Economy</h3>
+                    <div class="count">702 Artikel</div>
+                    <p>Plattform-basierte Arbeitsverhältnisse</p>
+                </div>
+                <div class="concept-card">
+                    <h3>Labor Organizing in Tech</h3>
+                    <div class="count">38 Artikel</div>
+                    <p>Gewerkschaftliche Organisierung in Tech</p>
+                </div>
+                <div class="concept-card">
+                    <h3>Platform Capitalism</h3>
+                    <div class="count">20 Artikel</div>
+                    <p>Plattformen als intermediäre Märkte (Srnicek)</p>
+                </div>
+                <div class="concept-card">
+                    <h3>Data Extractivism</h3>
+                    <div class="count">-</div>
+                    <p>Datenextraktion im Globalen Süden</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🏷️ Häufige Tags</h2>
+            <div class="tag-cloud">
+                <span class="tag">KI (1,104)</span>
+                <span class="tag">Arbeitswelt (542)</span>
+                <span class="tag">Big Tech (174)</span>
+                <span class="tag">Plattformökonomie (39)</span>
+                <span class="tag">Überwachung (35)</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📰 Top Quellen</h2>
+            <div class="sources-list">
+                <div class="source-item">t3n.de - 73 Artikel</div>
+                <div class="source-item">heise.de - 64 Artikel</div>
+                <div class="source-item">businessinsider.com - 46 Artikel</div>
+                <div class="source-item">fortune.com - 37 Artikel</div>
+                <div class="source-item">welt.de - 34 Artikel</div>
+                <div class="source-item">handelsblatt.com - 32 Artikel</div>
+                <div class="source-item">cnbc.com - 31 Artikel</div>
+                <div class="source-item">newleftreview.org - 30 Artikel</div>
+                <div class="source-item">netzpolitik.org - 28 Artikel</div>
+                <div class="source-item">focus.de - 26 Artikel</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
