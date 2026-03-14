@@ -406,7 +406,20 @@ def process_pdf_from_telegram(pdf_data: bytes, filename: str, suggested_type: st
         # 4. PDF archivieren (typ-spezifisch)
         archive_pdf(pdf_path, source_id, pub_type)
         
-        # 5. Erfolgs-Indikator hinzufügen
+        # 5. Dashboard aktualisieren
+        try:
+            logger.info("Updating dashboard...")
+            subprocess.run(
+                ['python3', str(RESEARCH_DIR / '..' / 'update_dashboard.py')],
+                check=True,
+                timeout=30,
+                cwd=RESEARCH_DIR
+            )
+            logger.info("Dashboard updated")
+        except Exception as e:
+            logger.warning(f"Dashboard update failed: {e}")
+        
+        # 6. Erfolgs-Indikator hinzufügen
         type_emoji = {
             "monograph": "📚",
             "edited_volume": "📖", 

@@ -195,6 +195,19 @@ def main():
     if not run_digest():
         log("⚠️  Digest generation had issues, continuing...")
 
+    # Step 6: Update dashboard
+    time.sleep(2)
+    log("📊 Updating ontology dashboard...")
+    try:
+        subprocess.run(
+            ['python3', str(RESEARCH_DIR / 'update_dashboard.py')],
+            check=True,
+            timeout=60
+        )
+        log("   ✅ Dashboard updated")
+    except Exception as e:
+        log(f"   ⚠️  Dashboard update failed: {e}")
+
     # Final stats
     total, labeled, stats = get_final_stats()
     
