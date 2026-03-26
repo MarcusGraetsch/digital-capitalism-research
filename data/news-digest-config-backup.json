@@ -1,0 +1,378 @@
+{
+  "feeds": [
+    {
+      "name": "LabourNet Germany",
+      "url": "https://www.labournet.de/rss.xml",
+      "category": "labor-de",
+      "priority": "critical",
+      "dimension": "geography-de",
+      "description": "Primärquelle für deutsche Arbeitskämpfe und Gewerkschaftsnews"
+    },
+    {
+      "name": "Jacobin",
+      "url": "https://jacobin.com/feed",
+      "category": "left-analysis",
+      "priority": "critical",
+      "dimension": "geography-us",
+      "description": "Linie Analysen USA und globale politische Ökonomie"
+    },
+    {
+      "name": "Human Rights Watch",
+      "url": "https://www.hrw.org/news.rss",
+      "category": "human-rights",
+      "priority": "critical",
+      "dimension": "actors-ngo",
+      "description": "Systematische Menschenrechtsdokumentation, Gig Economy Reports"
+    },
+    {
+      "name": "ETUI (European Trade Union Institute)",
+      "url": "https://www.etui.org/rss.xml",
+      "category": "eu-labor",
+      "priority": "high",
+      "dimension": "geography-eu",
+      "description": "EU-Arbeitspolitik und Gewerkschaftsforschung"
+    },
+    {
+      "name": "Verfassungsblog",
+      "url": "https://verfassungsblog.de/feed/",
+      "category": "legal",
+      "priority": "high",
+      "dimension": "topic-legal",
+      "description": "Rechtliche Entwicklungen, DSA/DMA, Grundrechte"
+    },
+    {
+      "name": "Rest of World",
+      "url": "https://restofworld.org/feed/",
+      "category": "global-south",
+      "priority": "high",
+      "dimension": "geography-global",
+      "description": "Technologie und Arbeit im Globalen Süden"
+    },
+    {
+      "name": "Institute of Network Cultures",
+      "url": "https://networkcultures.org/blog/feed/",
+      "category": "critical-theory",
+      "priority": "high",
+      "dimension": "topic-theory",
+      "description": "Kritische Theorie der digitalen Kultur"
+    },
+    {
+      "name": "Naked Capitalism",
+      "url": "https://www.nakedcapitalism.com/feed/",
+      "category": "finance-economics",
+      "priority": "high",
+      "dimension": "topic-economics",
+      "description": "Finanzialisierung und politische Ökonomie"
+    },
+    {
+      "name": "Algorithm Watch",
+      "url": "https://algorithmwatch.org/en/feed/",
+      "category": "tech-policy",
+      "priority": "high",
+      "dimension": "topic-algorithm",
+      "description": "Algorithmen und Automatisierung"
+    },
+    {
+      "name": "The Intercept",
+      "url": "https://theintercept.com/feed/?lang=en",
+      "category": "investigative",
+      "priority": "high",
+      "dimension": "actors-media",
+      "description": "Investigativer Journalismus, Tech-Überwachung"
+    },
+    {
+      "name": "Platform Cooperativism",
+      "url": "https://platform.coop/feed/",
+      "category": "platform-economy",
+      "priority": "high",
+      "dimension": "topic-platforms",
+      "description": "Alternative Plattformmodelle, Solidarische Ökonomie"
+    },
+    {
+      "name": "arXiv CS/AI",
+      "url": "http://export.arxiv.org/rss/cs.AI",
+      "category": "science",
+      "priority": "high",
+      "dimension": "topic-research",
+      "description": "Wissenschaftliche Vorabdrucke KI/Automatisierung"
+    },
+    {
+      "name": "SocArXiv",
+      "url": "https://osf.io/preprints/socarxiv/feed/rss",
+      "category": "science",
+      "priority": "high",
+      "dimension": "topic-research",
+      "description": "Sozialwissenschaftliche Vorabdrucke"
+    },
+    {
+      "name": "AI Now Institute",
+      "url": "https://ainowinstitute.org/feed",
+      "category": "ai-policy",
+      "priority": "high",
+      "dimension": "topic-ai",
+      "description": "KI-Policy und kritische Informatik"
+    },
+    {
+      "name": "Data & Society",
+      "url": "https://datasociety.net/feed/",
+      "category": "research",
+      "priority": "high",
+      "dimension": "topic-research",
+      "description": "Soziologie der Daten und Automatisierung"
+    },
+    {
+      "name": "Netzpolitik.org",
+      "url": "https://netzpolitik.org/feed/",
+      "category": "tech-policy",
+      "priority": "high",
+      "dimension": "geography-de",
+      "description": "Deutschsprachige Digitalpolitik"
+    },
+    {
+      "name": "IG Metall Digital",
+      "url": "https://www.igmetall.de/rss",
+      "category": "labor-de",
+      "priority": "medium",
+      "dimension": "geography-de",
+      "description": "Gewerkschaftliche Digitalpolitik"
+    },
+    {
+      "name": "UNI Global Union",
+      "url": "https://www.uniglobalunion.org/rss",
+      "category": "labor-international",
+      "priority": "medium",
+      "dimension": "actors-unions",
+      "description": "Internationale Gewerkschaftsnews"
+    },
+    {
+      "name": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/rss.xml",
+      "category": "eu-policy",
+      "priority": "medium",
+      "dimension": "geography-eu",
+      "description": "EU-Kommission Digitalpolitik"
+    },
+    {
+      "name": "New Left Review",
+      "url": "https://newleftreview.org/sidecar/feed",
+      "category": "critical-theory",
+      "priority": "medium",
+      "dimension": "topic-theory",
+      "description": "Marxistische Theorie und Kritik"
+    },
+    {
+      "name": "Catalyst Journal",
+      "url": "https://catalyst-journal.com/feed",
+      "category": "left-analysis",
+      "priority": "medium",
+      "dimension": "topic-theory",
+      "description": "Sozialistische Zeitschrift"
+    },
+    {
+      "name": "Platypus Affiliated Society",
+      "url": "https://platypus1917.org/feed/",
+      "category": "marxist-theory",
+      "priority": "medium",
+      "dimension": "topic-theory",
+      "description": "Marxistische Bildung und Theorie"
+    },
+    {
+      "name": "Cracked Labs",
+      "url": "https://crackedlabs.org/en/blog/rss.xml",
+      "category": "surveillance",
+      "priority": "medium",
+      "dimension": "topic-surveillance",
+      "description": "Überwachungskapitalismus"
+    },
+    {
+      "name": "Data Justice Lab",
+      "url": "https://datajusticelab.org/feed/",
+      "category": "data-justice",
+      "priority": "medium",
+      "dimension": "topic-justice",
+      "description": "Data Justice und Communities"
+    },
+    {
+      "name": "Transnational Institute",
+      "url": "https://www.tni.org/en/rss.xml",
+      "category": "global-justice",
+      "priority": "medium",
+      "dimension": "actors-ngo",
+      "description": "Globale Gerechtigkeit und Alternativen"
+    },
+    {
+      "name": "ROAR Magazine",
+      "url": "https://roarmag.org/feed/",
+      "category": "social-movements",
+      "priority": "medium",
+      "dimension": "actors-movements",
+      "description": "Soziale Bewegungen"
+    },
+    {
+      "name": "Pluralistic (Cory Doctorow)",
+      "url": "https://pluralistic.net/feed/",
+      "category": "tech-criticism",
+      "priority": "medium",
+      "dimension": "topic-criticism",
+      "description": "Enshittification, Tech-Kritik"
+    },
+    {
+      "name": "tante.cc",
+      "url": "https://tante.cc/feed/",
+      "category": "tech-criticism",
+      "priority": "medium",
+      "dimension": "geography-de",
+      "description": "Deutschsprachige Tech-Kritik"
+    },
+    {
+      "name": "Logic(s) Magazine",
+      "url": "https://logicmag.io/feed/",
+      "category": "tech-culture",
+      "priority": "low",
+      "dimension": "topic-culture",
+      "description": "Tech-Kultur Essays"
+    },
+    {
+      "name": "Real Life Mag",
+      "url": "https://reallifemag.com/feed/",
+      "category": "tech-culture",
+      "priority": "low",
+      "dimension": "topic-culture",
+      "description": "Alltag und Technologie"
+    },
+    {
+      "name": "Radical AI Network",
+      "url": "https://radicalai.org/feed/",
+      "category": "ai-ethics",
+      "priority": "low",
+      "dimension": "topic-ai",
+      "description": "KI-Ethik"
+    },
+    {
+      "name": "LMKR (German Tech Politics)",
+      "url": "https://lmkr.de/feed/",
+      "category": "tech-policy",
+      "priority": "low",
+      "dimension": "geography-de",
+      "description": "Deutsche Tech-Politik"
+    },
+    {
+      "name": "Digitale Gesellschaft",
+      "url": "https://www.digitale-gesellschaft.ch/feed/",
+      "category": "digital-rights",
+      "priority": "low",
+      "dimension": "geography-ch",
+      "description": "Schweizer Digitalrechte"
+    },
+    {
+      "name": "Open Knowledge Foundation",
+      "url": "https://blog.okfn.org/feed/",
+      "category": "open-data",
+      "priority": "low",
+      "dimension": "topic-data",
+      "description": "Offene Daten"
+    },
+    {
+      "name": "The Syllabus",
+      "url": "https://www.syllabus.news/feed",
+      "category": "tech-curation",
+      "priority": "low",
+      "dimension": "topic-curation",
+      "description": "Tech-Kuration"
+    },
+    {
+      "name": "Novara Media",
+      "url": "https://novaramedia.com/feed/",
+      "category": "uk-left",
+      "priority": "low",
+      "dimension": "geography-uk",
+      "description": "UK-Linie Medien"
+    },
+    {
+      "name": "Tribune Magazine",
+      "url": "https://tribunemag.co.uk/feed/",
+      "category": "uk-left",
+      "priority": "low",
+      "dimension": "geography-uk",
+      "description": "UK-Linie Politik"
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "category": "tech-mainstream",
+      "priority": "low",
+      "dimension": "topic-mainstream",
+      "description": "Tech-Mainstream (hohes Rauschen)"
+    },
+    {
+      "name": "EUR-Lex New Legislation",
+      "url": "https://eur-lex.europa.eu/rss-feed.html",
+      "category": "eu-policy",
+      "priority": "medium",
+      "dimension": "geography-eu",
+      "description": "EU-Gesetzgebung"
+    }
+  ],
+  "schedule": "08:00",
+  "output_dir": "~/memory",
+  "topics_dir": "~/memory/topics",
+  "summarization": {
+    "enabled": true,
+    "max_length": 200,
+    "language": "de"
+  },
+  "priority_keywords": {
+    "critical": [
+      "strike",
+      "union",
+      "gewerkschaft",
+      "streik",
+      "platform capitalism",
+      "algorithmic management",
+      "tarifverhandlung",
+      "landmark",
+      "historic",
+      "major report",
+      "breakthrough"
+    ],
+    "high": [
+      "exploitation",
+      "surveillance",
+      "digital labor",
+      "gig work",
+      "precarity",
+      "bsw",
+      "dgb",
+      "ver.di",
+      "shein",
+      "pinduoduo",
+      "temu",
+      "uber",
+      "lyft",
+      "amazon",
+      "lieferando"
+    ],
+    "medium": [
+      "gdpr",
+      "dma",
+      "ai act",
+      "platform regulation",
+      "data protection",
+      "digital services act"
+    ]
+  },
+  "filters": {
+    "exclude_paywall": true,
+    "min_content_length": 100,
+    "priority_threshold": "medium"
+  },
+  "deduplication": {
+    "enabled": true,
+    "lookback_days": 7
+  },
+  "dimensions": {
+    "geography": ["de", "eu", "us", "uk", "global", "ch"],
+    "topic": ["labor", "platforms", "legal", "ai", "economics", "theory", "surveillance", "justice", "culture", "mainstream"],
+    "actors": ["unions", "ngo", "media", "movements", "research"]
+  }
+}

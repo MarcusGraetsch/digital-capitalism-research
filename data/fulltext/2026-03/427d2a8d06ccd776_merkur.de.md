@@ -1,0 +1,111 @@
+---
+url: https://www.merkur.de/leben/karriere/arbeitnehmer-belastung-reddit-40-stunden-woche-work-life-balance-stress-zr-92242922.html
+title: Frage im Netz: „Wie könnt ihr die 40-Stunden-Woche verkraften?“
+domain: merkur.de
+category: newwork
+date_scanned: 2026-03-01T09:32:47.623678
+word_count: 652
+paywall: False
+cleaned_at: 2026-03-01T14:18:36.437828
+cleaned_by: llm
+quality_score: 8
+---
+
+url: https://www.merkur.de/leben/karriere/arbeitnehmer-belastung-reddit-40-stunden-woche-work-life-balance-stress-zr-92242922.html
+title: Frage im Netz: „Wie könnt ihr die 40-Stunden-Woche verkraften?“
+domain: merkur.de
+category: newwork
+date_scanned: 2026-03-01T09:32:47.623678
+word_count: 652
+paywall: False
+---
+
+# Frage im Netz: „Wie könnt ihr die 40-Stunden-Woche verkraften?“
+
+
+
+
+
+
+---
+
+
+Verbraucher
+
+„Ich kann es nicht“: 40-Stunden-Woche bringt zahlreiche Beschäftigte an ihre Grenzen
+
+Stand:
+
+06.01.2024, 13:34 Uhr
+
+Von:
+
+Franziska Gruber
+
+Kommentare
+
+Drucken
+
+Teilen
+
+Ein Reddit-User möchte wissen, wie gut andere mit der 40-Stunden-Woche klarkommen. Es zeigt sich, dass viele gerne ihre Arbeitszeit reduzieren würden.
+
+Immer mehr Menschen wünschen sich mehr Freizeit und weniger Arbeit. Eine Studie des Versicherers HDI und des Meinungsforschungsinstituts YouGov hat ergeben, dass drei von vier Befragten für eine Vier-Tage-Woche sogar Gehaltseinbußen hinnehmen würden, wie das
+
+Handelsblatt
+
+berichtet. Die Hälfte würde in Teilzeit wechseln, wenn sie die Möglichkeit vom Arbeitgeber erhalten würden. Und eine
+
+Studie der University of Cambridge und des Boston Colleges
+
+belegt sogar, dass eine 4-Tage-Woche die Produktivität der Arbeitnehmer erhöhen würde.
+
+Umgekehrt haben lange Arbeitszeiten und
+
+viele Überstunden
+
+einen negativen Effekt auf die Arbeitnehmer: Laut einer
+
+Studie des Bundesministeriums für Arbeit und Soziales
+
+hängen sie oft direkt mit Stress und psychischen Belastungen der Betroffenen zusammen. Daher ist es kaum verwunderlich, dass immer häufiger die Frage aufkommt, ob die 40-Stunden-Woche noch zeitgemäß ist. Die Diskussion wurde zuletzt auch wieder auf der Plattform Reddit geführt. Der User „u/yellowpeanut22“ wollte hier von den anderen Nutzern wissen: „Wie könnt ihr die 40-Stunden-Woche verkraften?“ Die Antwort: Viele können es nicht.
+
+„Ich kanns nicht“: Viele User wünschen sich eine kürzere Arbeitswoche
+
+„Ich hab aufgrund von Depressionen nicht sonderlich viel Motivation oder Energie, um einen Vollzeitjob auszuüben, ohne mich dabei noch tiefer in die Depression reinzureiten. Da frage ich mich echt, wie andere Leute damit umgehen können“, meint der Fragensteller zu dem Thema. Es zeigt sich, dass viele Nutzer sich in der Tat kürzere Arbeitszeiten wünschen – und einige dies bereits in die Tat umgesetzt haben, wie zum Beispiel folgende Kommentare zeigen:
+
+„Ich kanns nicht. Bin auf 32h und gehe nie wieder zurück.“
+
+„Mein Freund und ich haben beide letzten Sommer auf 30h reduziert und es ist krass, wie viel mehr Lebensqualität uns das gebracht hat. Ob man um 17 Uhr (mit 1h Mittagspause) oder 14 Uhr (weil man sich bei 6h die Pause sparen kann) Feierabend macht, ist ein Unterschied wie Tag und Nacht.“
+
+„Gar nicht. Ich habe schon vor 5 Jahren auf 30/h reduziert und es war eine der besten Entscheidungen.“
+
+Die 40-Stunden-Woche zerrt bei vielen Arbeitnehmern an den Nerven, wie eine Reddit-Diskussion zeigt.  © Svetlana Karner/Imago
+
+Der Großteil der Nutzer stimmt überein, dass eine 40-Stunden-Woche schlecht zur verkraften ist, wenn man auch noch etwas Lebensqualität haben möchte. Doch für viele scheitert das Vorhaben einer verkürzten Arbeitswoche am Geld:
+
+„Kann es auch nicht, kann mir eine 32-Stunden-Woche aber finanziell nicht leisten.“
+
+„Energie und Motivation habe ich auch nicht wirklich. Es ist die Wahl zwischen diesem Arbeitsleben mit relativ großen monetären Mitteln für mein Privatleben und Bürgergeld ohne diese Mittel.“
+
+„Habe weder Motivation noch Energie, aber Rechnungen wollen bezahlt werden. Also muss.“
+
+„Gute Frage. Gar nicht. Ich hasse jeden Tag, aber Frau und Hund zwingen mich dazu, durchzuhalten. Noch 30 Jahre, dann ist es geschafft.“
+
+40-Stunden-Woche: Zufriedenheit kann durch ein gutes Umfeld erhöht werden
+
+Für einige Nutzer spielen aber noch weitere Faktoren, eine Rolle darin, ob sie eine 40-Stunden-Woche meistern können: Gute Kollegen, ein angenehmer Chef und die
+
+
+
+Inhalt anzeigen
+
+Nicht verpassen: Alles rund ums Thema Karriere finden Sie im Karriere-Newsletter unseres Partners Merkur.de.
+
+Insgesamt hat die Frage nach der 40-Stunden-Woche für viele Reaktionen gesorgt. Über 1.000 Kommentare haben User zu dem Thema hinterlassen. Eines zeigt die Diskussion auf jeden Fall: Eine gute Work-Life-Balance ist extrem wichtig für die Zufriedenheit im Job – und oft auch für die Gesundheit.
+
+Auch interessant
+
+Kommentare
+
+Teilen

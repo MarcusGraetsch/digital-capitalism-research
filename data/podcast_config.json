@@ -1,0 +1,53 @@
+{
+  "podcasts": [
+    {
+      "name": "Trashfuture",
+      "feed_url": "https://feed.podbean.com/trashfuturepodcast/feed.xml",
+      "category": "tech-capitalism",
+      "priority": "high",
+      "language": "en",
+      "description": "UK tech + capitalism, comedy"
+    },
+    {
+      "name": "Tech Won't Save Us",
+      "feed_url": "https://feeds.megaphone.fm/TBIEA4386204774",
+      "category": "tech-criticism",
+      "priority": "high",
+      "language": "en",
+      "description": "Critical tech industry analysis (Paris Marx)"
+    },
+    {
+      "name": "Upstream",
+      "feed_url": "https://rss.libsyn.com/shows/435210/destinations/3632352.xml",
+      "category": "political-economy",
+      "priority": "high",
+      "language": "en",
+      "description": "Economics, politics, just transition"
+    },
+    {
+      "name": "It Could Happen Here",
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/78d30acb-8463-4c40-a5ae-ae2d0145c9ff/bc7f369b-dce6-43c2-897e-ae2d0145ca12/podcast.rss",
+      "category": "labor-organizing",
+      "priority": "medium",
+      "language": "en",
+      "description": "Labor organizing, daily news/analysis"
+    },
+    {
+      "name": "The Dig",
+      "feed_url": "https://thedigradio.com/feed/podcast/",
+      "category": "left-analysis",
+      "priority": "high",
+      "language": "en",
+      "description": "Jacobin deep interviews, political economy"
+    }
+  ],
+  "settings": {
+    "output_dir": "research/podcasts",
+    "max_age_days": 14,
+    "max_episodes_per_feed": 3,
+    "whisper_model": "base",
+    "whisper_language": "en",
+    "transcription_backend": "local",
+    "summarize": true
+  }
+}

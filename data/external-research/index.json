@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "title": "The Gig Trap: Algorithmic, Wage and Labor Exploitation in Platform Work in the United States",
+      "path": "2025-05/hrw-gig-trap-2025.md",
+      "tags": ["gig-economy", "platform-capitalism", "algorithmic-management", "labor-rights", "uber", "lyft", "doordash", "amazon-flex", "texas", "minimum-wage"],
+      "archived": "2026-02-14",
+      "type": "report"
+    }
+  ],
+  "tags": {
+    "gig-economy": ["2025-05/hrw-gig-trap-2025.md"],
+    "platform-capitalism": ["2025-05/hrw-gig-trap-2025.md"],
+    "algorithmic-management": ["2025-05/hrw-gig-trap-2025.md"],
+    "labor-rights": ["2025-05/hrw-gig-trap-2025.md"],
+    "uber": ["2025-05/hrw-gig-trap-2025.md"],
+    "lyft": ["2025-05/hrw-gig-trap-2025.md"],
+    "doordash": ["2025-05/hrw-gig-trap-2025.md"],
+    "amazon-flex": ["2025-05/hrw-gig-trap-2025.md"],
+    "texas": ["2025-05/hrw-gig-trap-2025.md"],
+    "minimum-wage": ["2025-05/hrw-gig-trap-2025.md"]
+  }
+}

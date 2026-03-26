@@ -1,0 +1,192 @@
+---
+url: https://t3n.de/news/ki-einsteiger-mit-excel-1614586/
+title: KI für Einsteiger: Wie eine Excel-Tabelle die Grundlagen künstlicher Intelligenz erklärt | t3n
+domain: t3n.de
+category: aigen
+date_scanned: 2026-03-01T09:59:15.233278
+word_count: 819
+paywall: False
+cleaned_at: 2026-03-01T14:18:46.195610
+cleaned_by: llm
+quality_score: 8
+---
+
+url: https://t3n.de/news/ki-einsteiger-mit-excel-1614586/
+title: KI für Einsteiger: Wie eine Excel-Tabelle die Grundlagen künstlicher Intelligenz erklärt | t3n
+domain: t3n.de
+category: aigen
+date_scanned: 2026-03-01T09:59:15.233278
+word_count: 819
+paywall: False
+---
+
+# KI für Einsteiger: Wie eine Excel-Tabelle die Grundlagen künstlicher Intelligenz erklärt | t3n
+
+
+
+
+
+
+---
+
+Fundstück
+
+Verpasse keine News mehr!
+
+KI für Einsteiger: Wie eine Excel-Tabelle die Grundlagen künstlicher Intelligenz erklärt
+
+Wollt ihr verstehen, wie KI funktioniert? Das geht ganz einfach dank einer Excel-Tabelle. Diese zeigt euch die Grundzüge der künstlichen Intelligenz.
+
+Von
+
+Marvin Fuhrmann
+
+28.12.2024, 08:10 Uhr
+
+•
+
+2 Min.
+
+Artikel merken
+
+Anzeige
+
+Anzeige
+
+Mit Excel könnt ihr jetzt KI besser verstehen. (Bild: Midjourney / t3n)
+
+Für manche steckt hinter dem Begriff
+
+künstliche Intelligenz
+
+noch ein ganz großes Fragezeichen. Auf den ersten Blick lässt sich zwar sehen, was die Tools können – wie sie funktionieren, ist aber meist ein Mysterium.
+
+Anzeige
+
+Anzeige
+
+Um KI besser zu veranschaulichen, hat Ishan Anand, VP of Product bei Edgio, ein besonderes Projekt ins Leben gerufen. Mit „
+
+Spreadsheets are all you need
+
+“ sollt ihr KI nur anhand einer großen Excel-Tabelle verstehen.
+
+Anzeige
+
+Anzeige
+
+Empfohlene redaktionelle Inhalte
+
+Hier findest du externe Inhalte von
+
+YouTube Video
+
+,
+
+die unser redaktionelles Angebot auf t3n.de ergänzen.
+
+Mit dem Klick auf "Inhalte anzeigen" erklärst du dich einverstanden,
+
+dass wir dir jetzt und in Zukunft Inhalte von
+
+YouTube Video
+
+auf unseren Seiten anzeigen dürfen.
+
+Dabei können personenbezogene Daten an Plattformen von Drittanbietern übermittelt werden.
+
+Inhalte anzeigen
+
+
+Leider ist etwas schief gelaufen...
+
+An dieser Stelle findest du normalerweise externe Inhalte von
+
+YouTube Video
+
+,
+
+jedoch konnten wir deine Consent-Einstellungen nicht abrufen.
+
+Lade die Seite neu oder passe deine Consent-Einstellungen manuell an.
+
+
+Wie funktioniert die KI-Excel-Tabelle?
+
+Anand hat die Grundfunktionen von GPT 2, einem der Vorgänger von
+
+ChatGPT
+
+4, in eine Excel-Tabelle transportiert. Ihr könnt euch die Tabelle einfach über seine Website herunterladen. Die Datei ist mit 1,25 Gigabyte deutlich größer als durchschnittliche Excel-Tabellen. Denn hier stecken 124 Millionen Parameter der KI in einer Tabelle.
+
+In der Excel-Tabelle findet ihr mehrere Seiten – darunter eine Seite für Prompts und viele Seiten mit Daten. Sie geben euch Einblick in die Verarbeitungsschritte von GPT:
+
+Empfohlene redaktionelle Inhalte
+
+Hier findest du externe Inhalte von
+
+TargetVideo GmbH
+
+,
+
+die unser redaktionelles Angebot auf t3n.de ergänzen.
+
+Mit dem Klick auf "Inhalte anzeigen" erklärst du dich einverstanden,
+
+dass wir dir jetzt und in Zukunft Inhalte von
+
+TargetVideo GmbH
+
+auf unseren Seiten anzeigen dürfen.
+
+Dabei können personenbezogene Daten an Plattformen von Drittanbietern übermittelt werden.
+
+Inhalte anzeigen
+
+
+Leider ist etwas schief gelaufen...
+
+An dieser Stelle findest du normalerweise externe Inhalte von
+
+TargetVideo GmbH
+
+,
+
+jedoch konnten wir deine Consent-Einstellungen nicht abrufen.
+
+Lade die Seite neu oder passe deine Consent-Einstellungen manuell an.
+
+
+Tokenization
+
+Text & Position Embeddings
+
+Multi-head Attention
+
+Multilayer Perceptron
+
+Language Head
+
+Gebt ihr einen Prompt auf der Seite „Type Prompt Here“ ein, verwandelt die Excel-Tabelle ihn in sogenannte Tokens. Jedem Wort wird dabei ein oder mehrere Token zugeordnet, um es genau zu identifizieren. Als Beispiel nutzt Anand „Mike is quick. He moves“, um der KI die Aufgabe zu geben, den zweiten Satz anhand der gegebenen Infos zu vervollständigen.
+
+Im nächsten Schritt findet die Excel-KI die „Text & Position Embeddings“ für die Tokens. Heißt: Jedes Token hat eine korrespondierende Liste von 768 Nummern, die dessen Bedeutung widerspiegeln. Gleichzeitig führt die KI eine Liste mit den Positionen der Wörter im Prompt. Gibt es also Worte im Prompt doppelt, bekommen sie andere Embedding-Codes.
+
+Anzeige
+
+Anzeige
+
+5 Bilder ansehen
+
+Jobsuche: Diese KI-Apps erstellen deine Bewerbungsmappe
+
+Quelle: Dean Drobot / Shutterstock
+
+Das finale Ergebnis
+
+Die KI sucht nun im Schritt „Multi-head Attention“ nach Zusammenhängen innerhalb des Satzes. Anhand der Codes erkennt die KI, dass sich das Wort „He“ auf „Mike“ bezieht und „moves“ im Zusammenhang mit „quick“ steht.
+
+Im Schritt „Multilayer Perceptron“ sucht das Tool heraus, welche Bedeutung die Wörter haben. Denn das englische Wort „quick“ könnte „clever“ oder sogar „lebendig“ bedeuten, doch passt es im Zusammenhang mit „moves“ am besten zu einer schnellen, physischen Bewegung.
+
+Empfehlungen der Redaktion
+
+Es sucht also Wörter wie „fast“, „quickly“ und „around“ aus der eigenen Datenbank heraus, um diese Lücke sinnvoll zu schließen. Die Schritte „Attention“ und „Perceptron“ geschehen mehrfach hintereinander, um die W

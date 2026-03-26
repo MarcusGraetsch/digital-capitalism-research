@@ -1,0 +1,42 @@
+# Secrets and credentials
+.moltbook_credentials.json
+SECRETS.md
+*.key
+*.pem
+.env
+
+# Backups (stored separately)
+/root/backups/
+
+# Python
+__pycache__/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Literature pipeline
+literature_pipeline/embeddings/*.npy
+literature_pipeline/literature.db
+literature_pipeline/archive/
+literature_pipeline/extracted_text/
+literature_pipeline/inbox/
+literature_pipeline/knowledge/
+
+# Research generated files
+research/digests/
+research/rss_state.json
+research/articles.db
+
+# Podcasts - too large
+research/podcasts/**/*.mp3
+research/podcasts/**/audio/
+research/podcasts/**/transcripts/
+*.log
+nohup.out
+
+# Podcasts - too large for Git
+projects/digital-research/data/podcasts/
+*.mp3

@@ -1,0 +1,72 @@
+{
+  "authors": [
+    {
+      "name": "Matteo Pasquinelli",
+      "openalex_id": "A5085389494",
+      "focus": "AI + labor theory, eye of the master"
+    },
+    {
+      "name": "Nick Srnicek",
+      "openalex_id": "A5091178311",
+      "focus": "Platform capitalism"
+    },
+    {
+      "name": "Shoshana Zuboff",
+      "openalex_id": "A5073480907",
+      "focus": "Surveillance capitalism"
+    },
+    {
+      "name": "Mary L. Gray",
+      "openalex_id": "A5055422172",
+      "focus": "Ghost work, digital labor"
+    },
+    {
+      "name": "Siddharth Suri",
+      "openalex_id": "A5051257652",
+      "focus": "Ghost work, crowdsourcing"
+    },
+    {
+      "name": "Julie E. Cohen",
+      "openalex_id": "A5087973237",
+      "focus": "Platform governance, information law"
+    }
+  ],
+  "keyword_searches": [
+    {
+      "query": "platform capitalism",
+      "priority": "high"
+    },
+    {
+      "query": "gig economy",
+      "priority": "high"
+    },
+    {
+      "query": "algorithmic management",
+      "priority": "high"
+    },
+    {
+      "query": "surveillance capitalism",
+      "priority": "medium"
+    },
+    {
+      "query": "digital labor",
+      "priority": "medium"
+    },
+    {
+      "query": "data extraction",
+      "priority": "medium"
+    },
+    {
+      "query": "platform cooperativism",
+      "priority": "low"
+    }
+  ],
+  "settings": {
+    "api": "openalex",
+    "email": "marcusgraetsch@gmail.com",
+    "lookback_days": 30,
+    "max_results_per_query": 20,
+    "output_dir": "research/papers",
+    "digest_dir": "news"
+  }
+}

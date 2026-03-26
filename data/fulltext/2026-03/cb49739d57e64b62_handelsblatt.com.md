@@ -1,0 +1,45 @@
+---
+url: https://www.handelsblatt.com/unternehmen/handel-konsumgueter/arbeit-im-homeoffice-so-reagieren-dax-konzerne-auf-new-work-konzepte/28976308.html
+title: Homeoffice: Wie Dax-Konzerne den Trend nutzen
+domain: handelsblatt.com
+category: newwork
+date_scanned: 2026-03-01T09:47:35.981524
+word_count: 238
+paywall: False
+cleaned_at: 2026-03-01T14:18:16.456182
+cleaned_by: llm
+quality_score: 8
+---
+
+domain: handelsblatt.com
+category: newwork
+date_scanned: 2026-03-01T09:47:35.981524
+word_count: 238
+paywall: False
+---
+
+
+
+
+
+
+
+---
+
+Das Kreditinstitut will etwa 40 Prozent seiner BÃ¼roflÃ¤chen in Frankfurt reduzieren.
+
+Foto: imago images/Jan Huebner
+
+DÃ¼sseldorf, Frankfurt.
+
+In der neuen Arbeitswelt braucht die
+
+Deutsche Bank
+
+weniger Platz. Am Frankfurter Stammsitz will die Bank ihre BÃ¼roflÃ¤chen bis Ende 2024 im Vergleich zu 2021 um 40 Prozent reduzieren. Zwei der fÃ¼nf Standorte werden aufgegeben. Ãhnliche Vorhaben gibt es fÃ¼r andere StÃ¤dte. Man wolle sich âauf weniger GebÃ¤ude konzentrieren, diese aber mit einem hÃ¶heren Standard ausstattenâ, teilte die
+
+Deutsche Bank
+
+mit.
+
+Immer mehr Konzerne bauen infolge der vermehrten Heimarbeit BÃ¼roflÃ¤chen ab und nutzen das als Sparprogramm. Das zeigt eine Handelsblatt-Umfrage unter den 40 Dax-Konzernen und zehn groÃen Familienunternehmen. Auch laut einer neue Allensbach-Studie haben 27 Prozent der Firmen ihre BÃ¼ros reduziert, 22 Prozent planen das. 40 Prozent wollen das nicht; darunter sind vor allem Firmen mit weniger als 1000 BeschÃ¤ftigten.

@@ -1,0 +1,48 @@
+# AutoResearchClaw Config for Testing
+# Mit acpx für Kimi CLI
+
+project:
+  name: "platform-capitalism-test"
+  mode: "docs-first"
+
+research:
+  topic: "Platform capitalism and algorithmic management in the gig economy"
+  domains: ["economics", "sociology", "computer_science"]
+  daily_paper_count: 5
+  quality_threshold: 3.0
+
+runtime:
+  timezone: "Europe/Berlin"
+  max_parallel_tasks: 1
+  approval_timeout_hours: 1
+  retry_limit: 1
+
+llm:
+  provider: "acp"
+  acp:
+    agent: "kimi"
+    cwd: "."
+    acpx_command: "acpx"  # acpx ist jetzt verfügbar
+
+experiment:
+  mode: "simulated"
+  time_budget_sec: 60
+  max_iterations: 2
+  sandbox:
+    python_path: "/usr/bin/python3"
+    gpu_required: false
+
+export:
+  target_conference: "neurips_2025"
+  authors: "Rook AI Agent"
+
+security:
+  hitl_required_stages: []
+  allow_publish_without_approval: true
+
+knowledge_base:
+  backend: "markdown"
+  root: "docs/kb"
+
+notifications:
+  channel: "console"

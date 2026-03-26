@@ -1,0 +1,43 @@
+---
+url: https://www.welt.de/wirtschaft/plus244342107/Homeoffice-Die-Drei-Tage-Woche-ist-bereits-Realitaet.html
+title: Arbeitszeit: Die Drei-Tage-Woche ist in Büros bereits Realität - WELT
+domain: welt.de
+category: newwork
+date_scanned: 2026-03-01T09:42:49.204150
+word_count: 57
+paywall: False
+cleaned_at: 2026-03-01T14:18:07.766102
+cleaned_by: llm
+quality_score: 8
+---
+
+title: Arbeitszeit: Die Drei-Tage-Woche ist in Büros bereits Realität - WELT
+domain: welt.de
+category: newwork
+date_scanned: 2026-03-01T09:42:49.204150
+word_count: 57
+paywall: False
+---
+
+# Arbeitszeit: Die Drei-Tage-Woche ist in Büros bereits Realität - WELT
+
+
+
+
+
+
+---
+
+0
+
+Konferenzen mit persönlicher Anwesenheit sind seltener geworden und oft hybriden Modellen gewichen
+
+Quelle
+
+:
+
+Getty Images
+
+Viele Angestellte sind nach der Pandemie in die Büros zurückgekehrt – doch nur an drei Tagen, wie ein internationaler Datensatz nun zeigt. Montags und freitags bleiben die Büros fast leer, auch in Deutschland. Das wird für Unternehmen zum Problem.
+
+0

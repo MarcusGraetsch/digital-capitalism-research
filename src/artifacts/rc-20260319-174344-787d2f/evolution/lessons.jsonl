@@ -1,0 +1,1 @@
+{"stage_name": "topic_init", "stage_num": 1, "category": "literature", "severity": "error", "description": "Stage topic_init failed: ACP prompt failed (exit 1): [acpx] session researchclaw (c3895615-67ff-49d9-ae15-4f11503829a1) · /root/.openclaw/workspace/AutoResearchClaw · agent needs reconnect", "timestamp": "2026-03-19T17:43:59+00:00", "run_id": "rc-20260319-174344-787d2f"}

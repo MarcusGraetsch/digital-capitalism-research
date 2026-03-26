@@ -1,0 +1,15 @@
+📊 *Weekly Research Briefing*
+_2026-03-15_
+
+📈 *This Week:*
+- *250* new articles collected
+- *0* research tasks with new material
+- *2* topics underrepresented (see gaps section)
+
+📚 *Top Articles:*
+1. *Alliance Open Networks at FOSDEM 2026 (en) – Digitale Gesellschaft* (digitalegesellschaft.de)
+2. *Die Digitale Gesellschaft fordert den Stopp von Chatkontrolle 1.0 – Digitale Gesellschaft* (digitalegesellschaft.de)
+3. *Stellungnahme der Digitalen Gesellschaft zum Vorratsdatenspeicherung Referentenentwurf – Digitale Gesellschaft* (digitalegesellschaft.de)
+
+📄 *Full briefing with all details:*
+GitHub: github.com/MarcusGraetsch/digital-capitalism-research/blob/master/briefings/latest.md
