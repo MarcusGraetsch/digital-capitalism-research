@@ -263,6 +263,25 @@ def main():
     except Exception as e:
         log(f"   ⚠️  Literature discovery failed: {e}")
 
+    # Step 7d: Ecological & Social Metrics Collection
+    log("🌱 Collecting ecological & social metrics...")
+    metrics_script = Path(os.environ.get('METRICS_COLLECTOR_DIR', 
+        str(Path(__file__).parent.parent.parent.parent / 'engineering' / 'metrics-collector' / 'scripts' / 'collect-metrics.sh')))
+    try:
+        result = subprocess.run(
+            [str(metrics_script)],
+            check=False,  # Don't fail pipeline if metrics fail
+            capture_output=True,
+            text=True,
+            timeout=300
+        )
+        if result.returncode == 0:
+            log("   ✅ Metrics collection complete")
+        else:
+            log(f"   ⚠️  Metrics collection had issues: {result.stderr[:100] if result.stderr else 'unknown'}")
+    except Exception as e:
+        log(f"   ⚠️  Metrics collection failed: {e}")
+
     # Final stats
     total, labeled, stats = get_final_stats()
     
