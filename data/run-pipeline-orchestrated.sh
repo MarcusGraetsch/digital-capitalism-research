@@ -115,6 +115,31 @@ run_step T2 self_improvement \
 if [[ $SKIP_DIGEST -eq 0 ]]; then
   run_step T2 telegram_digest \
     python3 "$RESEARCH_DIR/weekly_telegram_digest.py" || true
+
+  # Send the generated digest to Telegram
+  DIGEST_FILE=$(ls -t "$RESEARCH_DIR/briefings/telegram_"*.txt 2>/dev/null | head -1)
+  if [[ -f "$DIGEST_FILE" && $DRY_RUN -eq 0 ]]; then
+    DIGEST_CONTENT=$(cat "$DIGEST_FILE")
+    if [[ -n "$DIGEST_CONTENT" ]]; then
+      # Truncate to Telegram's 4096-char limit with a continuation note
+      MAX_CHARS=3800
+      if [[ ${#DIGEST_CONTENT} -gt $MAX_CHARS ]]; then
+        DIGEST_CONTENT="${DIGEST_CONTENT:0:$MAX_CHARS}
+
+... [vollständig in $DIGEST_FILE]"
+      fi
+      openclaw message send \
+        --channel telegram \
+        --target user:549758481 \
+        --message "$DIGEST_CONTENT" >> "$LOG_FILE" 2>&1 && \
+        log INFO "digest_sent_to_telegram file=$DIGEST_FILE" || \
+        log WARN "digest_telegram_failed file=$DIGEST_FILE"
+    fi
+  elif [[ $DRY_RUN -eq 1 ]]; then
+    log INFO "step_skip (dry-run) name=digest_telegram_send"
+  else
+    log WARN "digest_file_not_found pattern=briefings/telegram_*.txt"
+  fi
 fi
 
 log INFO "phase_done phase=T2-synthesis"
