@@ -47,3 +47,6 @@ data/blogwatcher-state.json
 data/blogwatcher-digests/
 data/briefings/
 data/fulltext/
+
+# Local skill symlink workspace
+skills/
