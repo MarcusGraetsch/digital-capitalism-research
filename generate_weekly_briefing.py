@@ -1,0 +1,1 @@
+/root/.openclaw/workspace/engineering/tools/generate_weekly_briefing.py

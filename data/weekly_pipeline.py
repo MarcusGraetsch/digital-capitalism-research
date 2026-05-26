@@ -319,7 +319,7 @@ def main():
             log(f"   ⚠️  Telegram digest warning: {result.stderr}")
     except Exception as e:
         log(f"   ⚠️  Telegram digest failed: {e}")
-log("\n✅ Weekly pipeline complete!")
+    log("\n✅ Weekly pipeline complete!")
     log("="*70)
     
     # Step 7: Generate self-improvement report

@@ -117,7 +117,8 @@ if [[ $SKIP_DIGEST -eq 0 ]]; then
     python3 "$RESEARCH_DIR/weekly_telegram_digest.py" || true
 
   # Send the generated digest to Telegram
-  DIGEST_FILE=$(ls -t "$RESEARCH_DIR/briefings/telegram_"*.txt 2>/dev/null | head -1)
+  # The telegram_*.txt files are saved to /root/.openclaw/workspace/briefings/
+  DIGEST_FILE=$(ls -t "/root/.openclaw/workspace/briefings/telegram_"*.txt 2>/dev/null | head -1)
   if [[ -f "$DIGEST_FILE" && $DRY_RUN -eq 0 ]]; then
     DIGEST_CONTENT=$(cat "$DIGEST_FILE")
     if [[ -n "$DIGEST_CONTENT" ]]; then
