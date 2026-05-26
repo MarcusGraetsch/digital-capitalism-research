@@ -40,3 +40,10 @@ nohup.out
 # Podcasts - too large for Git
 projects/digital-research/data/podcasts/
 *.mp3
+
+# Generated pipeline/runtime artifacts in this repo
+data/articles.db
+data/blogwatcher-state.json
+data/blogwatcher-digests/
+data/briefings/
+data/fulltext/
