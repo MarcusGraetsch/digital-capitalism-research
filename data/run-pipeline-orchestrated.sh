@@ -11,6 +11,13 @@
 
 set -euo pipefail
 
+LOCK_FILE="/tmp/research-pipeline-orchestrated.lock"
+exec 9>"$LOCK_FILE"
+if ! flock -n 9; then
+  echo "[research-pipeline] Another run is already active; exiting." >&2
+  exit 0
+fi
+
 RESEARCH_DIR="$(cd "$(dirname "$0")" && pwd)"
 LOG_FILE="$RESEARCH_DIR/orchestrator-run.log"
 DRY_RUN=0
