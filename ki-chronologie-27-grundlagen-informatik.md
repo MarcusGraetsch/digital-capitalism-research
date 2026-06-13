@@ -12,6 +12,12 @@ Die technologischen Voraussetzungen für moderne KI: von Algorithmen und Program
 - **Edsger Dijkstra: Kürzeste-Pfade-Algorithmus** (1959) — Graphalgorithmus essenziell für Routing, Planung und Netzwerkanalyse in KI-Systemen. Quelle: [CACM 1959](https://dl.acm.org/doi/10.1145/368993.368996)
 - **Tony Hoare: Quicksort & Hoare-Logik** (Quicksort 1959, Hoare-Logik 1969) — Effizienter Sortieralgorithmus und formales System zur Verifikation von Programmkorrektheit. Quelle: [CACM 1961](https://dl.acm.org/doi/10.1145/366622.366647), [CACM 1969](https://dl.acm.org/doi/10.1145/363235.363259)
 
+### Rechnerarchitektur & frühe Computer
+
+- **ENIAC** (1945) — Erster programmierbarer, elektronischer, allgemeiner Digitalrechner; machte großskalige numerische Berechnung praktisch. Quelle: [ENIAC](https://en.wikipedia.org/wiki/ENIAC)
+- **EDVAC / Von-Neumann-Architektur** (1945) — Stored-Program-Modell, bei dem Daten und Instruktionen im gleichen Speicher liegen; bis heute Grundprinzip moderner Computer. Quelle: [Von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
+- **Manchester Baby** (1948) — Erster elektronischer Stored-Program-Computer; demonstrierte, dass Programme aus dem Speicher laufen können. Quelle: [Manchester Baby](https://en.wikipedia.org/wiki/Manchester_Baby)
+
 ### Programmiersprachen für KI
 
 - **John McCarthy: LISP** (1958) — Symbolische Programmiersprache dominierte KI-Forschung für Jahrzehnte; Basis für funktionale Programmierung. Quelle: [History of LISP](http://www-formal.stanford.edu/jmc/history/lisp/lisp.html)

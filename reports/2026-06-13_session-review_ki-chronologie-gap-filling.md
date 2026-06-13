@@ -10,7 +10,7 @@ Die KI-Chronologie existiert in zwei synchronen Kopien:
 - Root-Dateien unter `workspace/projects/digital-research/`
 - Arbeitskopien unter `workspace/projects/digital-research/research/ki-chronologie/`
 
-Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religion/Spiritualität, Militär/Sicherheit, Politik/Medien und Global South. In den bisherigen Runden wurden diese Bereiche, frühe nicht-westliche Automaten, Musikproduktion, Architektur/Städtebau und weitere Global-South-Belege ergänzt; diese Runde schließt zusätzlich Raumfahrt, Medizin, Bildung, Recht/Governance, Finanzgeschichte, wissenschaftliche Entdeckung und Mathematikgeschichte / Beweisautomatisierung weiter auf.
+Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religion/Spiritualität, Militär/Sicherheit, Politik/Medien und Global South. In den bisherigen Runden wurden diese Bereiche, frühe nicht-westliche Automaten, Musikproduktion, Architektur/Städtebau und weitere Global-South-Belege ergänzt; diese Runde schließt zusätzlich Raumfahrt, Medizin, Bildung, Recht/Governance, Finanzgeschichte, wissenschaftliche Entdeckung, Mathematikgeschichte / Beweisautomatisierung sowie Physik- und Informatikgeschichte weiter auf.
 
 ## Befunde
 
@@ -56,8 +56,10 @@ Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religio
 - `workspace/projects/digital-research/ki-chronologie-40-musik.md`
 - `workspace/projects/digital-research/ki-chronologie-41-architektur.md`
 - `workspace/projects/digital-research/ki-chronologie-43-global-south.md`
+- `workspace/projects/digital-research/ki-chronologie-25-grundlagen-physik.md`
+- `workspace/projects/digital-research/ki-chronologie-27-grundlagen-informatik.md`
 - `workspace/projects/digital-research/ki-chronologie-MASTER.md`
-- dieselben sechzehn Dateien zusätzlich unter `workspace/projects/digital-research/research/ki-chronologie/`
+- dieselben achtzehn Dateien zusätzlich unter `workspace/projects/digital-research/research/ki-chronologie/`
 
 Inhaltlich ergänzt wurden unter anderem:
 
@@ -77,6 +79,8 @@ Inhaltlich ergänzt wurden unter anderem:
 - Finanzgeschichte mit Sesame Credit, Stripe Radar und Klarna AI Assistant
 - Wissenschaftsgeschichte mit DENDRAL, Robot Scientist und Genesis / self-driving labs
 - Mathematikgeschichte / Beweisautomatisierung mit Entscheidungsproblem, Logic Theorist und Automated Theorem Proving
+- Physikgeschichte mit Photoelektrischem Effekt, p-n-Übergang und MOSFET
+- Informatikgeschichte mit ENIAC, EDVAC / Von-Neumann-Architektur und Manchester Baby
 
 ## Validierung
 

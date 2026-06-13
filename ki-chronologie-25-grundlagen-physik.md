@@ -202,6 +202,26 @@ Die physikalischen und elektrotechnischen Fundamente, die künstliche Intelligen
 - Kombination von Quantencomputing und ML: Quantenunterstützte Optimierung, Quanten-Neuronale Netze, Variational Quantum Eigensolver (VQE) für KI-Probleme.
 - Quelle: https://www.nature.com/articles/s41586-019-1666-5
 
+### Halbleiterphysik & Sensorik
+
+**Albert Einstein – Photoelektrischer Effekt (1905)**
+- Person: Albert Einstein
+- Jahr: 1905
+- Lichtquanten erklären den Photoeffekt; Grundlage für Bildsensoren, Photodioden und viele optische Messsysteme in KI-Hardware.
+- Quelle: https://en.wikipedia.org/wiki/Photoelectric_effect
+
+**p-n-Übergang / Halbleiterdiode (1940er–1950er)**
+- Konzept: p-n junction in Halbleitern
+- Jahr: 1940er–1950er
+- Richtungsabhängiger Stromfluss an dotierten Halbleitern; Basis von Dioden, Logik und der gesamten integrierten Elektronik.
+- Quelle: https://en.wikipedia.org/wiki/P%E2%80%93n_junction
+
+**MOSFET (1959)**
+- Personen: Mohamed Atalla, Dawon Kahng (Bell Labs)
+- Jahr: 1959
+- Metall-Oxid-Halbleiter-Feldeffekttransistor; klein, skalierbar und das Grundelement moderner Prozessoren und Speicherchips.
+- Quelle: https://en.wikipedia.org/wiki/MOSFET
+
 ---
 
 ### Thermodynamik & Energie
