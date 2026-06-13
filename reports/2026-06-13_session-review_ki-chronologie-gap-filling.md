@@ -10,7 +10,7 @@ Die KI-Chronologie existiert in zwei synchronen Kopien:
 - Root-Dateien unter `workspace/projects/digital-research/`
 - Arbeitskopien unter `workspace/projects/digital-research/research/ki-chronologie/`
 
-Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religion/Spiritualität, Militär/Sicherheit, Politik/Medien und Global South. In einer ersten Runde wurden diese Bereiche bereits ergänzt; in der zweiten Runde kamen frühe nicht-westliche Automaten, Musikproduktion, Architektur/Städtebau und weitere Global-South-Belege dazu.
+Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religion/Spiritualität, Militär/Sicherheit, Politik/Medien und Global South. In den bisherigen Runden wurden diese Bereiche, frühe nicht-westliche Automaten, Musikproduktion, Architektur/Städtebau und weitere Global-South-Belege ergänzt; diese Runde schließt zusätzlich Raumfahrt, Medizin, Bildung und Recht/Governance weiter auf.
 
 ## Befunde
 
@@ -22,6 +22,10 @@ Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religio
 - Datei 40 hatte leere Domänenblöcke für Musikempfehlungen und Musikproduktion.
 - Datei 41 hatte leere Domänenblöcke für generatives Design und Smart Cities.
 - Datei 43 war im Africa/Latin-America/Asia-Block noch zu generisch und brauchte konkrete Ökosystem-Anker.
+- Datei 28 war bei Raumfahrt außerhalb der NASA/ESA-Perspektive noch unterfüttert.
+- Datei 38 hatte in der Therapie-Sektion einen Leerraum, obwohl mentale Gesundheit ein klarer KI-Anwendungsfall ist.
+- Datei 39 deckte Bildung schon breit ab, brauchte aber mehr konkrete Plattformen jenseits von ChatGPT/Khanmigo.
+- Datei 29 brauchte sichtbare Global-South-Rechtsanker jenseits der EU/USA/China.
 - Der Master-Index hatte noch eine unveränderte Gap-Liste, obwohl einzelne Bereiche inzwischen sichtbar erweitert werden konnten.
 
 ## Arbeitsplan
@@ -40,11 +44,15 @@ Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religio
 - `workspace/projects/digital-research/ki-chronologie-19-militaer-sicherheit.md`
 - `workspace/projects/digital-research/ki-chronologie-20-politik-medien.md`
 - `workspace/projects/digital-research/ki-chronologie-22-international.md`
+- `workspace/projects/digital-research/ki-chronologie-28-raumfahrt.md`
+- `workspace/projects/digital-research/ki-chronologie-29-recht.md`
+- `workspace/projects/digital-research/ki-chronologie-38-medizin.md`
+- `workspace/projects/digital-research/ki-chronologie-39-bildung.md`
 - `workspace/projects/digital-research/ki-chronologie-40-musik.md`
 - `workspace/projects/digital-research/ki-chronologie-41-architektur.md`
 - `workspace/projects/digital-research/ki-chronologie-43-global-south.md`
 - `workspace/projects/digital-research/ki-chronologie-MASTER.md`
-- dieselben neun Dateien zusätzlich unter `workspace/projects/digital-research/research/ki-chronologie/`
+- dieselben dreizehn Dateien zusätzlich unter `workspace/projects/digital-research/research/ki-chronologie/`
 
 Inhaltlich ergänzt wurden unter anderem:
 
@@ -57,6 +65,10 @@ Inhaltlich ergänzt wurden unter anderem:
 - Architektur/Städtebau mit Revit, GenerativeComponents, ArcGIS Urban, CityEngine und Project Bernini
 - Global-South-Einträge zu Africa AI Compute Tracker, AfriNLLB, EBIA, Nubank und Project NETRA
 - Master-Index-Notiz zur Aktualisierung vom 2026-06-13
+- Raumfahrt mit ISRO Project NETRA
+- Medizin mit Wysa und Woebot
+- Bildung mit Duolingo Max und Squirrel AI
+- Recht/Governance mit India DPDP Act und Brasilien PL 2338/2023
 
 ## Validierung
 

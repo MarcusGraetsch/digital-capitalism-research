@@ -194,6 +194,8 @@
 
 ### Global South: Unterrepräsentiert
 - **2024** — UNESCO AI Ethics Recommendation: 193 Mitgliedstaaten, aber wenig Durchsetzung
+- **2023** — India DPDP Act: Erste operative Datenschutzgrundlage mit Relevanz für KI in Indien
+- **2023** — Brasilien PL 2338/2023: Rahmen für risikobasierte KI-Regulierung im Global South
 - **2025** — Afrikanische Union: AI Strategy in Entwicklung
 - **2026** — UN Global Digital Compact: KI-Governance als Thema
 
@@ -244,6 +246,8 @@
 - US Copyright Office AI Report: https://www.copyright.gov/ai/
 - EU AI Liability Directive: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022PC0496
 - DABUS Patent Case: https://www.wipo.int/web/patents-ai/en/ai_ip_policy.html
+- Digital Personal Data Protection Act, 2023: https://en.wikipedia.org/wiki/Digital_Personal_Data_Protection_Act,_2023
+- Projeto de Lei 2338/2023: https://pt.wikipedia.org/wiki/Projeto_de_Lei_2338/2023
 
 ---
 

@@ -99,10 +99,14 @@
 
 ### Intelligente Tutorsysteme
 - **1970** — First ITS: KI-gestützte individualisierte Lernunterstützung
+- **2017** — Squirrel AI: großskaliges adaptives Lernen in China
 - **2023** — Khanmigo: 1,4 Millionen Schüler
+- **2023** — Duolingo Max: GPT-4-basierte Erklärungen und Konversationstraining
 
 ### Adaptive Lernsysteme
+- **2017** — Squirrel AI: adaptive Lernpfade durch Knowledge Graphs
 - **2022** — ChatGPT: KI-gestützte Bildung
+- **2023** — Duolingo Max: Generative KI in Sprachlern-Workflows
 
 ### Lernanalyse
 - **2010** — "AI in Education": KI-gestützte Lernanalyse
@@ -149,6 +153,9 @@
 - History of AI in Education (Medium): https://ppaccone.medium.com/the-history-of-ai-in-education-7305b6f30a39
 - Khanmigo: https://www.khanmigo.ai/
 - Khan Academy Blog: https://blog.khanacademy.org/khanmigo-top-ai-in-education-moments-of-2023-the-year-artificial-intelligence-dominated-education-news-kl/
+- Duolingo (Wikipedia): https://en.wikipedia.org/wiki/Duolingo
+- GPT-4 (Wikipedia): https://en.wikipedia.org/wiki/GPT-4
+- Squirrel AI (Wikipedia): https://en.wikipedia.org/wiki/Squirrel_AI
 - AI Tutors (Trilogy AI): https://trilogyai.substack.com/p/empowering-learners-with-ai-tutors
 - Khanmigo Research (JSTOR): https://www.jstor.org/stable/48756613
 - AI in Education (Poverty Action Lab): https://www.povertyactionlab.org/initiative-project/ai-powered-tutoring-unleashing-full-potential-personalized-learning-khanmigo

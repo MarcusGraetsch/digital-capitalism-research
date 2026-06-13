@@ -269,6 +269,7 @@ Diese Sammlung dient als **Materialpool für Vorlesungen, Seminare und Forschung
 ### Aktualisierung 2026-06-13
 - Erste Runde: Religion (Rome Call, Antiqua et nova), Militär/Sicherheit (Project Maven, Replicator, Kargu-2), Politik/Medien (Deepfake-Wahlforschung) und Global South (IndiaAI, PBIA, AI4D, African Union Continental AI Strategy).
 - Zweite Runde: frühe nicht-westliche Automaten (Banū Mūsā, Su Song), Musikproduktion und -empfehlung (Pandora, Last.fm, Auto-Tune, Melodyne, LANDR, iZotope), Architektur/Städtebau (Revit, GenerativeComponents, ArcGIS Urban, CityEngine, Project Bernini) sowie weitere Global-South-Anker (Africa AI Compute Tracker, AfriNLLB, EBIA, Nubank, Project NETRA).
+- Dritte Runde: Raumfahrt (Project NETRA), Medizin (Wysa, Woebot), Bildung (Duolingo Max, Squirrel AI) und Recht/Governance (India DPDP Act, Brasilien PL 2338/2023).
 - Dadurch sind einige der oben genannten Lücken nur noch teilweise offen; die Chronologie bleibt absichtlich selektiv und kann in den verbleibenden Domänen weiter vertieft werden.
 
 ---

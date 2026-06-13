@@ -110,6 +110,7 @@
 - **2019** — Event Horizon Telescope: Erstes Bild eines Schwarzen Lochs — KI-gestützte Bildrekonstruktion (CHIRP-Algorithmus)
 - **2019** — Hayabusa2: Probenrückführung von Asteroid Ryugu — KI-gestützte autonome Landung und Probenentnahme
 - **2019** — China's Chang'e 4: Erste Landung auf der Mondrückseite — KI-gestützte autonome Navigation (Relais-Satellit Queqiao)
+- **2019** — ISRO Project NETRA: Indische Raumlageüberwachung und Debris-Tracking — KI-gestützte Satellitensicherheit
 - **2019** — NASA Mars 2020 (Perseverance): Entwicklung beginnt — KI-gestützte autonome Navigation
 - **2020** — Perseverance Rover: Start zum Mars — Autonomes Navigationssystem (AutoNav), KI-gestützte Zielauswahl, Ingenuity-Helikopter
 - **2020** — SpaceX Crew Dragon: Erster bemannter privater Raumflug — KI-gestützte autonome Docking
@@ -205,6 +206,7 @@
 
 - NASA AI Portal: https://www.nasa.gov/artificial-intelligence/
 - ESA AI in Space: https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Discovery_and_Preparation/Artificial_intelligence_in_space
+- Project NETRA (Wikipedia): https://en.wikipedia.org/wiki/Project_NETRA
 - DARPA Innovation Timeline: https://www.darpa.mil/about/innovation-timeline
 - Computer History Museum: https://computerhistory.org/blog/where-to-a-history-of-autonomous-vehicles/
 - Stanford AI + ISS: https://news.stanford.edu/stories/2025/12/ai-robot-international-space-station-autonomous-missions

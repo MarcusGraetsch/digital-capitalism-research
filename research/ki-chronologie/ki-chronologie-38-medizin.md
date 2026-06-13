@@ -127,6 +127,8 @@
 - **2023** — Google AMIE: KI-gestützte medizinische Diagnostik
 
 ### Therapie
+- **2016** — Wysa: Digital mental health platform mit KI-gestützter CBT/DBT-Unterstützung
+- **2017** — Woebot: KI-gestützter CBT-Chatbot für mentale Gesundheit
 
 ### Bildgebung
 - **1961** — First CT scanner: Digitale Bildgebung
@@ -181,6 +183,8 @@
 - AlphaFold Five Years of Impact: https://deepmind.google/blog/alphafold-five-years-of-impact/
 - AI in Healthcare (PMC): https://pmc.ncbi.nlm.nih.gov/articles/PMC12455834/
 - Google AI for Drug Discovery: https://www.insideprecisionmedicine.com/topics/precision-medicine/google-to-launch-open-ai-models-for-drug-discovery/
+- Wysa (Wikipedia): https://en.wikipedia.org/wiki/Wysa
+- Woebot / Alison Darcy (Wikipedia): https://en.wikipedia.org/wiki/Alison_Darcy
 - AI and the Sound of Music (Yale Law Journal): https://yalelawjournal.org/essay/ai-and-the-sound-of-music
 - AI in Sports (CLNS Media): https://www.clnsmedia.com/the-future-of-ai-in-sports-how-technology-is-reshaping-the-industry/
 - AI Sports Revolution (WSC Sports): https://wsc-sports.com/blog/industry-insights/ai-sports-revolution-12-innovations-changing-everything/
