@@ -284,6 +284,16 @@ Eine Chronologie der mathematischen und logischen Ideen, die Künstliche Intelli
 
 ---
 
+## Mathematikgeschichte & Beweisautomatisierung
+
+**David Hilbert & Wilhelm Ackermann: Entscheidungsproblem** (1928) — Formulierung der Frage nach einem allgemeinen Verfahren zur Entscheidung mathematischer Aussagen. Wichtiger Ausgangspunkt für formale Logik, Berechenbarkeit und spätere KI-Reasoning-Systeme.
+
+**Allen Newell, Herbert A. Simon & Cliff Shaw: Logic Theorist** (1956) — Erstes bewusst für automatisches Schließen entworfenes Programm. Belegte, dass Suchverfahren und symbolische Repräsentation mathematische Beweise generieren können.
+
+**Automated Theorem Proving** (1950er–heute) — Von Presburger- und Resolutionsverfahren bis zu modernen SMT- und Proof-Assistant-Systemen. Praktisch relevant für Verifikation, Programmsynthese und formale Mathematik.
+
+---
+
 ## Quellen & Weiterführendes
 
 - **Convex Optimization** (Boyd & Vandenberghe, 2004) — web.stanford.edu/~boyd/cvxbook
@@ -292,6 +302,9 @@ Eine Chronologie der mathematischen und logischen Ideen, die Künstliche Intelli
 - **The Elements of Statistical Learning** (Hastie, Tibshirani, Friedman, 2009)
 - **ArXiv.org** — cs.LG, stat.ML, cs.AI, cs.CR
 - **Stanford Encyclopedia of Philosophy** — plato.stanford.edu
+- **Entscheidungsproblem** — https://en.wikipedia.org/wiki/Entscheidungsproblem
+- **Logic Theorist** — https://en.wikipedia.org/wiki/Logic_Theorist
+- **Automated theorem proving** — https://en.wikipedia.org/wiki/Automated_theorem_proving
 
 ---
 
