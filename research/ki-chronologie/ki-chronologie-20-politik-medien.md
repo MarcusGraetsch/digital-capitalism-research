@@ -10,12 +10,16 @@
 - **2016** — Trump's 2016 Campaign Microtargeting: Einsatz von Facebook-Werbetools und KI-gestütztem Microtargeting; digitale Wahlkampfstrategie (Brad Parscale / Trump Campaign)
 - **2024** — AI-Generated Election Content: Deepfakes, KI-generierte politische Werbung und Desinformationskampagnen in globalen Wahlen (Verschiedene Akteure)
 
+- **2024** — Globaler Deepfake-Schub im Wahlkampf (AP): Synthetische Videos, Audio-Clones und manipulierte Bilder tauchen in US-, Taiwan-, Indien- und weiteren Wahlkämpfen auf. Quelle: https://apnews.com/article/bc283e7426402f0b4baa7df280a4c3fd
+
 ### AI and Voter Manipulation
 
 | Jahr | Name | Autor/Organisation | Beschreibung | Quelle |
 - **2016–present** — Fake News and AI Generation: KI-gestützte Generierung und Verbreitung von politischen Falschinformationen; automatisierte Desinformation (Verschiedene)
 - **2016–present** — Bot Farms and Coordinated Campaigns: Staatlich koordinierte KI-Bot-Netzwerke zur politischen Beeinflussung; Social-Media-Manipulation (Russia, China, Iran)
 - **2024** — AI-Generated Political Deepfakes: KI-generierte gefälschte Videos und Audio von Politikern; Bedrohung für demokratische Diskurse (Verschiedene)
+
+- **2024** — U.S., Russia, Iran und China: KI als Einflussverstärker in der Wahlbeeinflussung (NPR / Washington Post / ODNI-FBI): Generative KI beschleunigt Desinformation, ist aber bislang eher Verstärker als Revolution. Quelle: https://en.wikipedia.org/wiki/Artificial_intelligence_and_elections
 
 ### AI and Political Decision-Making
 
@@ -79,6 +83,8 @@
 - **2018** — EU Code of Practice on Disinformation: Selbstregulierung der Tech-Industrie; KI und Desinformationsbekämpfung (Europäische Union)
 - **2010s–present** — AI and Propaganda: KI-gestützte Propaganda; automatisierte Einflussnahme und Meinungsmanipulation (Staatliche und nicht-staatliche Akteure)
 
+- **2024** — Political Deepfakes Incidents Database (arXiv): Forschungsinfrastruktur zur systematischen Erfassung politischer Deepfakes und Cheapfakes. Quelle: https://arxiv.org/abs/2409.15319
+
 ### AI in Entertainment Media
 
 | Jahr | Name | Autor/Organisation | Beschreibung | Quelle |
@@ -124,7 +130,8 @@
 - **2010s–present** — AI and Borders/Sovereignty: KI-gestützte Grenzkontrolle und Souveränität; algorithmische Migration und Staatsbürgerschaft (Verschiedene Staaten)
 - **2010s–present** — AI and International Law: KI und internationales Recht; Regulierung autonomer Systeme und globale Governance (Vereinte Nationen / EU)
 - **2010s–present** — AI and Global Governance: KI und globale Governance-Strukturen; internationale KI-Regulierung und Kooperation (Verschiedene Institutionen)
--e 
+
+- **2024** — Global Digital Compact / UN AI Governance: UN-Rahmen für sichere, vertrauenswürdige und zuverlässige KI-Systeme als politische Antwort auf Plattformmacht und Informationsmanipulation. Quelle: https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence | https://en.wikipedia.org/wiki/Global_Digital_Compact
 
 ---
 

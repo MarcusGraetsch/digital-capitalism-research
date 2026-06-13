@@ -7,6 +7,11 @@
 - **Beschreibung:** Erste umfassende KI-Strategie des Pentagons; definiert KI als kritischen Machtfaktor.
 - **Quelle:** https://media.defense.gov/2018/Dec/31/2009311965/-1/-1/1/SUMMARY_OF_DOD_AI_STRATEGY.PDF
 
+### Project Maven (2017)
+- **Jahr:** 2017 | **Autor:** US Department of Defense
+- **Beschreibung:** Algorithmic Warfare Cross-Functional Team; Machine Learning für Drone-/Satellitenbilder, Datenfusion und Zielerkennung in ISR-Workflows. Human-in-the-loop, aber ein zentraler Beschleuniger für datengetriebene Zielketten.
+- **Quellen:** https://www.theguardian.com/technology/2018/mar/07/google-ai-us-department-of-defense-military-drone-project-maven-tensorflow | https://en.wikipedia.org/wiki/Project_Maven
+
 ### China's Military-Civil Fusion (2015–present)
 - **Jahr:** 2015 | **Autor:** CCP / PLA
 - **Beschreibung:** Doktrin zur Integration ziviler KI in militärische Anwendungen; dual-use Forschung, Technologietransfer.
@@ -71,6 +76,11 @@
 - **Jahr:** 2018 | **Autor:** SIPRI, CSET, AI Now
 - **Beschreibung:** Globaler KI-Rüstungswettlauf; China, USA, Russland, EU investieren Milliarden.
 
+### Replicator (2023–2024)
+- **Jahr:** 2023 | **Autor:** US Department of Defense
+- **Beschreibung:** DoD-Programm für billig massenhaft produzierbare autonome Systeme; 2024 erste Tranche, 2024/25 Fokus auf Anti-Drone-Verteidigung.
+- **Quellen:** https://en.wikipedia.org/wiki/Replicator_%28United_States_military%29 | https://www.politico.com/news/2023/08/28/pentagon-autonomous-systems-china-00112977
+
 ---
 
 ## 19.2 KI in Cyberkrieg & Information Warfare
@@ -89,6 +99,11 @@
 ### Deepfakes in Information Warfare (2019–present)
 - **Jahr:** 2019 | **Autor:** Deeptrace, Sensity
 - **Beschreibung:** KI-generierte Video/Audio-Fälschungen für Desinformation und politische Destabilisierung.
+
+### STM Kargu-2 / Libya (2020–2021)
+- **Jahr:** 2021 | **Autor:** UN Panel of Experts on Libya
+- **Beschreibung:** Der Libyen-Bericht erwähnte 2020 einen Angriff eines Kargu-2-Systems ohne direkte menschliche Steuerung; wichtiger Referenzpunkt in der Debatte um lethal autonomous weapons.
+- **Quellen:** https://en.wikipedia.org/wiki/STM_Kargu | https://www.wired.com/story/autonomous-weapons-here-world-isnt-ready/
 
 ### AI-Generated Propaganda / Computational Propaganda
 - **Jahr:** 2016 | **Autor:** NATO / EU DisinfoLab / Oxford Comprop

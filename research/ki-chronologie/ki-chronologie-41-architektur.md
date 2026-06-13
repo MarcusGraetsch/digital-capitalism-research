@@ -91,8 +91,14 @@
 
 ### Generatives Design
 - **2010** — "Generative Design": KI-gestützte Architekturentwürfe als Konzept
+- **2000** — Revit: parametrische BIM-Modelle als Vorstufe generativer Architektur
+- **2003** — GenerativeComponents (Bentley): regelbasierte CAD- und Entwurfslogik für Architektur
+- **2024** — Project Bernini (Autodesk): text- und bildgestuetzte 3D-Modelle fuer Architektur und Produktdesign
 
 ### Smart Cities
+- **2018** — ArcGIS Urban: 3D-Stadtplanung, Zoning und Szenarioanalyse
+- **2008** — CityEngine: prozedurale Stadtmodelle fuer Planung und Visualisierung
+- **2024** — Esri generative AI in Urban Planning: Diffusionsmodelle fuer Planungsentwuerfe und Satellitenbilder
 
 ### Digitale Zwillinge
 - **2000** — First digital twin: Digitale Architektur
@@ -139,6 +145,12 @@
 ## Quellen & Referenzen
 
 - AI in Urban Planning (Texas A&M): https://geosat.tamu.edu/genai-cases/
+- Revit (Wikipedia): https://en.wikipedia.org/wiki/Autodesk_Revit
+- GenerativeComponents (Wikipedia): https://en.wikipedia.org/wiki/GenerativeComponents
+- Project Bernini (Axios): https://www.axios.com/2024/05/08/autodesk-ai-3d-models-bernini
+- ArcGIS (Wikipedia): https://en.wikipedia.org/wiki/ArcGIS
+- ArcGIS Urban (Wikipedia): https://en.wikipedia.org/wiki/ArcGIS_Urban
+- CityEngine (Wikipedia): https://en.wikipedia.org/wiki/CityEngine
 - Generative Urban Design (IAIA): https://conferences.iaia.org/2023/uploads/draft-presentations/20_%20Alshuwaikhat_Generative%20Urban%20Design%20Smart%20%20Resilience%20Cities.pdf
 - Advent of Architectural AI (Built Horizons): https://medium.com/built-horizons/the-advent-of-architectural-ai-2fb6b6d0c0a8
 - Generative AI in Urban Planning (Esri): https://www.esri.com/arcgis-blog/products/city-engine/design-planning/generative-ai-in-urban-planning

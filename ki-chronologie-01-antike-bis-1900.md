@@ -40,6 +40,22 @@
 - **The bridge between ancient and modern automata: engineering as art**
 - Quelle: Wikipedia, aljazaribook.com, Met Museum, History Medieval
 
+### Fruehe nicht-westliche Automaten vor Al-Jazari
+
+### Banū Mūsā — Book of Ingenious Devices (850)
+- Three brothers in Abbasid Baghdad who described around 100 mechanical devices and automata
+- Included self-operating valves, timing devices, and automatic control systems
+- A key bridge between ancient mechanics and later programmable machines
+- **The first large non-Western automata compendium: control engineering before modern computing**
+- Quelle: Wikipedia, *Book of Ingenious Devices*, Donald Routledge Hill
+
+### Su Song — Astronomical Clock Tower (1092)
+- Song-dynasty polymath Su Song built a giant astronomical clock tower in Kaifeng
+- Used a chain drive, water power, and clock jacks to display time and celestial movement
+- Demonstrated large-scale automatic timekeeping and mechanical control in East Asia
+- **The imperial clock as machine intelligence: time, astronomy, and automation**
+- Quelle: Wikipedia, Su Song, Joseph Needham
+
 ### Roger Bacon — Brazen Head (13th Century Legend)
 - Franciscan friar and philosopher (1214–1292), known as "Doctor Mirabilis"
 - Legendary brazen (brass) head that could answer any question — a medieval oracle machine

@@ -230,7 +230,7 @@ Diese Sammlung dient als **Materialpool für Vorlesungen, Seminare und Forschung
 - Bewusstsein für Bias und Lücken (besonders Datei 10, 22)
 
 ### Bekannte Lücken
-- Lateinamerikanische und afrikanische KI-Ökosysteme sind dünn (Datei 43)
+- Lateinamerikanische und afrikanische KI-Ökosysteme sind besser vertreten, bleiben aber unterdokumentiert (Datei 22, 43)
 - Frühe nicht-westliche Automaten (außer Al-Jazari) könnten erweitert werden
 - KI in der Musikproduktion (außer generativer Musik) fehlt größtenteils
 - KI in der Architektur und im Städtebau könnte vertieft werden
@@ -265,6 +265,11 @@ Diese Sammlung dient als **Materialpool für Vorlesungen, Seminare und Forschung
 - KI in der Architektur (außer Smart Cities) könnte vertieft werden
 - KI im Sport (außer AlphaGo) könnte vertieft werden
 - Global South (außer digitaler Kolonialismus) könnte vertieft werden
+
+### Aktualisierung 2026-06-13
+- Erste Runde: Religion (Rome Call, Antiqua et nova), Militär/Sicherheit (Project Maven, Replicator, Kargu-2), Politik/Medien (Deepfake-Wahlforschung) und Global South (IndiaAI, PBIA, AI4D, African Union Continental AI Strategy).
+- Zweite Runde: frühe nicht-westliche Automaten (Banū Mūsā, Su Song), Musikproduktion und -empfehlung (Pandora, Last.fm, Auto-Tune, Melodyne, LANDR, iZotope), Architektur/Städtebau (Revit, GenerativeComponents, ArcGIS Urban, CityEngine, Project Bernini) sowie weitere Global-South-Anker (Africa AI Compute Tracker, AfriNLLB, EBIA, Nubank, Project NETRA).
+- Dadurch sind einige der oben genannten Lücken nur noch teilweise offen; die Chronologie bleibt absichtlich selektiv und kann in den verbleibenden Domänen weiter vertieft werden.
 
 ---
 

@@ -129,21 +129,31 @@
 - **2010** — "AI in Africa": KI-gestützte Entwicklung
 - **2015** — "AI in Africa": KI-gestützte Landwirtschaft
 - **2020** — "AI in Africa": KI-gestützte Gesundheit
+- **2021** — AI4D African Language Program: Sprachdaten, Benchmarks und Basismodelle fuer afrikanische Sprachen
 - **2023** — "AI in Africa": KI-gestützte Bildung
+- **2024** — African Union Continental AI Strategy: kontinentale Governance- und Souveränitätsagenda
 - **2024** — "AI in Africa": KI-gestützte Entwicklung oder neue Kolonialität?
+- **2026** — Africa AI Compute Tracker: offene Karte zu AI-ready HPC-Infrastruktur in Afrika
+- **2026** — AfriNLLB: effiziente Übersetzungsmodelle fuer afrikanische Sprachen
 
 ### Lateinamerika
 - **2010** — "AI in Latin America": KI-gestützte Entwicklung
 - **2015** — "AI in Latin America": KI-gestützte Landwirtschaft
 - **2020** — "AI in Latin America": KI-gestützte Gesundheit
+- **2021** — EBIA: Brasiliens Strategie fuer verantwortliche KI-Entwicklung
 - **2023** — "AI in Latin America": KI-gestützte Bildung
+- **2023** — Nubank: GPT-4-basierter virtueller Banking-Assistent
+- **2024** — PBIA: "IA para o Bem de Todos" als brasilianischer KI-Plan
 - **2024** — "AI in Latin America": KI-gestützte Entwicklung oder neue Kolonialität?
 
 ### Asien
 - **2010** — "AI in Asia": KI-gestützte Entwicklung
 - **2015** — "AI in Asia": KI-gestützte Landwirtschaft
+- **2019** — Project NETRA: indische Raumlagenüberwachung und Debris-Tracking
 - **2020** — "AI in Asia": KI-gestützte Gesundheit
+- **2020** — INDIAai: nationaler KI-Portal- und Ökosystem-Knotenpunkt
 - **2023** — "AI in Asia": KI-gestützte Bildung
+- **2024** — IndiaAI Mission: nationale KI-Infrastruktur und Governance
 - **2024** — "AI in Asia": KI-gestützte Entwicklung oder neue Kolonialität?
 
 ---
@@ -178,7 +188,17 @@
 - Digital Colonialism (WACC): https://waccglobal.org/the-hidden-cost-of-ai-digital-colonialism-and-the-global-south/
 - AI in Global South (Brookings): https://www.brookings.edu/articles/ai-in-the-global-south-opportunities-and-challenges-towards-more-inclusive-governance/
 - Digital Colonialism (Computer Geek): https://computer-geek.net/digital-colonialism:-is-b-va-881.html
+- AI4D African Language Program (arXiv): https://arxiv.org/abs/2104.02516
+- African Union Continental AI Strategy / Africa AI Curriculum context (arXiv): https://arxiv.org/abs/2604.27708
+- Africa AI Compute Tracker (arXiv): https://arxiv.org/abs/2603.21795
+- AfriNLLB (arXiv): https://arxiv.org/abs/2602.09373
 - Return of East India Companies (Data Pop Alliance): https://datapopalliance.org/the-return-of-east-india-companies-ai-africa-and-the-new-digital-colonialism/
+- EBIA / Brazilian AI Strategy (gov.br): https://www.gov.br/governodigital/pt-br/inteligencia-artificial
+- PBIA (Wikipedia): https://pt.wikipedia.org/wiki/Plano_Brasileiro_de_Intelig%C3%AAncia_Artificial
+- Nubank (Wikipedia): https://en.wikipedia.org/wiki/Nubank
+- INDIAai (Wikipedia): https://en.wikipedia.org/wiki/INDIAai
+- IndiaAI Mission / IndiaAI portal: https://indiaai.gov.in/
+- Project NETRA (Wikipedia): https://en.wikipedia.org/wiki/Project_NETRA
 - Digital Sovereignty (Policy Center): https://www.policycenter.ma/sites/default/files/2025-10/PP_38-25%20%28Marcus%20Vini%CC%81cius%20De%20Freitas%29.pdf
 - Intellectual History of Digital Colonialism (Oxford): https://academic.oup.com/joc/article/75/5/385/8078024
 - Digital Colonialism and AI (The Shillonga): https://theshillonga.com/index.php/jhed/article/download/495/466/977

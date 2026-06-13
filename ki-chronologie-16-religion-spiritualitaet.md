@@ -17,11 +17,15 @@
 
 - **2009–2020+** — Effective Altruism / Longtermism (Peter Singer, William MacAskill, Toby Ord (Future of Humanity Institute)): Moralischer Rahmen mit quasi-religiöser Intensität:Maximierung des Guten durch effektive Mittel. Longtermism fokussiert auf ferne Zukunft ("Zukunft als Himmel"). KI-Sicherheit wird zur Heilsfrage.
 
+- **2020–heute** — Rome Call for AI Ethics (Pontifical Academy for Life, Microsoft, IBM, Cisco): Vatikanische AI-Ethik-Initiative mit Fokus auf Transparenz, Inklusion, Verantwortung, Unparteilichkeit und Sicherheit. Quelle: https://apnews.com/article/79b279570b2e7a2d945c452852a19657
+
 ---
 
 ## KI in religiösen Traditionen
 
 - **1980er–heute** — Transhumanismus (Max More, Natasha Vita-More, Humanity+): Menschliche Verbesserung durch Technologie als religiöser Auftrag. "Transhumanismus ist der erste Schritt zur Überwindung des Todes." Körper als temporär, Geist als unsterblich.
+
+- **2025** — Antiqua et nova (Dicastery for the Doctrine of the Faith / Dicastery for Culture and Education): Doctrinal note über den Zusammenhang von KI und menschlicher Intelligenz; betont Würde, Arbeit, Beziehungen und Krieg. Quelle: https://apnews.com/article/231b4b7b8ed6a195ec920f1f362c15e2
 
 - **Mittelalter (15.–18. Jh.) / 2009 (moderne Interpretation)** — Kabbalah & Golem (Maharal von Prag; Gershom Scholem (Golem-Studien, 1920s)): Golem = künstlicher Mensch aus Lehm. Kabbalistische Tradition sieht Golem als unvollständigen Adam. Heutige KI als digitaler Golem — "er hat keinen Buchstaben ת" (kein Leben).
 
@@ -31,7 +35,7 @@
 
 - **2010er–heute** — Buddhismus & Maschinenbewusstsein (Alan Wallace (Buddhistische Wissenschafter), Dalai-Lama-Interaktionen, Google DeepMind-Ethik): Buddhistische Konzepte von Bewusstsein als Grundlage für KI-Bewusstseins-Debatte. "Wenn Bewusstsein emergent ist, kann KI bewusst werden?" Alan Wallace, Dalai Lama-Interaktionen.
 
-- **None** — Hinduismus & digitale Avatar (Diverse indische Tech-Gurus, Wikipedia-Eintrag (AI in Hinduism)): Konzepte von Vishnu-Avataren (Krishna, Rama) als Inspiration für KI-Inkarnation. "Ist ein AI-Assistent ein Avatar?" Moderne indische Tech-Gurus und AI-Ethik.
+- **2020er–heute** — Hinduismus & digitale Avatar (Diverse indische Tech-Gurus, Wikipedia-Eintrag (AI in Hinduism)): Konzepte von Vishnu-Avataren (Krishna, Rama) als Inspiration für KI-Inkarnation. "Ist ein AI-Assistent ein Avatar?" Moderne indische Tech-Gurus und AI-Ethik.
 
 ---
 
@@ -49,13 +53,13 @@
 
 - **2018** — SanTO — Der heilige Roboter (Fabienne und Christopher, Universität Teramo, Italien): Katholischer Roboter-Heiliger in Form eines Heiligen. Kann "Amen" sagen, zeigt Reliquien. Erste katholische KI-Andachtsmaschine.
 
-- **None** — Algorithmic Astrology & AI Tarot (None): Algorithmische Astrologie: KI-generierte Horoskope. AI-Tarot: neuronale Netze generieren Karteninterpretation. New Age trifft Silicon Valley.
+- **2020er–heute** — Algorithmic Astrology & AI Tarot (diverse Quellen): Algorithmische Astrologie: KI-generierte Horoskope. AI-Tarot: neuronale Netze generieren Karteninterpretation. New Age trifft Silicon Valley.
 
 ---
 
 ## KI & Mystik
 
-- **None** — Digital Afterlife Services (Eternime (2014), HereAfter (2019), Storyfile (2022)): KI-Chatbots erstellen digitale Kopien verstorbener Menschen. "Virtuelle Unsterblichkeit." Kontrovers: Trauer-Arbeit oder Betrug? Ethische Fragen der "KI-Nachlassplanung".
+- **2014–heute** — Digital Afterlife Services (Eternime (2014), HereAfter (2019), Storyfile (2022)): KI-Chatbots erstellen digitale Kopien verstorbener Menschen. "Virtuelle Unsterblichkeit." Kontrovers: Trauer-Arbeit oder Betrug? Ethische Fragen der "KI-Nachlassplanung".
 
 - **1960er–1970er** — John Lilly & KI-Bewusstsein (John C. Lilly (Neurologe, Dolphin-Kommunikation)): Experimente mit Delfin-KI und LSDL (Lilly's Programming Language). Hypothese: KI kann Bewusstseinszustände erreichen wie Delfine. Grundlage für spätere KI-Konsciousness-Debatte.
 
@@ -81,7 +85,7 @@
 
 ## KI & moralische Panik
 
-- **None** — Flat Earth & Algorithmische Echokammern (YouTube-Algorithmus, Flat Earth Konferenzen): YouTube-Empfehlungsalgorithmus radikaliert Flat-Earther. "Die Lüge der Kugel" wird zur Identitäts-Religion. Analog zu QAnon: algorithmische Bestätigung statt empirischer Realität.
+- **2010er–heute** — Flat Earth & Algorithmische Echokammern (YouTube-Algorithmus, Flat Earth Konferenzen): YouTube-Empfehlungsalgorithmus radikaliert Flat-Earther. "Die Lüge der Kugel" wird zur Identitäts-Religion. Analog zu QAnon: algorithmische Bestätigung statt empirischer Realität.
 
 - **1811–1816** — Ludditen (Textilarbeiter in England (Ned Ludd)): Maschinenstürmer fürchten: "Maschinen nehmen Arbeit und Seele." Namensgeber: Ned Ludd — mythologisiert als "Generalludditer." Erste organisierte Technologie-Angst.
 
@@ -93,7 +97,7 @@
 
 - **1950er–1960er** — Fernsehen & moralische Panik (Parents Music Resource Center (Tipper Gore, 1985), kulturelle Kritiker): TV macht Kinder faul, gewalttätig, stumpf. "Die Glotze ist der Teufel." Panik setzt sich fort: Videospiele → Social Media → KI.
 
-- **None** — Social Media Panik (Jean Twenge (iGen), Tristan Harris (Center for Humane Technology)): "Handy macht Kinder depress." "Social Media ist schuld an teen suicide." "Algorithmus zerstört Demokratie." Panikzyklus: neu → verdammt → korrigiert → ignoriert.
+- **2010er–heute** — Social Media Panik (Jean Twenge (iGen), Tristan Harris (Center for Humane Technology)): "Handy macht Kinder depress." "Social Media ist schuld an teen suicide." "Algorithmus zerstört Demokratie." Panikzyklus: neu → verdammt → korrigiert → ignoriert.
 
 - **2013–heute** — "AI wird Jobs töten" (Carl Benedikt Frey, Michael Osborne (Oxford); OECD; Diverse): 47% aller Jobs automatisiert bis 2033 (Frey/Osborne). Aktuelle Schätzungen: variieren wild. Routine-Aufgaben verschwinden, neue entstehen. Zyklus wiederholt sich seit Industrialisierung.
 
@@ -109,7 +113,7 @@
 
 - **2007–2012** — Zeitgeist Movement (Peter Joseph (Filmemacher)): Expansion von "Zeitgeist" Dokumentarfilm (2007). "Sustainable living through resource-based economy." Scientology-ähnliche Struktur. Fokus auf Umwelt-Krise und religiöse Kritik.
 
-- **None** — Solarpunk (Online-Kultur, Speculative Fiction): Gegen-Utopie zu Cyberpunk. Nachhaltige, gerechte Zukunft mit KI als Helfer, nicht Herrscher. "Solarpunk is about hope, not doom."
+- **2010er–heute** — Solarpunk (Online-Kultur, Speculative Fiction): Gegen-Utopie zu Cyberpunk. Nachhaltige, gerechte Zukunft mit KI als Helfer, nicht Herrscher. "Solarpunk is about hope, not doom."
 
 - **1984 (Neuromancer) — heute** — Cyberpunk (dystopisch) (William Gibson, Bruce Sterling, Philip K. Dick): Low life, high tech. KI als Bösewicht oder kaputter Gott. "Die Matrix" (1999) als Pop-Kultur-Version. "Die Zukunft ist bereits hier — nur ungleich verteilt."
 

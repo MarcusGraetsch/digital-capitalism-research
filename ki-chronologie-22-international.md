@@ -41,6 +41,13 @@
 - **—** — KI-Talentpipeline: Massive Förderung von KI-Studiengängen (Bildungssystem (CN))
 - **2018–heute** — US-China KI-Wettbewerb: Technologischer Konflikt, Chips and Science Act (2022), Exportkontrollen, Entity List (Regierungen (US/CN))
 
+### India / Südasien
+
+| Jahr | Name | Organisation | Beschreibung |
+- **2024** — IndiaAI Mission / INDIAai Portal: nationale Infrastruktur für Compute, Datensätze, Startup-Förderung und Safe & Trusted AI; offizieller Schub für indische Grundlagenmodelle. Quelle: https://en.wikipedia.org/wiki/Artificial_intelligence_in_India | https://en.wikipedia.org/wiki/INDIAai
+- **2018** — National Strategy for Artificial Intelligence ("#AIForAll"): NITI Aayog-Strategie mit Fokus auf Healthcare, Agriculture, Education, Smart Cities und Smart Mobility. Quelle: https://en.wikipedia.org/wiki/Artificial_intelligence_in_India
+- **2021** — Principles for Responsible AI: Leitlinien für Verantwortlichkeit, Fairness und Governance in indischen KI-Systemen. Quelle: https://en.wikipedia.org/wiki/Artificial_intelligence_in_India
+
 ### Europa (besonders Deutschland)
 
 | Jahr | Name | Organisation | Beschreibung |
@@ -86,6 +93,7 @@
 - **—** — KI in indischer Bildung: Adaptive Lernplattformen (BYJU's, Vedantu (IN))
 - **—** — Indisches KI-Talent: Größter KI-Talentexporteur in die USA (Bildungssystem (IN))
 - **2021** — Brasilianische KI-Strategie: Nationale KI-Strategie (Brasilianische Regierung (BR))
+- **2024** — Plano Brasileiro de Inteligência Artificial (PBIA 2024–2028): "IA para o Bem de Todos"; Nachfolger der EBIA mit fünf strategischen Achsen und Milliardeninvestitionen. Quelle: https://pt.wikipedia.org/wiki/Plano_Brasileiro_de_Intelig%C3%AAncia_Artificial | https://pt.wikipedia.org/wiki/Estrat%C3%A9gia_Brasileira_de_Intelig%C3%AAncia_Artificial_(EBIA)
 - **—** — KI in brasilianischer Landwirtschaft: Präzisionslandwirtschaft, Soja-Monokultur-Optimierung (AgTech-Startups (BR))
 - **2013–heute** — Nubank: KI-gestütztes Fintech, größte Digitalbank Lateinamerikas (Nubank (BR))
 - **—** — Portugiesische Sprachmodelle: KI für portugiesische Sprache, brasilianische Variante (Forschung (BR/PT))
@@ -119,6 +127,9 @@
 - **2020er** — Mexikanische KI: KI-Strategie, Fertigungs-KI (Mexiko)
 - **2020er** — Argentinische KI: KI-Startups, agrarische KI (Argentinien)
 
+- **2021** — AI4D African Language Program: Aufbau offener Datenbestände und Basismodelle für afrikanische Sprachen; Beitrag zur sprachlichen Souveränität im NLP. Quelle: https://arxiv.org/abs/2104.02516
+- **2024** — African Union Continental AI Strategy: pan-afrikanischer Policy-Rahmen für KI, Datenhoheit, Talententwicklung und ethische Governance. Quelle: https://arxiv.org/abs/2604.27708
+
 ### Non-Western AI Ethics & Philosophy
 
 | Jahr | Name | Organisation | Beschreibung |
@@ -128,7 +139,7 @@
 - **—** — Konfuzianische Ethik & KI: Harmonische Beziehungen, soziale Ordnung in KI (Konfuzianische Gelehrte)
 - **—** — Indigene Perspektiven auf KI: Datensouveränität, traditionelles Wissen, KI (Indigene Gemeinschaften)
 - **—** — Decolonial AI: Dekolonisierung von KI, faire Datenpraktiken (Data Nutrition Project, etc.)
-- **—** — Globale KI-Governance: Internationale KI-Regulierung, UNESCO KI-Ethik-Empfehlungen (2021) (UN, UNESCO, G7, G20)
+- **2021** — Globale KI-Governance: UNESCO Recommendation on the Ethics of Artificial Intelligence; erster globaler Normenrahmen für Ethik, Rechte und Nachhaltigkeit. Quelle: https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence | https://arxiv.org/abs/2309.17158
 - **—** — KI & UN SDGs: KI für nachhaltige Entwicklungsziele (Vereinte Nationen)
 - **2024** — Global Digital Compact: Digitale Zusammenarbeit, KI-Governance auf globaler Ebene (UN)
 

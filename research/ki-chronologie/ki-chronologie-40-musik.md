@@ -116,8 +116,14 @@
 - **2016** — Flow Machines: KI-gestützte Musikkomposition — *Daddy's Car*
 
 ### Musikempfehlungen
+- **1999** — Pandora / Music Genome Project: algorithmische Musikempfehlungen auf Basis manuell codierter Song-Attribute
+- **2002** — Last.fm / Audioscrobbler: kollaborative Musikempfehlungen aus Nutzungsdaten
 
 ### Musikproduktion
+- **1997** — Auto-Tune (Antares): Pitch-Correction wird zum kreativen Produktionswerkzeug
+- **2001** — Melodyne (Celemony): präzise Tonhoehen- und Timing-Bearbeitung
+- **2008** — iZotope Ozone: automatisiertes Mastering und intelligente Audio-Workflows
+- **2014** — LANDR: Online-Mastering mit algorithmischer Signalverarbeitung
 
 ---
 
@@ -156,6 +162,16 @@
 ## Quellen & Referenzen
 
 - AI Music (Wikipedia): https://en.wikipedia.org/wiki/Artificial_intelligence_in_music
+- Music Genome Project (Wikipedia): https://en.wikipedia.org/wiki/Music_Genome_Project
+- Last.fm (Wikipedia): https://en.wikipedia.org/wiki/Last.fm
+- Auto-Tune (Wikipedia): https://en.wikipedia.org/wiki/Auto-Tune
+- Antares Audio Technologies: https://www.antarestech.com/
+- Melodyne / Celemony Software (Wikipedia): https://en.wikipedia.org/wiki/Celemony_Software
+- Melodyne (official): https://www.celemony.com/en/melodyne/what-is-melodyne
+- iZotope (Wikipedia): https://en.wikipedia.org/wiki/IZotope
+- Ozone (official): https://www.izotope.com/en/products/ozone.html
+- LANDR (Wikipedia): https://en.wikipedia.org/wiki/LANDR
+- LANDR (official): https://www.landr.com/
 - AIVA Technology (Harvard): https://d3.harvard.edu/platform-digit/submission/aiva-technology-composing-music-using-ai/
 - AIVA: https://www.aiva.ai/
 - AI and the Sound of Music (Yale Law Journal): https://yalelawjournal.org/essay/ai-and-the-sound-of-music
