@@ -52,6 +52,12 @@
   - Beschreibung: FICO-Scores korrelieren mit Postleitzahl, Bildung und ethnischer Herkunft. Kritisiert als „Black Box“, die strukturelle Ungleichheit reproduziert.
   - Quelle: <https://www.consumerfinance.gov/data-research/research-reports/credit-scores-and-the-communities-they-serve/>
 
+- **Sesame Credit / Zhima Credit**
+  - Jahr: 2015–heute
+  - Organisation: Ant Group / Alibaba
+  - Beschreibung: KI-gestütztes Kredit- und Vertrauensscoring, das Plattform- und Transaktionsdaten nutzt, um Kredit- und Servicezugänge zu steuern.
+  - Quelle: <https://en.wikipedia.org/wiki/Zhima_Credit>
+
 - **Goldman Sachs SecDB**
   - Jahr: 1990er–heute
   - Organisation: Goldman Sachs
@@ -70,6 +76,12 @@
   - Beschreibung: KI-gestützter virtueller Finanzassistent mit >1 Mrd. Client-Interaktionen. Beispiel für Conversational AI im Retail Banking.
   - Quelle: <https://about.bankofamerica.com/en/making-an-impact/erica>
 
+- **Klarna AI Assistant**
+  - Jahr: 2024–heute
+  - Organisation: Klarna / OpenAI
+  - Beschreibung: KI-gestützter Kundenservice-Assistent, der Support-Anfragen automatisiert und Klarna in Richtung AI-First-Fintech verschiebt.
+  - Quelle: <https://www.businessinsider.com/klarna-ai-chatbot-work-700-people-2024-2>
+
 - **Wells Fargo Fake-Accounts & KI**
   - Jahr: 2016
   - Organisation: Wells Fargo
@@ -87,6 +99,12 @@
   - Organisation: HSBC
   - Beschreibung: Einsatz von Machine Learning zur Transaktionsüberwachung. Reduzierung falscher Alarme (False Positives) um >50 %.
   - Quelle: <https://www.hsbc.com/news-and-media/hsbc-news>
+
+- **Stripe Radar**
+  - Jahr: 2018–heute
+  - Organisation: Stripe
+  - Beschreibung: ML-basierte Betrugserkennung für Zahlungsverkehr und Checkout-Prozesse; blockiert verdächtige Transaktionen in Echtzeit.
+  - Quelle: <https://en.wikipedia.org/wiki/Stripe,_Inc.>
 
 #### KI in der Versicherung
 

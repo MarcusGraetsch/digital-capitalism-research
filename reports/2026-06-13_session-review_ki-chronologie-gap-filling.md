@@ -10,7 +10,7 @@ Die KI-Chronologie existiert in zwei synchronen Kopien:
 - Root-Dateien unter `workspace/projects/digital-research/`
 - Arbeitskopien unter `workspace/projects/digital-research/research/ki-chronologie/`
 
-Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religion/Spiritualität, Militär/Sicherheit, Politik/Medien und Global South. In den bisherigen Runden wurden diese Bereiche, frühe nicht-westliche Automaten, Musikproduktion, Architektur/Städtebau und weitere Global-South-Belege ergänzt; diese Runde schließt zusätzlich Raumfahrt, Medizin, Bildung und Recht/Governance weiter auf.
+Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religion/Spiritualität, Militär/Sicherheit, Politik/Medien und Global South. In den bisherigen Runden wurden diese Bereiche, frühe nicht-westliche Automaten, Musikproduktion, Architektur/Städtebau und weitere Global-South-Belege ergänzt; diese Runde schließt zusätzlich Raumfahrt, Medizin, Bildung, Recht/Governance, Finanzgeschichte und wissenschaftliche Entdeckung weiter auf.
 
 ## Befunde
 
@@ -26,6 +26,8 @@ Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religio
 - Datei 38 hatte in der Therapie-Sektion einen Leerraum, obwohl mentale Gesundheit ein klarer KI-Anwendungsfall ist.
 - Datei 39 deckte Bildung schon breit ab, brauchte aber mehr konkrete Plattformen jenseits von ChatGPT/Khanmigo.
 - Datei 29 brauchte sichtbare Global-South-Rechtsanker jenseits der EU/USA/China.
+- Datei 21 war historisch bereits breit, brauchte aber zusätzliche Kredit-/Fraud-Anker und eine klarere Verbindung zu modernen Fintech-Plattformen.
+- Datei 23 deckte wissenschaftliche Domänen gut ab, brauchte aber eine explizite Linie von DENDRAL über Robot Scientist bis zu Self-driving Labs.
 - Der Master-Index hatte noch eine unveränderte Gap-Liste, obwohl einzelne Bereiche inzwischen sichtbar erweitert werden konnten.
 
 ## Arbeitsplan
@@ -48,11 +50,13 @@ Die Master-Übersicht benannte mehrere verbliebene Lücken, vor allem in Religio
 - `workspace/projects/digital-research/ki-chronologie-29-recht.md`
 - `workspace/projects/digital-research/ki-chronologie-38-medizin.md`
 - `workspace/projects/digital-research/ki-chronologie-39-bildung.md`
+- `workspace/projects/digital-research/ki-chronologie-21-finanzen-wirtschaft.md`
+- `workspace/projects/digital-research/ki-chronologie-23-wissenschaft-forschung.md`
 - `workspace/projects/digital-research/ki-chronologie-40-musik.md`
 - `workspace/projects/digital-research/ki-chronologie-41-architektur.md`
 - `workspace/projects/digital-research/ki-chronologie-43-global-south.md`
 - `workspace/projects/digital-research/ki-chronologie-MASTER.md`
-- dieselben dreizehn Dateien zusätzlich unter `workspace/projects/digital-research/research/ki-chronologie/`
+- dieselben fünfzehn Dateien zusätzlich unter `workspace/projects/digital-research/research/ki-chronologie/`
 
 Inhaltlich ergänzt wurden unter anderem:
 
@@ -69,6 +73,8 @@ Inhaltlich ergänzt wurden unter anderem:
 - Medizin mit Wysa und Woebot
 - Bildung mit Duolingo Max und Squirrel AI
 - Recht/Governance mit India DPDP Act und Brasilien PL 2338/2023
+- Finanzgeschichte mit Sesame Credit, Stripe Radar und Klarna AI Assistant
+- Wissenschaftsgeschichte mit DENDRAL, Robot Scientist und Genesis / self-driving labs
 
 ## Validierung
 

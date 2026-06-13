@@ -24,6 +24,12 @@
 - **KI-Enzymengineering** (2020-present) — FunEnPred, CLEAN: Vorhersage und Optimierung von Enzymfunktionen. [https://www.nature.com/articles/s41587-023-01972-9](https://www.nature.com/articles/s41587-023-01972-9)
 - **KI-Batterieforschung** (2020-present) — Vorhersage von Elektrolyten, Batterielebensdauer, Materialdegradation. [https://www.nature.com/articles/s41560-020-00751-9](https://www.nature.com/articles/s41560-020-00751-9)
 
+#### KI und wissenschaftliche Entdeckung
+- **DENDRAL** (1965-present) — Erstes Expertensystem für wissenschaftliche Hypothesenbildung in der Chemie; Stanford, Feigenbaum/Lederberg. [https://en.wikipedia.org/wiki/Dendral](https://en.wikipedia.org/wiki/Dendral)
+- **Robot Scientist Adam** (2009) — Erste Maschine, die neues wissenschaftliches Wissen autonom entdeckt; Automatisierung von Experiment, Hypothese und Auswertung. [https://en.wikipedia.org/wiki/Robot_Scientist](https://en.wikipedia.org/wiki/Robot_Scientist)
+- **Robot Scientist Eve** (2010s-present) — Autonome Wirkstoffsuche und Reproduzierbarkeitsexperimente im Labor. [https://en.wikipedia.org/wiki/Robot_Scientist](https://en.wikipedia.org/wiki/Robot_Scientist)
+- **Genesis / Self-driving labs** (2024-present) — Geschlossene Laborzyklen für Systembiologie und Materials Discovery. [https://arxiv.org/abs/2408.10689](https://arxiv.org/abs/2408.10689)
+
 #### KI in der Biologie
 - **KI-Genomik** (2015-present) — DeepVariant (Google, 2017): CNN-basierte Varianten-Calling, Population-Genomics. [https://www.nature.com/articles/nbt.4235](https://www.nature.com/articles/nbt.4235)
 - **KI und CRISPR** (2018-present) — gRNA-Design-Vorhersage (CRISPRon, DeepCRISPR), Off-Target-Effekte minimieren. [https://www.nature.com/articles/s41587-020-0438-5](https://www.nature.com/articles/s41587-020-0438-5)
