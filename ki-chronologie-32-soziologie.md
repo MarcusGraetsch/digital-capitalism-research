@@ -156,6 +156,12 @@
 - **2022** — "The Three Pillars": KI kann Daten integrieren und analysieren, aber nicht theorieren
 - **2026** — AI and Social Theory: KI als Herausforderung für soziologische Theoriebildung
 
+## Netzwerksoziologie & Vergleichsdaten
+
+- **1973** — Mark Granovetter: "The Strength of Weak Ties" — Weak Ties als Brücken für Information und Mobilität; wichtig für soziale Netzwerke und algorithmische Diffusion. Quelle: https://en.wikipedia.org/wiki/Mark_Granovetter
+- **1992** — Ronald Burt: *Structural Holes: The Social Structure of Competition* — Brokerage, soziale Kapitaltheorie und die Bedeutung von Netzwerk-Lücken. Quelle: https://en.wikipedia.org/wiki/Structural_holes
+- **1981** — World Values Survey (WVS) — Globale Erhebung zu Werten und Einstellungen; wichtige Datenbasis für vergleichende Soziologie. Quelle: https://en.wikipedia.org/wiki/World_Values_Survey
+
 ---
 
 ## Vergessene & Überraschende Funde
@@ -189,8 +195,6 @@
 > *"Die Soziologie muss lernen, KI nicht nur als Werkzeug zu nutzen, sondern als soziales Phänomen zu analysieren. Die algorithmische Gesellschaft ist die neue Gesellschaft."*
 
 *Erstellt: 2026-06-05 | Runde 3 der KI-Chronologie-Erweiterung*
--e 
-
 ---
 
 **Cross-Referenzen:**

@@ -154,6 +154,11 @@
 - **2022** — Indigenous Data Sovereignty: KI und die Kontrolle über indigene historische Daten
 - **2024** — Postcolonial Digital Humanities: KI-gestützte Geschichtsschreibung aus nicht-westlichen Perspektiven
 
+## Netzwerk- und Vergleichsgeschichte
+
+- **2008** — Mapping the Republic of Letters (Stanford) — Netzwerk- und Geospatial-Analyse frühneuzeitlicher Korrespondenzen; ein Kernprojekt der digitalen Geschichtswissenschaft. Quelle: http://republicofletters.stanford.edu/
+- **2011** — Seshat: Global History Databank — Vergleichende Großdatenbank zur globalen Geschichte; testet Hypothesen über Aufstieg und Fall von Gesellschaften. Quelle: https://en.wikipedia.org/wiki/Seshat_%28project%29
+
 ---
 
 ## Vergessene & Überraschende Funde
@@ -187,7 +192,6 @@
 > *"KI ist für den Historiker das, was das Mikroskop für den Biologen war: Ein Werkzeug, das neue Skalen sichtbar macht. Aber das Mikroskop erzählt keine Geschichten."* — Nach Benjamin Breen
 
 *Erstellt: 2026-06-05 | Runde 3 der KI-Chronologie-Erweiterung*
--e
 
 ---
 

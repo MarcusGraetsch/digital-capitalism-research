@@ -146,6 +146,11 @@
 - **2020** — Surveillance and Culture: KI-gestützte Überwachung kultureller Praktiken
 - **2024** — AI Ethics in Anthropology: Leitlinien für KI-gestützte ethnografische Forschung
 
+## Vergleichende Datensätze
+
+- **1949** — Human Relations Area Files (HRAF) — Cross-Cultural-Datenarchiv zur vergleichenden Kulturforschung; eine zentrale Infrastruktur für datenbasierte Anthropologie. Quelle: https://en.wikipedia.org/wiki/Human_Relations_Area_Files
+- **1969** — Standard Cross-Cultural Sample (SCCS) — Selektierte Stichprobe von Kulturen für systematische Vergleichsstudien; wichtig für quantitative Anthropologie. Quelle: https://en.wikipedia.org/wiki/Standard_Cross-Cultural_Sample
+
 ---
 
 ## Vergessene & Überraschende Funde
@@ -178,7 +183,6 @@
 > *"Anthropologie ist nicht die Erklärung von Kultur, sondern ihre Explication. Das sollte uns zwingen, unser Verhältnis zum Machine Learning zu überdenken."* — Nach dem AAU-Paper
 
 *Erstellt: 2026-06-05 | Runde 3 der KI-Chronologie-Erweiterung*
--e 
 
 ---
 

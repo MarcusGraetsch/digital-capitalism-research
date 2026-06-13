@@ -273,6 +273,7 @@ Diese Sammlung dient als **Materialpool für Vorlesungen, Seminare und Forschung
 - Vierte Runde: Finanzgeschichte (Sesame Credit, Stripe Radar, Klarna AI Assistant) und Wissenschaftsgeschichte / wissenschaftliche Entdeckung (DENDRAL, Robot Scientist, Genesis / self-driving labs).
 - Fünfte Runde: Mathematikgeschichte / Beweisautomatisierung (Entscheidungsproblem, Logic Theorist, Automated Theorem Proving).
 - Sechste Runde: Physikgeschichte / Halbleiterphysik (Photoelektrischer Effekt, p-n-Übergang, MOSFET) und Informatikgeschichte / frühe Computerarchitektur (ENIAC, EDVAC, Manchester Baby).
+- Siebte Runde: Geschichtswissenschaft (Mapping the Republic of Letters, Seshat), Anthropologie (HRAF, SCCS) und Soziologie (Granovetter, Burt, WVS).
 - Dadurch sind einige der oben genannten Lücken nur noch teilweise offen; die Chronologie bleibt absichtlich selektiv und kann in den verbleibenden Domänen weiter vertieft werden.
 
 ---
