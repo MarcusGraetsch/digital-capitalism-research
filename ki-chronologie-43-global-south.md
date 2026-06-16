@@ -133,9 +133,11 @@
 - **2023** — "AI in Africa": KI-gestützte Bildung
 - **2024** — African Union Continental AI Strategy: kontinentale Governance- und Souveränitätsagenda
 - **2024** — "AI in Africa": KI-gestützte Entwicklung oder neue Kolonialität?
+- **2024** — Deep Learning Indaba: kontinentale Community für KI-Ausbildung und Vernetzung; stärkt Kapazitäten über den afrikanischen Kontinent hinweg. Quelle: https://en.wikipedia.org/wiki/Deep_Learning_Indaba
 - **2026** — Africa AI Compute Tracker: offene Karte zu AI-ready HPC-Infrastruktur in Afrika
 - **2026** — AfriNLLB: effiziente Übersetzungsmodelle fuer afrikanische Sprachen
 - **2024** — Wits MIND Institute (Johannesburg): Forschungszentrum für grundlegende KI- und Intelligenzforschung im afrikanischen Kontext; Kapazitätsaufbau und verantwortliche Governance. Quelle: https://en.wikipedia.org/wiki/Wits_MIND_Institute
+- **2020** — Masakhane: offene, kontinentweite Forschungscommunity für maschinelle Übersetzung und afrikanische Sprachen. Quelle: https://arxiv.org/abs/2003.11529
 
 ### Lateinamerika
 - **2010** — "AI in Latin America": KI-gestützte Entwicklung
