@@ -50,7 +50,7 @@
 - **1998** — Google: Algorithmische Kultur — KI als kultureller Akteur
 - **1999** — Tom Boellstorff: *Coming of Age in Second Life* — Virtuelle Ethnografie als Methode
 - **2000** — Digital Anthropology als Feld: Erste systematische Verbindung
-- **2001** — Wikipedia: Crowdsourced Wissen — KI-Training auf kollektivem Wissen
+- **2001** — Crowdsourced Wissen — KI-Training auf kollektivem Wissen
 - **2002** — Daniel Miller: *The Internet: An Ethnographic Approach* — KI als ethnografisches Objekt
 - **2004** — Facebook: Soziale Netzwerke als neue ethnografische Felder
 - **2005** — YouTube: User-generated Content — KI analysiert kulturelle Produktion
