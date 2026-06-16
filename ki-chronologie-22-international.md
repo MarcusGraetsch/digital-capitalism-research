@@ -44,9 +44,9 @@
 ### India / Südasien
 
 | Jahr | Name | Organisation | Beschreibung |
-- **2024** — IndiaAI Mission / INDIAai Portal: nationale Infrastruktur für Compute, Datensätze, Startup-Förderung und Safe & Trusted AI; offizieller Schub für indische Grundlagenmodelle. Quelle: https://en.wikipedia.org/wiki/Artificial_intelligence_in_India | https://en.wikipedia.org/wiki/INDIAai
-- **2018** — National Strategy for Artificial Intelligence ("#AIForAll"): NITI Aayog-Strategie mit Fokus auf Healthcare, Agriculture, Education, Smart Cities und Smart Mobility. Quelle: https://en.wikipedia.org/wiki/Artificial_intelligence_in_India
-- **2021** — Principles for Responsible AI: Leitlinien für Verantwortlichkeit, Fairness und Governance in indischen KI-Systemen. Quelle: https://en.wikipedia.org/wiki/Artificial_intelligence_in_India
+- **2024** — IndiaAI Mission / INDIAai Portal: nationale Infrastruktur für Compute, Datensätze, Startup-Förderung und Safe & Trusted AI; offizieller Schub für indische Grundlagenmodelle. Quelle: https://indiaai.gov.in/ | https://impact.indiaai.gov.in/
+- **2018** — National Strategy for Artificial Intelligence ("#AIForAll"): NITI Aayog-Strategie mit Fokus auf Healthcare, Agriculture, Education, Smart Cities und Smart Mobility. Quelle: https://niti.gov.in/ | https://indiaai.gov.in/
+- **2021** — Principles for Responsible AI: Leitlinien für Verantwortlichkeit, Fairness und Governance in indischen KI-Systemen. Quelle: https://niti.gov.in/ | https://indiaai.gov.in/
 
 ### Europa (besonders Deutschland)
 
@@ -86,7 +86,7 @@
 ### Global South
 
 | Jahr | Name | Organisation | Beschreibung |
-- **2018** — Indische KI-Strategie: Nationale KI-Strategie Indiens (NITI Aayog (IN))
+- **2018** — Indische KI-Strategie: Nationale KI-Strategie Indiens (NITI Aayog (IN)). Quelle: https://niti.gov.in/ | https://indiaai.gov.in/
 - **—** — Indische KI-Startups: KI-gestützte Dienstleistungen (Niki.ai, Haptik, etc. (IN))
 - **—** — KI in indischer Landwirtschaft: Präzisionslandwirtschaft, Erntevorhersage (CropIn, Intello Labs (IN))
 - **—** — KI in indischer Medizin: KI-gestützte Diagnostik, Brustkrebs-Screening (SigTuple, Niramai (IN))
