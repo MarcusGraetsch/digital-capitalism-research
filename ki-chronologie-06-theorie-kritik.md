@@ -244,118 +244,118 @@
 - "The culture industry" — mass media as a factory that produces false consciousness
 - The "totally administered world": technology as the instrument of total control
 - **The Frankfurt School critique: reason becomes domination, technology becomes control**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, Verso
+- Quelle: Stanford Encyclopedia of Philosophy, Verso
 
 ### Herbert Marcuse — *One-Dimensional Man* (1964) / *An Essay on Liberation* (1969)
 - Advanced industrial society creates a "one-dimensional" man who cannot imagine alternatives
 - Technology is not neutral; it is a tool of social control and repression
 - "Repressive desublimation": technology satisfies desires in ways that prevent genuine liberation
 - **The critique of technological rationality: the system that absorbs all dissent**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, Beacon Press
+- Quelle: Stanford Encyclopedia of Philosophy, Beacon Press
 
 ### Jürgen Habermas — *Toward a Rational Society* (1970) / *The Theory of Communicative Action* (1981) / *The Philosophical Discourse of Modernity* (1985)
 - "Technocracy" — the rule of experts and the colonization of the lifeworld by systems
 - The distinction between "instrumental rationality" (technology) and "communicative rationality" (democracy)
 - The "colonization of the lifeworld": systems (economy, bureaucracy) invade everyday life
 - **The critique of technocracy: when expertise replaces democracy**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, Beacon Press, Polity
+- Quelle: Stanford Encyclopedia of Philosophy, Beacon Press, Polity
 
 ### Jean Baudrillard — *Simulacra and Simulation* (1981) / *The Gulf War Did Not Take Place* (1991)
 - The hyperreal: the simulation that replaces reality
 - "The map precedes the territory" — the sign becomes more real than the referent
 - The four stages of the image: (1) reflection, (2) masking, (3) masking without original, (4) pure simulacrum
 - **The postmodern critique of AI: the simulation that replaces the real**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, University of Michigan Press
+- Quelle: Stanford Encyclopedia of Philosophy, University of Michigan Press
 
 ### Guy Debord — *The Society of the Spectacle* (1967) / *Comments on the Society of the Spectacle* (1988)
 - "The spectacle is not a collection of images, but a social relation among people, mediated by images"
 - Technology creates a false reality that replaces authentic human experience
 - The "spectacle" is the concrete inversion of life: the representation becomes the reality
 - **The Situationist critique: the spectacle as the false consciousness of the digital age**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, Zone Books
+- Quelle: Stanford Encyclopedia of Philosophy, Zone Books
 
 ### Michel Foucault — *Discipline and Punish* (1975) / *The History of Sexuality* (1976) / *Security, Territory, Population* (1978)
 - "Panopticism" — the surveillance architecture that disciplines without physical force
 - Bio-power: the management of populations through statistical and biological knowledge
 - The "disciplinary society": institutions (school, prison, factory) that train the body
 - **The surveillance critique: the panopticon as the model of modern control**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, Vintage Books
+- Quelle: Stanford Encyclopedia of Philosophy, Vintage Books
 
 ### Gilles Deleuze — "Postscript on the Societies of Control" (1992)
 - The shift from "disciplinary societies" (Foucault) to "societies of control"
 - Continuous control and instant communication replace enclosed institutions
 - "The digital language of control is made of codes: access codes, passwords, PINs"
 - **The control society: the digital network as the new form of power**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, October Magazine, Semiotext(e)
+- Quelle: Stanford Encyclopedia of Philosophy, October Magazine, Semiotext(e)
 
 ### Bernard Stiegler — *Technics and Time* (1994–2001) / *The Neganthropocene* (2018)
 - "Technics" (technology) is constitutive of human memory and consciousness
 - The "industrial temporal object": media that shape our perception of time
 - The "Neganthropocene": a new epoch where technology must serve negentropy (life) rather than entropy (destruction)
 - **The philosopher of technics: technology as the foundation of human memory**
-- Quelle: Stanford Encyclopedia of Philosophy, Wikipedia, Ars Industrialis
+- Quelle: Stanford Encyclopedia of Philosophy, Ars Industrialis
 
 ### Yuk Hui — *On the Existence of Digital Objects* (2016) / *The Question Concerning Technology in China* (2016)
 - Digital objects have their own ontology, distinct from physical objects
 - The "cosmotechnics": different civilizations have different relations to technology
 - Chinese technics: a different philosophical tradition of technology, not the same as Western techne
 - **The philosopher of digital objects: the ontology of the digital thing**
-- Quelle: University of Minnesota Press, Wikipedia, Hui's Website
+- Quelle: University of Minnesota Press, Hui's Website
 
 ### Byung-Chul Han — *The Burnout Society* (2010) / *Psychopolitics* (2014) / *The Transparency Society* (2015)
 - The "achievement society" (Leistungsgesellschaft): technology drives self-exploitation, not external coercion
 - "Psychopolitics": power now operates through the psyche, not through physical force
 - "Transparency": the digital demand for total visibility destroys the private sphere
 - **The Korean-German philosopher of the digital age: the society that exploits itself**
-- Quelle: Stanford Encyclopedia of Philosophy, Wikipedia, Polity Press, MIT Press
+- Quelle: Stanford Encyclopedia of Philosophy, Polity Press, MIT Press
 
 ### Shoshana Zuboff — *The Age of Surveillance Capitalism* (2019)
 - "Surveillance capitalism": a new form of capitalism that extracts value from behavioral data
 - "Behavioral surplus": the data we produce is the raw material for prediction products
 - The "extraction architecture": technology designed to extract data, not serve users
 - **The surveillance capitalism critique: you are not the customer, you are the product**
-- Quelle: Wikipedia, Public Affairs, The Guardian, The New York Times
+- Quelle: Public Affairs, The Guardian, The New York Times
 
 ### Evgeny Morozov — *The Net Delusion* (2011) / *To Save Everything, Click Here* (2013)
 - The "techno-utopianism" of Silicon Valley: technology will solve all problems
 - The "solutionism": the belief that every problem has a technological solution
 - The critique of the "smart city": technology as a tool of control, not liberation
 - **The critic of techno-utopianism: the skeptic who sees through Silicon Valley's promises**
-- Quelle: Wikipedia, Public Affairs, The Guardian, The New York Times
+- Quelle: Public Affairs, The Guardian, The New York Times
 
 ### Frank Pasquale — *The Black Box Society* (2015)
 - The opacity of algorithmic decision-making: the "black box" that makes important decisions
 - The need for transparency and accountability in automated systems
 - **The black box critique: the algorithm that decides without explanation**
-- Quelle: Harvard University Press, Wikipedia, Pasquale's Website
+- Quelle: Harvard University Press, Pasquale's Website
 
 ### Kate Crawford — *Atlas of AI* (2021)
 - The environmental and labor costs of AI: the "extractive" nature of machine learning
 - AI is not just code; it is built on minerals, labor, and energy
 - The "political" nature of AI: every dataset is a political choice
 - **The atlas of AI: the map that reveals the costs of machine intelligence**
-- Quelle: Yale University Press, Wikipedia, Crawford's Website, The Guardian
+- Quelle: Yale University Press, Crawford's Website, The Guardian
 
 ### Wendy Hui Kyong Chun — *Updating to Remain the Same* (2016) / *Discriminating Data* (2021)
 - The "habitual media" of the digital age: we update to remain the same
 - The "discriminating data": algorithms that discriminate, not just calculate
 - The critique of the "open" internet: it is not free but controlled by corporations
 - **The media theorist of the update: the digital age as the age of habit**
-- Quelle: MIT Press, Wikipedia, Chun's Website
+- Quelle: MIT Press, Chun's Website
 
 ### Alexander Galloway — *Protocol* (2004) / *The Interface Effect* (2012)
 - "Protocol": the hidden technical rules that govern the internet, not laws or markets
 - The "interface effect": the interface is not just a tool but a mode of power
 - The critique of the "network": the network is not free but controlled by protocols
 - **The protocol theorist: the rules that govern the digital world**
-- Quelle: MIT Press, Wikipedia, Galloway's Website
+- Quelle: MIT Press, Galloway's Website
 
 ### Matteo Pasquinelli — *The Eye of the Master* (2023)
 - AI is not just a tool but a "class technology" that serves capital
 - The "master's eye": the algorithm that watches and controls labor
 - The critique of "AI ethics": it often serves to legitimize, not challenge, power
 - **The Marxist critique of AI: the machine that serves the master**
-- Quelle: Verso Books, Wikipedia, Pasquinelli's Website
+- Quelle: Verso Books, Pasquinelli's Website
 
 ---
 
@@ -366,63 +366,63 @@
 - Rejects the "natural" body in favor of hybrid identities as a political strategy
 - The "cyborg" is a figure of resistance: it escapes the origin stories that oppress
 - **The feminist foundation of cybernetics: the cyborg as liberation**
-- Quelle: Wikipedia, feminists@law, N+1 Magazine, YouTube, Routledge
+- Quelle: feminists@law, N+1 Magazine, YouTube, Routledge
 
 ### N. Katherine Hayles — *How We Became Posthuman* (1999) / *Writing Machines* (2002) / *Unthought* (2017)
 - The body is "the original prosthesis we all learn to manipulate"
 - Information lost its body: the posthuman condition of disembodied data
 - The "cognitive nonconscious": the vast, nonconscious cognition that happens in machines and biological systems
 - **The critique of AI disembodiment: what we lose when we become data**
-- Quelle: Wikipedia, University of Chicago Press, Electronic Book Review, Hayles' Website
+- Quelle: University of Chicago Press, Electronic Book Review, Hayles' Website
 
 ### Sadie Plant — *Zeros + Ones* (1997) / *Writing on Drugs* (1999)
 - Cyberfeminist manifesto: women and computers as allies against patriarchy
 - Ada Lovelace as the "mother of software" — weaving as proto-programming
 - The "digital revolution" as a feminist revolution: the code as the new language of power
 - **The feminist history of computing: Ada's daughters**
-- Quelle: Wikipedia, MIT Press, Cyberfeminism Archives, Plant's Website
+- Quelle: MIT Press, Cyberfeminism Archives, Plant's Website
 
 ### Lucy Suchman — *Plans and Situated Actions* (1987) / *Human-Machine Reconfigurations* (2007)
 - Human-machine communication fails because plans don't account for situated context
 - The "situated action" critique: intelligence is always embodied and contextual
 - The "human-machine reconfigurations": the boundary between human and machine is always negotiated
 - **The anthropological critique of AI: you can't separate mind from body and place**
-- Quelle: Cambridge University Press, Wikipedia, ResearchGate, Knight Columbia, Suchman's Website
+- Quelle: Cambridge University Press, ResearchGate, Knight Columbia, Suchman's Website
 
 ### Sherry Turkle — *The Second Self* (1984) / *Life on the Screen* (1995) / *Alone Together* (2011) / *Reclaiming Conversation* (2015)
 - How AI companions (robots, chatbots) change human relationships
 - The "robotic moment": when we expect more from technology than from each other
 - "Alone together": the paradox of being connected to everyone but intimate with no one
 - **The sociological warning: AI doesn't just replace labor, it replaces intimacy**
-- Quelle: MIT, Wikipedia, The New York Times, Turkle's Website
+- Quelle: MIT, The New York Times, Turkle's Website
 
 ### Simone Browne — *Dark Matters* (2015)
 - "On the Surveillance of Blackness" — surveillance technologies as racializing tools
 - The "digital epidermalization" of black bodies: how technology sees race
 - The "biometrics of the ban": the everyday surveillance that targets black people
 - **The race-critical lens on AI: surveillance is never neutral**
-- Quelle: Duke University Press, Wikipedia, SSRN, Just Tech, Browne's Website
+- Quelle: Duke University Press, SSRN, Just Tech, Browne's Website
 
 ### Ruha Benjamin — *Race After Technology* (2019) / *Viral Justice* (2022)
 - "The New Jim Code" — how technology reinvents racial hierarchies
 - From medical devices to algorithms, technology encodes social bias
 - "Viral justice": the spread of justice through small, everyday actions
 - **The abolitionist approach to technology: dismantling the coded color line**
-- Quelle: Polity Press, Wikipedia, PMC, Algorithmic Justice League, Benjamin's Website
+- Quelle: Polity Press, PMC, Algorithmic Justice League, Benjamin's Website
 
 ### Safiya Noble — *Algorithms of Oppression* (2018) / *The Intersectional Internet* (2016)
 - Google search results reinforce racism and sexism through algorithmic bias
 - "The pornographic images that come up when searching 'Black girls'"
 - The search engine as a "racist archive": algorithms are not neutral
 - **The search engine as racist archive: algorithms are not neutral**
-- Quelle: NYU Press, Wikipedia, Algorithmic Justice League, Library Highline, Noble's Website
+- Quelle: NYU Press, Algorithmic Justice League, Library Highline, Noble's Website
 
 ### Joy Buolamwini — Gender Shades (2018) / Algorithmic Justice League (2016)
 - MIT research showing facial recognition systems misidentify dark-skinned women at far higher rates
 - Founded the Algorithmic Justice League to fight algorithmic bias
 - "The poet of code": proving AI discrimination with data
 - **The poet of code: proving AI discrimination with data**
-- Quelle: MIT Media Lab, Algorithmic Justice League, TED, Wikipedia, Buolamwini's Website
+- Quelle: MIT Media Lab, Algorithmic Justice League, TED, Buolamwini's Website
 
 ### Emily M. Bender — *On the Dangers of Stochastic Parrots* (2021) / Linguistic Research
 - Co-author of the famous "Stochastic Parrots" paper (2021) with Timnit Gebru, Angelina McMillan, and Margaret Mitchell
