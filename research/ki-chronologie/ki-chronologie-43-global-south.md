@@ -156,6 +156,7 @@
 - **2019** — Project NETRA: indische Raumlagenüberwachung und Debris-Tracking
 - **2020** — "AI in Asia": KI-gestützte Gesundheit
 - **2020** — INDIAai: nationaler KI-Portal- und Ökosystem-Knotenpunkt
+- **2022** — Bhashini: Indiens Sprach-KI- und Übersetzungsinfrastruktur für mehrsprachige öffentliche Dienste; zentral für digitale Teilhabe und Governance. Quelle: https://en.wikipedia.org/wiki/Bhashini | https://timesofindia.indiatimes.com/business/india-business/language-no-longer-a-barrier-at-railways-bhashini-and-cris-sign-mou-will-offer-multilingual-ai-solutions/articleshow/121731345.cms
 - **2023** — "AI in Asia": KI-gestützte Bildung
 - **2024** — IndiaAI Mission: nationale KI-Infrastruktur und Governance
 - **2024** — "AI in Asia": KI-gestützte Entwicklung oder neue Kolonialität?
@@ -196,6 +197,8 @@
 - African Union Continental AI Strategy / Africa AI Curriculum context (arXiv): https://arxiv.org/abs/2604.27708
 - Africa AI Compute Tracker (arXiv): https://arxiv.org/abs/2603.21795
 - AfriNLLB (arXiv): https://arxiv.org/abs/2602.09373
+- Bhashini (Wikipedia): https://en.wikipedia.org/wiki/Bhashini
+- Bhashini and CRIS MoU (Times of India): https://timesofindia.indiatimes.com/business/india-business/language-no-longer-a-barrier-at-railways-bhashini-and-cris-sign-mou-will-offer-multilingual-ai-solutions/articleshow/121731345.cms
 - Return of East India Companies (Data Pop Alliance): https://datapopalliance.org/the-return-of-east-india-companies-ai-africa-and-the-new-digital-colonialism/
 - EBIA / Brazilian AI Strategy (gov.br): https://www.gov.br/governodigital/pt-br/inteligencia-artificial
 - PBIA (Wikipedia): https://pt.wikipedia.org/wiki/Plano_Brasileiro_de_Intelig%C3%AAncia_Artificial
