@@ -59,7 +59,7 @@
 - **1998** — Napster: Peer-to-Peer Musiksharing — KI-gestützte Empfehlungen
 - **1999** — Pandora: KI-gestützte Musikempfehlungen (Music Genome Project)
 - **2000** — iTunes: Digitale Musikplattform
-- **2001** — Wikipedia: Musikalisches Wissen — KI-gestützte Qualitätskontrolle
+- **2001** — Crowdsourced Wissen — KI-gestützte Qualitätskontrolle
 - **2002** — iPod: Mobile Musik — KI-gestützte Playlists
 - **2003** — iTunes Store: Digitale Musik als Geschäftsmodell
 - **2004** — Spotify: Streaming-Musik — KI-gestützte Empfehlungen
@@ -78,30 +78,30 @@
 - **2011** — Siri: Virtueller Assistent — Musikanwendungen folgen
 - **2012** — Google Music: KI-gestützte Musikempfehlungen
 - **2013** — Spotify: Discover Weekly — KI-gestützte personalisierte Playlists
-- **2014** — AIVA: KI-gestützte Musikkomposition für Filme und Spiele
+- **2014** — AIVA: KI-gestützte Musikkomposition für Filme und Spiele. Quelle: https://www.aiva.ai/
 - **2015** — Amper Music: KI-gestützte Musikproduktion für alle
 - **2016** — Jukedeck: KI-gestützte Musikkomposition
 - **2016** — Flow Machines (Sony CSL): KI-gestützte Musikkomposition — *Daddy's Car*
-- **2017** — AIVA: Erste KI-Komponistin mit Urheberrecht (SACEM)
+- **2017** — AIVA: Erste KI-Komponistin mit Urheberrecht (SACEM). Quelle: https://www.aiva.ai/
 - **2018** — OpenAI Jukebox: KI-gestützte Musikgenerierung mit Gesang
 - **2019** — Google Magenta: KI-gestützte Musik- und Kunstprojekte
-- **2020** — AIVA: KI-gestützte Musikkomposition als Standard
+- **2020** — AIVA: KI-gestützte Musikkomposition als Standard. Quelle: https://www.aiva.ai/
 
 ---
 
 ## 2020–2026: Die KI-Musik-Ära
 
-- **2021** — AIVA: KI-gestützte Musikkomposition für alle
+- **2021** — AIVA: KI-gestützte Musikkomposition für alle. Quelle: https://www.aiva.ai/
 - **2021** — "AI Music": KI-gestützte Musik als globale Agenda
-- **2022** — Google MusicLM: KI-gestützte Musikgenerierung aus Text
+- **2022** — Google MusicLM: KI-gestützte Musikgenerierung aus Text. Quelle: https://arxiv.org/abs/2301.11325
 - **2022** — "AI Music": KI-gestützte Musik als Industrie
-- **2023** — Suno: KI-gestützte Musikgenerierung aus Text
-- **2023** — Udio: KI-gestützte Musikgenerierung aus Text
+- **2023** — Suno: KI-gestützte Musikgenerierung aus Text. Quelle: https://suno.com/
+- **2023** — Udio: KI-gestützte Musikgenerierung aus Text. Quelle: https://www.udio.com/
 - **2023** — "AI Music": KI-gestützte Musik als globale Notwendigkeit
 - **2024** — "AI Music": KI-gestützte Musik als Standard
 - **2024** — "AI Music": KI-gestützte Musik als Zukunft
-- **2024** — Suno: KI-gestützte Musikgenerierung aus Text — $2.5 Milliarden Bewertung
-- **2024** — Udio: KI-gestützte Musikgenerierung aus Text — Produktionspolitur
+- **2024** — Suno: KI-gestützte Musikgenerierung aus Text — $2.5 Milliarden Bewertung. Quelle: https://suno.com/
+- **2024** — Udio: KI-gestützte Musikgenerierung aus Text — Produktionspolitur. Quelle: https://www.udio.com/
 - **2025** — AI Music Generation: Kontrolle als zweiter Durchbruch — Von "beschreiben und warten" zu präziser Steuerung
 - **2025** — AI Music Funding: Suno, Udio, ElevenLabs, Stability AI — Mehr Kapital als je zuvor
 - **2025** — AI Music Collision Course: Suno und Udio zwischen Künstlerwerkzeugen und Konsumentenerlebnis
@@ -170,22 +170,19 @@
 
 ## Quellen & Referenzen
 
-- AI Music (Wikipedia): https://en.wikipedia.org/wiki/Artificial_intelligence_in_music
-- Music Genome Project (Wikipedia): https://en.wikipedia.org/wiki/Music_Genome_Project
-- Last.fm (Wikipedia): https://en.wikipedia.org/wiki/Last.fm
-- Auto-Tune (Wikipedia): https://en.wikipedia.org/wiki/Auto-Tune
+- AIVA (official): https://www.aiva.ai/
+- Music Genome Project (official): https://www.pandora.com/about/mgp
+- Last.fm (official): https://www.last.fm/
+- Auto-Tune (official): https://www.antarestech.com/
 - Antares Audio Technologies: https://www.antarestech.com/
-- Melodyne / Celemony Software (Wikipedia): https://en.wikipedia.org/wiki/Celemony_Software
-- Melodyne (official): https://www.celemony.com/en/melodyne/what-is-melodyne
-- iZotope (Wikipedia): https://en.wikipedia.org/wiki/IZotope
-- Ozone (official): https://www.izotope.com/en/products/ozone.html
-- LANDR (Wikipedia): https://en.wikipedia.org/wiki/LANDR
+- Melodyne / Celemony Software (official): https://www.celemony.com/en/melodyne/what-is-melodyne
+- iZotope Ozone (official): https://www.izotope.com/products/ozone-advanced
 - LANDR (official): https://www.landr.com/
-- Rameau / *Traité de l'harmonie* (Wikipedia): https://en.wikipedia.org/wiki/Trait%C3%A9_de_l%27harmonie_r%C3%A9duite_%C3%A0_ses_principes_naturels
-- Helmholtz / *Sensations of Tone* (Wikipedia): https://en.wikipedia.org/wiki/Sensations_of_Tone
-- Heinrich Schenker (Wikipedia): https://en.wikipedia.org/wiki/Heinrich_Schenker
-- Schillinger system (Wikipedia): https://en.wikipedia.org/wiki/Schillinger_system
-- Iannis Xenakis / *Formalized Music* (Wikipedia): https://en.wikipedia.org/wiki/Formalized_Music
+- Rameau / *Traité de l'harmonie*: https://gallica.bnf.fr/ark:/12148/bpt6k115528w
+- Helmholtz / *Sensations of Tone*: https://archive.org/details/sensationsoftone00helm
+- Heinrich Schenker: https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100435859
+- Schillinger system: https://archive.org/details/schillingersystemofmusicalcomposition
+- Iannis Xenakis / *Formalized Music*: https://www.pum.umontreal.ca/catalogue/formalized-music-thought-and-mathematics-in-composition/
 - Milton Babbitt (Pitchfork): https://pitchfork.com/news/41397-rip-composer-milton-babbitt
 - Iannis Xenakis (Presses de l'Université de Montréal): https://www.pum.umontreal.ca/catalogue/formalized-music-thought-and-mathematics-in-composition/
 - Heinrich Schenker (Oxford Reference): https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100435859
