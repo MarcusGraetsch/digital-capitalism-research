@@ -61,7 +61,7 @@
 - **2006** — Twitter: Mikro-Lernen und KI-gestützte Analyse
 - **2007** — iPhone: Mobiles Lernen — KI-gestützte Lern-Apps
 - **2008** — Khan Academy: KI-gestützte Lernpfade
-- **2009** — Duolingo: KI-gestütztes Sprachenlernen
+- **2009** — Duolingo: KI-gestütztes Sprachenlernen. Quelle: https://www.duolingo.com/ | https://blog.duolingo.com/
 - **2010** — iPad: Tablets in der Bildung
 
 ---
@@ -72,7 +72,7 @@
 - **2011** — Siri: Virtueller Assistent — Bildungsanwendungen folgen
 - **2012** — Coursera: MOOCs als globale Bildungsplattform
 - **2012** — edX: Harvard/MIT Online-Bildung
-- **2013** — Duolingo: KI-gestütztes Sprachenlernen als Standard
+- **2013** — Duolingo: KI-gestütztes Sprachenlernen als Standard. Quelle: https://www.duolingo.com/ | https://blog.duolingo.com/
 - **2014** — Khan Academy: KI-gestützte Lernanalyse
 - **2015** — "AI in Education": KI-gestützte Bildung als globale Agenda
 - **2016** — AlphaGo: KI und kognitive Fähigkeiten — Bildungsanwendungen folgen
@@ -87,9 +87,9 @@
 
 ## 2020–2026: Die KI-Bildungs-Ära
 
-- **2021** — Khanmigo: KI-gestützter Tutor von Khan Academy
+- **2021** — Khanmigo: KI-gestützter Tutor von Khan Academy. Quelle: https://www.khanmigo.ai/ | https://www.khanacademy.org/
 - **2022** — ChatGPT: KI-gestützte Bildung — Massenadoption
-- **2023** — Khanmigo: 1,4 Millionen Schüler — 14x mehr als erwartet
+- **2023** — Khanmigo: 1,4 Millionen Schüler — 14x mehr als erwartet. Quelle: https://blog.khanacademy.org/ | https://www.khanmigo.ai/
 - **2024** — Khan Academy: KI-gestützte Bildung als globale Agenda
 - **2025** — Khan Academy: KI-gestützte Bildung als Zukunft
 
@@ -99,14 +99,14 @@
 
 ### Intelligente Tutorsysteme
 - **1970** — First ITS: KI-gestützte individualisierte Lernunterstützung
-- **2017** — Squirrel AI: großskaliges adaptives Lernen in China
+- **2017** — Squirrel AI: großskaliges adaptives Lernen in China. Quelle: https://squirrelai.com/
 - **2023** — Khanmigo: 1,4 Millionen Schüler
-- **2023** — Duolingo Max: GPT-4-basierte Erklärungen und Konversationstraining
+- **2023** — Duolingo Max: GPT-4-basierte Erklärungen und Konversationstraining. Quelle: https://www.duolingo.com/ | https://blog.duolingo.com/
 
 ### Adaptive Lernsysteme
-- **2017** — Squirrel AI: adaptive Lernpfade durch Knowledge Graphs
+- **2017** — Squirrel AI: adaptive Lernpfade durch Knowledge Graphs. Quelle: https://squirrelai.com/
 - **2022** — ChatGPT: KI-gestützte Bildung
-- **2023** — Duolingo Max: Generative KI in Sprachlern-Workflows
+- **2023** — Duolingo Max: Generative KI in Sprachlern-Workflows. Quelle: https://www.duolingo.com/ | https://blog.duolingo.com/
 
 ### Lernanalyse
 - **2010** — "AI in Education": KI-gestützte Lernanalyse
@@ -153,9 +153,11 @@
 - History of AI in Education (Medium): https://ppaccone.medium.com/the-history-of-ai-in-education-7305b6f30a39
 - Khanmigo: https://www.khanmigo.ai/
 - Khan Academy Blog: https://blog.khanacademy.org/khanmigo-top-ai-in-education-moments-of-2023-the-year-artificial-intelligence-dominated-education-news-kl/
-- Duolingo (Wikipedia): https://en.wikipedia.org/wiki/Duolingo
-- GPT-4 (Wikipedia): https://en.wikipedia.org/wiki/GPT-4
-- Squirrel AI (Wikipedia): https://en.wikipedia.org/wiki/Squirrel_AI
+- Duolingo (official): https://www.duolingo.com/
+- Duolingo Blog (official): https://blog.duolingo.com/
+- Khanmigo (official): https://www.khanmigo.ai/
+- Khan Academy (official): https://www.khanacademy.org/
+- Squirrel AI (official): https://squirrelai.com/
 - AI Tutors (Trilogy AI): https://trilogyai.substack.com/p/empowering-learners-with-ai-tutors
 - Khanmigo Research (JSTOR): https://www.jstor.org/stable/48756613
 - AI in Education (Poverty Action Lab): https://www.povertyactionlab.org/initiative-project/ai-powered-tutoring-unleashing-full-potential-personalized-learning-khanmigo
