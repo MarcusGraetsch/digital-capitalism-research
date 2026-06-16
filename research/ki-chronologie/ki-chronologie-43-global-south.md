@@ -133,7 +133,7 @@
 - **2023** — "AI in Africa": KI-gestützte Bildung
 - **2024** — African Union Continental AI Strategy: kontinentale Governance- und Souveränitätsagenda
 - **2024** — "AI in Africa": KI-gestützte Entwicklung oder neue Kolonialität?
-- **2024** — Deep Learning Indaba: kontinentale Community für KI-Ausbildung und Vernetzung; stärkt Kapazitäten über den afrikanischen Kontinent hinweg. Quelle: https://en.wikipedia.org/wiki/Deep_Learning_Indaba
+- **2024** — Deep Learning Indaba: kontinentale Community für KI-Ausbildung und Vernetzung; stärkt Kapazitäten über den afrikanischen Kontinent hinweg. Quelle: https://deeplearningindaba.com/
 - **2026** — Africa AI Compute Tracker: offene Karte zu AI-ready HPC-Infrastruktur in Afrika
 - **2026** — AfriNLLB: effiziente Übersetzungsmodelle fuer afrikanische Sprachen
 - **2024** — Wits MIND Institute (Johannesburg): Forschungszentrum für grundlegende KI- und Intelligenzforschung im afrikanischen Kontext; Kapazitätsaufbau und verantwortliche Governance. Quelle: https://en.wikipedia.org/wiki/Wits_MIND_Institute
@@ -156,11 +156,11 @@
 - **2019** — Project NETRA: indische Raumlagenüberwachung und Debris-Tracking
 - **2020** — "AI in Asia": KI-gestützte Gesundheit
 - **2020** — INDIAai: nationaler KI-Portal- und Ökosystem-Knotenpunkt
-- **2022** — Bhashini: Indiens Sprach-KI- und Übersetzungsinfrastruktur für mehrsprachige öffentliche Dienste; zentral für digitale Teilhabe und Governance. Quelle: https://en.wikipedia.org/wiki/Bhashini | https://timesofindia.indiatimes.com/business/india-business/language-no-longer-a-barrier-at-railways-bhashini-and-cris-sign-mou-will-offer-multilingual-ai-solutions/articleshow/121731345.cms
+- **2022** — Bhashini: Indiens Sprach-KI- und Übersetzungsinfrastruktur für mehrsprachige öffentliche Dienste; zentral für digitale Teilhabe und Governance. Quelle: https://bhashini.gov.in/ | https://timesofindia.indiatimes.com/business/india-business/language-no-longer-a-barrier-at-railways-bhashini-and-cris-sign-mou-will-offer-multilingual-ai-solutions/articleshow/121731345.cms
 - **2023** — "AI in Asia": KI-gestützte Bildung
 - **2024** — IndiaAI Mission: nationale KI-Infrastruktur und Governance
 - **2024** — "AI in Asia": KI-gestützte Entwicklung oder neue Kolonialität?
-- **2026** — Sarvam AI / IndiaAI Mission: souveräne indische Foundation-Modelle und mehrsprachige KI, inklusive der open-sourcierten Modelle Sarvam 30B und 105B. Quelle: https://en.wikipedia.org/wiki/Sarvam_AI | https://en.wikipedia.org/wiki/India_AI_Impact_Summit_2026
+- **2026** — Sarvam AI / IndiaAI Mission: souveräne indische Foundation-Modelle und mehrsprachige KI; Sarvam 30B und 105B wurden als Open-Source-Modelle veröffentlicht und in Indien auf Compute des IndiaAI Mission trainiert. Quelle: https://www.sarvam.ai/blogs/sarvam-30b-105b | https://www.sarvam.ai/
 
 ---
 
@@ -198,10 +198,11 @@
 - African Union Continental AI Strategy / Africa AI Curriculum context (arXiv): https://arxiv.org/abs/2604.27708
 - Africa AI Compute Tracker (arXiv): https://arxiv.org/abs/2603.21795
 - AfriNLLB (arXiv): https://arxiv.org/abs/2602.09373
-- Bhashini (Wikipedia): https://en.wikipedia.org/wiki/Bhashini
+- Deep Learning Indaba (official): https://deeplearningindaba.com/
+- Bhashini (official): https://bhashini.gov.in/
 - Bhashini and CRIS MoU (Times of India): https://timesofindia.indiatimes.com/business/india-business/language-no-longer-a-barrier-at-railways-bhashini-and-cris-sign-mou-will-offer-multilingual-ai-solutions/articleshow/121731345.cms
-- Sarvam AI (Wikipedia): https://en.wikipedia.org/wiki/Sarvam_AI
-- India AI Impact Summit 2026 (Wikipedia): https://en.wikipedia.org/wiki/India_AI_Impact_Summit_2026
+- Sarvam AI official site: https://www.sarvam.ai/
+- Sarvam AI open-sourcing announcement: https://www.sarvam.ai/blogs/sarvam-30b-105b
 - Return of East India Companies (Data Pop Alliance): https://datapopalliance.org/the-return-of-east-india-companies-ai-africa-and-the-new-digital-colonialism/
 - EBIA / Brazilian AI Strategy (gov.br): https://www.gov.br/governodigital/pt-br/inteligencia-artificial
 - PBIA (Wikipedia): https://pt.wikipedia.org/wiki/Plano_Brasileiro_de_Intelig%C3%AAncia_Artificial
