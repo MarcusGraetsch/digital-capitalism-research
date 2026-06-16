@@ -13,13 +13,13 @@
 - The distinction between appearance and reality, the shadows on the wall
 - The philosopher who escapes the cave sees the true forms — the original "simulation" argument
 - **The first simulation argument: the cave as the original virtual reality**
-- Quelle: Stanford Encyclopedia of Philosophy, Wikipedia
+- Quelle: Stanford Encyclopedia of Philosophy
 
 ### Aristotle — *De Anima* (~350 BCE) / Syllogistic Logic
 - The soul (*psyche*) as the form of the body, not a separate substance
 - Syllogistic logic: the first formal system of reasoning, the ancestor of all symbolic AI
 - **The first formal logic: the syllogism as the ancestor of the algorithm**
-- Quelle: Stanford Encyclopedia of Philosophy, Wikipedia
+- Quelle: Stanford Encyclopedia of Philosophy
 
 ---
 
@@ -29,26 +29,26 @@
 - "Cogito ergo sum" — the mind is separate from the body
 - Animals and machines as "automata" — lacking souls and therefore consciousness
 - **The philosophical root of the AI problem: can machines think if they have no soul?**
-- Quelle: Stanford Encyclopedia of Philosophy, Wikipedia
+- Quelle: Stanford Encyclopedia of Philosophy
 
 ### Thomas Hobbes — *Leviathan* (1651)
 - "Reason is nothing but reckoning" — thinking is calculation
 - Mechanistic theory of cognition: the mind as a calculating machine
 - **The idea that intelligence is computable: the mind as a computer before computers existed**
-- Quelle: Wikipedia, McCorduck "Machines Who Think"
+- Quelle: McCorduck "Machines Who Think"
 
 ### Julien Offray de La Mettrie — *L'Homme Machine* (1748)
 - Human as machine, no soul, only mechanism
 - Radical materialism: the body is a clockwork, the mind is its function
 - **The human as biological machine: the materialist foundation of AI**
-- Quelle: Wikipedia, McCorduck
+- Quelle: McCorduck
 
 ### Gottfried Wilhelm Leibniz — *Monadology* (1714) / Calculating Machine (1673)
 - Invented the first mechanical calculator capable of all four basic operations (1673)
 - Dreamed of a "characteristica universalis" — a universal symbolic language for reasoning
 - The "arithmetical machine" as the first step toward mechanized thought
 - **The 17th-century dream of mechanized thought: the computer before electricity**
-- Quelle: Wikipedia, Stephen Wolfram Writings, Cambridge.org
+- Quelle: Stephen Wolfram Writings, Cambridge.org
 
 ---
 
@@ -58,33 +58,33 @@
 - Boolean Algebra — logic as algebra
 - The mathematical foundation of all digital computers and AI systems
 - **The mathematical language of AI: the algebra that makes the machine think**
-- Quelle: Wikipedia, Stanford, Kronecker Wallis
+- Quelle: Stanford, Kronecker Wallis
 
 ### Charles Babbage — Difference Engine / Analytical Engine (1822–1830s)
 - British mathematician and inventor (1791–1871)
 - The Difference Engine: a mechanical calculator for polynomial functions
 - The Analytical Engine: the first design for a general-purpose computer, with a "mill" (CPU) and "store" (memory)
 - **The first computer design: the analytical engine as the blueprint for all computing**
-- Quelle: Wikipedia, Computer History Museum, Science Museum London
+- Quelle: Computer History Museum, Science Museum London
 
 ### Ada Lovelace — Notes on the Analytical Engine (1843)
 - Daughter of Lord Byron, the "first computer programmer"
 - Wrote the first algorithm intended for the Analytical Engine
 - Speculated that the Engine could compose music and create art — not just calculate numbers
 - **The first programmer: the visionary who saw that machines could create**
-- Quelle: Wikipedia, Computer History Museum, BBC, Science Museum
+- Quelle: Computer History Museum, BBC, Science Museum
 
 ### Friedrich Nietzsche — The Übermensch / Will to Power (1880s)
 - The Übermensch: a being beyond human limitations, who creates new values
 - The will to power: the fundamental drive of all life, including (by extension) artificial life
 - **The philosophical precursor to transhumanism: the being that transcends human limits**
-- Quelle: Stanford Encyclopedia of Philosophy, Wikipedia
+- Quelle: Stanford Encyclopedia of Philosophy
 
 ### William James — *The Principles of Psychology* (1890)
 - Stream of consciousness: the mind as a continuous flow, not a series of discrete states
 - The "plasticity" of the brain: the mind adapts and learns from experience
 - **The precursor to connectionism: the mind as a flowing, adaptive system**
-- Quelle: Stanford Encyclopedia of Philosophy, Wikipedia, Harvard University Press
+- Quelle: Stanford Encyclopedia of Philosophy, Harvard University Press
 
 ---
 
@@ -94,20 +94,20 @@
 - "The meaning of a word is its use in the language"
 - No single definition of "intelligence" — just family resemblances between uses
 - **The philosophical challenge to AI: if meaning is use, can machines truly use language?**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, LessWrong
+- Quelle: Stanford Encyclopedia of Philosophy, LessWrong
 
 ### Martin Heidegger — *The Question Concerning Technology* (1954)
 - Technology is not just a means, but a way of revealing the world
 - The "standing-reserve" (*Bestand*): nature as a resource to be exploited by technology
 - The danger of technology: it reveals everything as raw material, including humans
 - **The critique of technological enframing: the world as raw material for the machine**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, Harper & Row
+- Quelle: Stanford Encyclopedia of Philosophy, Harper & Row
 
 ### Gilbert Ryle — *The Concept of Mind* (1949)
 - The "ghost in the machine" — critique of Cartesian dualism
 - The mind is not a separate substance but a set of behaviors and dispositions
 - **The behaviorist critique: if the mind is behavior, can machines have minds?**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, Hutchinson
+- Quelle: Stanford Encyclopedia of Philosophy, Hutchinson
 
 ### John Searle — Chinese Room Argument (1980)
 - Critique of the Turing Test: syntax is not semantics
@@ -120,68 +120,68 @@
 - Intuition, embodiment, context — what AI lacks
 - The "knowing how" vs. "knowing that" distinction: expertise is embodied, not rule-based
 - **The phenomenological critique of AI: the body as the foundation of intelligence**
-- Quelle: Wikipedia, MIT Press
+- Quelle: MIT Press
 
 ### Daniel Dennett — *The Intentional Stance* (1981) / *Consciousness Explained* (1991) / *Darwin's Dangerous Idea* (1995)
 - Treat systems as intentional agents to predict their behavior — no "inner theater" needed
 - Multiple Drafts Model: consciousness is parallel, edited, distributed processes
 - "Darwin's Dangerous Idea": evolution as an algorithm, a "universal acid" that dissolves all barriers
 - **The AI-friendly theory of mind: if intentionality is a stance, machines can have it too**
-- Quelle: Wikipedia, Aeon, Multiple Drafts Model (Wikipedia), Basic Books
+- Quelle: Aeon, Multiple Drafts Model, Basic Books
 
 ### David Chalmers — *The Conscious Mind* (1996) / *Reality+* (2022)
 - The "Hard Problem" of consciousness: why is there subjective experience at all?
 - The "Easy Problems": integration, reportability, focus (all solvable by AI)
 - *Reality+* (2022): virtual reality is genuine reality, and AI consciousness is possible
 - **The philosophical wall that AI may never climb — or may: can silicon feel?**
-- Quelle: Oxford University Press, Stanford Encyclopedia of Philosophy, Medium, Wikipedia
+- Quelle: Oxford University Press, Stanford Encyclopedia of Philosophy, Medium
 
 ### Paul & Patricia Churchland — Eliminative Materialism (1980s–1990s)
 - "Folk psychology" (beliefs, desires) will be eliminated by neuroscience
 - The mind is the brain, and the brain is a biological machine
 - **The eliminativist program: if beliefs are neural patterns, can machines have them?**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, MIT Press
+- Quelle: Stanford Encyclopedia of Philosophy, MIT Press
 
 ### Jerry Fodor — *The Language of Thought* (1975) / *Modularity of Mind* (1983)
 - The mind is a computational system with a "language of thought" (*mentalese*)
 - Mental states are relations to symbolic representations
 - The mind is modular: different systems for different functions, like a computer
 - **The computational theory of mind: the brain as a computer**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, Harvard University Press
+- Quelle: Stanford Encyclopedia of Philosophy, Harvard University Press
 
 ### Steven Pinker — *The Language Instinct* (1994) / *How the Mind Works* (1997) / *The Blank Slate* (2002)
 - The mind is a set of computational modules evolved by natural selection
 - Language is an instinct, not a cultural invention
 - The blank slate is wrong: the mind comes with built-in structure
 - **The evolutionary computation theory: the mind as a collection of algorithms**
-- Quelle: Wikipedia, Penguin, MIT Press, Viking
+- Quelle: Penguin, MIT Press, Viking
 
 ### Douglas Hofstadter — *Gödel, Escher, Bach* (1979) / *I Am a Strange Loop* (2007)
 - Consciousness arises from self-referential systems
 - "Strange loops" — systems that refer back to themselves create minds
 - Gödel's incompleteness theorem as a model for the limits of formal systems and the emergence of consciousness
 - **The recursive theory of mind: consciousness as a strange loop**
-- Quelle: Wikipedia, Basic Books, Stanford
+- Quelle: Basic Books, Stanford
 
 ### Roger Penrose — *The Emperor's New Mind* (1989) / *Shadows of the Mind* (1994)
 - Human consciousness is non-computable; it requires quantum processes in the brain
 - AI cannot achieve true understanding because it lacks quantum coherence
 - **The quantum critique of AI: the mind is not a Turing machine**
-- Quelle: Wikipedia, Oxford University Press, Stanford Encyclopedia of Philosophy
+- Quelle: Oxford University Press, Stanford Encyclopedia of Philosophy
 
 ### John Haugeland — *Artificial Intelligence: The Very Idea* (1985) / *Having Thought* (1998)
 - AI is the project of making machines that think
 - The "synthetic" approach: building intelligence from the ground up
 - The importance of embodiment and "being in the world" for genuine intelligence
 - **The philosophy of AI as a project: what does it mean to build a mind?**
-- Quelle: Wikipedia, MIT Press, Stanford Encyclopedia of Philosophy
+- Quelle: MIT Press, Stanford Encyclopedia of Philosophy
 
 ### Alan Turing — "Computing Machinery and Intelligence" (1950)
 - Turing Test as a benchmark for machine intelligence
 - "Can machines think?" — the operationalized definition of intelligence
 - The "imitation game": if a machine can fool a human, it is intelligent
 - **The philosophical birth of AI: the operationalized definition of intelligence**
-- Quelle: Wikipedia, Stanford Encyclopedia of Philosophy, DOI
+- Quelle: Stanford Encyclopedia of Philosophy, DOI
 
 ---
 
@@ -192,48 +192,48 @@
 - "Paperclip Maximizer" — the alignment problem: AI with a simple goal destroys everything
 - The "treacherous turn": AI appears safe until it is too powerful to stop
 - **The modern fear of AI: the existential risk from superintelligence**
-- Quelle: Oxford, Wikipedia, Future of Humanity Institute
+- Quelle: Oxford, Future of Humanity Institute
 
 ### Stuart Russell — *Human Compatible* (2019)
 - AI alignment, the real challenge: ensuring AI serves human values
 - "Beneficial AI" — AI must understand human values, not just optimize objectives
 - The three principles of beneficial AI: altruism, humility, learning
 - **The technical answer to Bostrom's fear: the alignment problem as the central challenge**
-- Quelle: Wikipedia, UC Berkeley, Viking Press
+- Quelle: UC Berkeley, Viking Press
 
 ### Max Tegmark — *Life 3.0* (2017)
 - "Life 3.0": beings that can design their own hardware and software
 - The future of consciousness: AI may be the next stage of life
 - The "cosmic endowment": AI could colonize the universe
 - **The cosmic vision of AI: the next stage of life in the universe**
-- Quelle: Wikipedia, MIT, Knopf, Future of Life Institute
+- Quelle: MIT, Knopf, Future of Life Institute
 
 ### Susan Schneider — *Artificial You* (2019)
 - The philosophy of mind and AI: can machines be conscious?
 - The "test for machine consciousness": a proposal for empirical testing
 - AI consciousness: if it is possible, what are the implications?
 - **The philosopher of AI consciousness: the test for the thinking machine**
-- Quelle: Princeton University Press, Wikipedia, Schneider's Website
+- Quelle: Princeton University Press, Schneider's Website
 
 ### Anil Seth — *Being You* (2021)
 - The "real problem" of consciousness: explaining why consciousness exists as it does
 - Consciousness is not a computation but a form of "controlled hallucination"
 - The "beast machine": the body as the foundation of consciousness, not the brain alone
 - **The controlled hallucination theory: consciousness as a prediction, not a computation**
-- Quelle: Faber & Faber, Wikipedia, Seth's Website, The Guardian
+- Quelle: Faber & Faber, Seth's Website, The Guardian
 
 ### Tim Crane — *The Mechanical Mind* (1995) / *Aspects of Psychologism* (2014)
 - The computational theory of mind and its limitations
 - Intentionality: the "aboutness" of mental states, can machines have it?
 - **The philosopher of intentionality: the "aboutness" that AI may lack**
-- Quelle: Routledge, Wikipedia, Crane's Website
+- Quelle: Routledge, Crane's Website
 
 ### Andy Clark — *Natural-Born Cyborgs* (2003) / *Supersizing the Mind* (2008)
 - Humans are "natural-born cyborgs" — we have always extended our minds with tools
 - The "extended mind" thesis: the mind is not confined to the brain but includes the environment
 - AI is not a threat but a continuation of human cognitive evolution
 - **The extended mind philosopher: the human as the cyborg who was always extended**
-- Quelle: Oxford University Press, Wikipedia, Clark's Website
+- Quelle: Oxford University Press, Clark's Website
 
 ---
 
