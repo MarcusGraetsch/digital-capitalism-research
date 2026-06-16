@@ -135,6 +135,7 @@
 - **2024** — "AI in Africa": KI-gestützte Entwicklung oder neue Kolonialität?
 - **2026** — Africa AI Compute Tracker: offene Karte zu AI-ready HPC-Infrastruktur in Afrika
 - **2026** — AfriNLLB: effiziente Übersetzungsmodelle fuer afrikanische Sprachen
+- **2024** — Wits MIND Institute (Johannesburg): Forschungszentrum für grundlegende KI- und Intelligenzforschung im afrikanischen Kontext; Kapazitätsaufbau und verantwortliche Governance. Quelle: https://en.wikipedia.org/wiki/Wits_MIND_Institute
 
 ### Lateinamerika
 - **2010** — "AI in Latin America": KI-gestützte Entwicklung
@@ -145,6 +146,7 @@
 - **2023** — Nubank: GPT-4-basierter virtueller Banking-Assistent
 - **2024** — PBIA: "IA para o Bem de Todos" als brasilianischer KI-Plan
 - **2024** — "AI in Latin America": KI-gestützte Entwicklung oder neue Kolonialität?
+- **2025** — Latam-GPT / CENIA: offenes regionales LLM für Lateinamerika und die Karibik; kollaborativ mit Instituten aus der Region und Fokus auf kulturelle und sprachliche Souveränität. Quellen: https://apnews.com/article/a2d914ff6c06b230decf930760ccb44f | https://www.wired.com/story/latam-gpt-the-free-open-source-and-collaborative-ai-of-latin-america
 
 ### Asien
 - **2010** — "AI in Asia": KI-gestützte Entwicklung
@@ -213,6 +215,9 @@
 - IEA Critical Minerals: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
 - Geopolitics of Critical Minerals (YouTube): https://www.youtube.com/watch?v=GxVM3cAxHfg
 - China Africa Critical Minerals (Africa Center): https://africacenter.org/spotlight/china-africa-critical-minerals/
+- Wits MIND Institute (Wikipedia): https://en.wikipedia.org/wiki/Wits_MIND_Institute
+- Latam-GPT (AP News): https://apnews.com/article/a2d914ff6c06b230decf930760ccb44f
+- Latam-GPT (Wired): https://www.wired.com/story/latam-gpt-the-free-open-source-and-collaborative-ai-of-latin-america
 
 ---
 

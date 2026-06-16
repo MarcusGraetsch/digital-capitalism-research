@@ -143,6 +143,15 @@
 - **2024** — "AI Music": KI-gestützte Musik und Zugang
 - **2025** — "AI Music": KI-gestützte Musik und Gerechtigkeit
 
+## Musiktheorie & Analyse
+
+- **1722** — Jean-Philippe Rameau: *Traité de l'harmonie* — Harmonie als deduktives System; Grundlagentext der tonalen Theorie.
+- **1863** — Hermann von Helmholtz: *On the Sensations of Tone* — Akustik, Obertöne und Wahrnehmung als Brücke zwischen Physik und Musiktheorie.
+- **1935** — Heinrich Schenker: *Free Composition* — Hierarchische Analyse tonal-musikalischer Struktur; Ursatz, Vordergrund und Hintergrund.
+- **1920er–1930er** — Joseph Schillinger: Schillinger System of Musical Composition — Mathematisches Kompositionsverfahren, wichtig für algorithmische und generative Musik.
+- **1958–1960er** — Milton Babbitt: totale Serialität — Strenge formale Organisation von Tonhöhen, Rhythmus und Dynamik; Vorläufer präziser algorithmischer Komposition.
+- **1963/1971** — Iannis Xenakis: *Formalized Music* — Stochastische Verfahren, Wahrscheinlichkeit und Computer in der Komposition.
+
 ---
 
 ## Vergessene & Überraschende Funde
@@ -172,6 +181,14 @@
 - Ozone (official): https://www.izotope.com/en/products/ozone.html
 - LANDR (Wikipedia): https://en.wikipedia.org/wiki/LANDR
 - LANDR (official): https://www.landr.com/
+- Rameau / *Traité de l'harmonie* (Wikipedia): https://en.wikipedia.org/wiki/Trait%C3%A9_de_l%27harmonie_r%C3%A9duite_%C3%A0_ses_principes_naturels
+- Helmholtz / *Sensations of Tone* (Wikipedia): https://en.wikipedia.org/wiki/Sensations_of_Tone
+- Heinrich Schenker (Wikipedia): https://en.wikipedia.org/wiki/Heinrich_Schenker
+- Schillinger system (Wikipedia): https://en.wikipedia.org/wiki/Schillinger_system
+- Iannis Xenakis / *Formalized Music* (Wikipedia): https://en.wikipedia.org/wiki/Formalized_Music
+- Milton Babbitt (Pitchfork): https://pitchfork.com/news/41397-rip-composer-milton-babbitt
+- Iannis Xenakis (Presses de l'Université de Montréal): https://www.pum.umontreal.ca/catalogue/formalized-music-thought-and-mathematics-in-composition/
+- Heinrich Schenker (Oxford Reference): https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100435859
 - AIVA Technology (Harvard): https://d3.harvard.edu/platform-digit/submission/aiva-technology-composing-music-using-ai/
 - AIVA: https://www.aiva.ai/
 - AI and the Sound of Music (Yale Law Journal): https://yalelawjournal.org/essay/ai-and-the-sound-of-music

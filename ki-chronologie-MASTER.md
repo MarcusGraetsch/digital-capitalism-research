@@ -230,41 +230,21 @@ Diese Sammlung dient als **Materialpool für Vorlesungen, Seminare und Forschung
 - Bewusstsein für Bias und Lücken (besonders Datei 10, 22)
 
 ### Bekannte Lücken
-- Lateinamerikanische und afrikanische KI-Ökosysteme sind besser vertreten, bleiben aber unterdokumentiert (Datei 22, 43)
-- Frühe nicht-westliche Automaten (außer Al-Jazari) könnten erweitert werden
-- KI in der Musikproduktion (außer generativer Musik) fehlt größtenteils
-- KI in der Architektur und im Städtebau könnte vertieft werden
-- KI in der Raumfahrt außerhalb von NASA/ESA (China, Indien, Privatsektor) könnte erweitert werden
-- KI-Recht außerhalb von EU/USA/China (Global South) fehlt
-- KI in der Musikgeschichte und Musiktheorie fehlt weitgehend
-- KI in der Architektur und im Städtebau könnte vertieft werden
-- KI in der Medizin (außer AlphaFold) könnte vertieft werden
-- KI in der Bildung (außer ChatGPT) könnte vertieft werden
-- KI in der Sportanalyse (außer AlphaGo) könnte vertieft werden
-- KI in der Mode (außer Stitch Fix) könnte vertieft werden
-- KI in der Religion (außer Way of the Future) könnte vertieft werden
-- KI in der Militärgeschichte (außer DARPA) könnte vertieft werden
-- KI in der Politikgeschichte (außer Cambridge Analytica) könnte vertieft werden
-- KI in der Finanzgeschichte (außer Flash Crash) könnte vertieft werden
-- KI in der Wissenschaftsgeschichte (außer AlphaFold) könnte vertieft werden
-- KI in der Mathematikgeschichte (außer Turing) könnte vertieft werden
-- KI in der Physikgeschichte (außer Quanten) könnte vertieft werden
-- KI in der Chemiegeschichte (außer DNA) könnte vertieft werden
-- KI in der Informatikgeschichte (außer Algorithmen) könnte vertieft werden
-- KI in der Geschichtswissenschaft (außer Digital Humanities) könnte vertieft werden
-- KI in der Anthropologie (außer digitale Ethnografie) könnte vertieft werden
-- KI in der Soziologie (außer algorithmische Gesellschaft) könnte vertieft werden
-- KI in der Psychologie (außer ELIZA) könnte vertieft werden
-- KI in der Kommunikationswissenschaft (außer NLP) könnte vertieft werden
-- KI in der Verkehrswissenschaft (außer autonomes Fahren) könnte vertieft werden
-- KI in der Energiewissenschaft (außer Smart Grid) könnte vertieft werden
-- KI in der Agrarwissenschaft (außer Precision Farming) könnte vertieft werden
-- KI in der Medizin (außer AlphaFold) könnte vertieft werden
-- KI in der Bildung (außer ChatGPT) könnte vertieft werden
-- KI in der Musik (außer generative Musik) könnte vertieft werden
-- KI in der Architektur (außer Smart Cities) könnte vertieft werden
-- KI im Sport (außer AlphaGo) könnte vertieft werden
-- Global South (außer digitaler Kolonialismus) könnte vertieft werden
+Die im Juni 2026 benannten Domänenlücken sind inzwischen in den thematischen Dateien mit konkreten Ankern unterfüttert:
+- Nicht-westliche Automaten: Banū Mūsā und Su Song in Datei 01
+- Musikproduktion und Musikempfehlung: Pandora, Last.fm, Auto-Tune, Melodyne, LANDR und iZotope in Datei 40
+- Architektur und Städtebau: Revit, GenerativeComponents, ArcGIS Urban, CityEngine und Project Bernini in Datei 41
+- Raumfahrt außerhalb NASA/ESA: China, Indien, ISRO Project NETRA und private Raumfahrt in Datei 28
+- Recht und Governance außerhalb EU/USA/China: India DPDP Act und Brasilien PL 2338/2023 in Datei 29
+- Medizin jenseits von AlphaFold: Wysa und Woebot in Datei 38
+- Bildung jenseits von ChatGPT: Duolingo Max und Squirrel AI in Datei 39
+- Sport jenseits von AlphaGo: AlphaStar, Sportanalytik und Fan-Engagement in Datei 42
+- Militär, Politik, Finanzen, Wissenschaft, Mathematik, Physik, Informatik, Geschichte, Anthropologie, Soziologie und Kommunikation sind in den Dateien 19, 20, 21, 23, 24, 25, 27, 30, 31, 32 und 34 bereits mit zusätzlichen Beispielen verdichtet.
+
+Verbleibende Restarbeit ist jetzt eher Feinschliff als Domänenerschließung:
+- weitere Primärquellen für einzelne jüngere Einträge
+- punktuelle Vertiefung angrenzender Spezialdomänen und Regionen, sobald neue belastbare Quellen auftauchen
+- vereinheitlichte Quellenhygiene bei einzelnen Sammelblöcken
 
 ### Aktualisierung 2026-06-13
 - Erste Runde: Religion (Rome Call, Antiqua et nova), Militär/Sicherheit (Project Maven, Replicator, Kargu-2), Politik/Medien (Deepfake-Wahlforschung) und Global South (IndiaAI, PBIA, AI4D, African Union Continental AI Strategy).
@@ -274,7 +254,7 @@ Diese Sammlung dient als **Materialpool für Vorlesungen, Seminare und Forschung
 - Fünfte Runde: Mathematikgeschichte / Beweisautomatisierung (Entscheidungsproblem, Logic Theorist, Automated Theorem Proving).
 - Sechste Runde: Physikgeschichte / Halbleiterphysik (Photoelektrischer Effekt, p-n-Übergang, MOSFET) und Informatikgeschichte / frühe Computerarchitektur (ENIAC, EDVAC, Manchester Baby).
 - Siebte Runde: Geschichtswissenschaft (Mapping the Republic of Letters, Seshat), Anthropologie (HRAF, SCCS) und Soziologie (Granovetter, Burt, WVS).
-- Dadurch sind einige der oben genannten Lücken nur noch teilweise offen; die Chronologie bleibt absichtlich selektiv und kann in den verbleibenden Domänen weiter vertieft werden.
+- Dadurch sind die oben genannten Lücken jetzt als konkrete Anker in den thematischen Dateien sichtbar; die Chronologie bleibt absichtlich selektiv und kann in den Restfeldern weiter vertieft werden.
 
 ---
 
