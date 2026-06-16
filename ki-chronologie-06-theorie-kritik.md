@@ -436,56 +436,56 @@
 - Now at Hugging Face, working on AI ethics and responsible AI development
 - The "model cards" initiative: documenting the biases and limitations of AI models
 - **The AI ethicist: the researcher who documents the biases of the machine**
-- Quelle: Hugging Face, Wikipedia, TechCrunch, Mitchell's Website
+- Quelle: Hugging Face, TechCrunch, Mitchell's Website
 
 ### Timnit Gebru — AI Ethics / Distributed AI Research Institute (DAIR) (2020–present)
 - Co-founder of Google's Ethical AI team, fired after the "Stochastic Parrots" paper
 - Founded DAIR: a distributed research institute for ethical AI
 - The "data sheets for datasets" initiative: documenting the biases and limitations of datasets
 - **The AI ethics dissident: the researcher who founded her own institute**
-- Quelle: DAIR, Wikipedia, TechCrunch, Gebru's Website, The Guardian
+- Quelle: DAIR, TechCrunch, Gebru's Website, The Guardian
 
 ### Meredith Whittaker — AI Now Institute (2017–present) / Signal Foundation (2022–present)
 - Co-founder of the AI Now Institute at NYU, now president of Signal
 - The "AI Now Report": annual reports on the social implications of AI
 - The critique of "AI ethics" as a form of corporate public relations
 - **The AI Now president: the activist who runs the secure messaging app**
-- Quelle: AI Now Institute, Signal, Wikipedia, Whittaker's Website, The Guardian
+- Quelle: AI Now Institute, Signal, Whittaker's Website, The Guardian
 
 ### Virginia Eubanks — *Automating Inequality* (2018)
 - How automated systems punish the poor: welfare, housing, and child services
 - The "digital poorhouse": technology that surveils and punishes the poor
 - The "automated inequality": the algorithm that makes the poor poorer
 - **The digital poorhouse: the algorithm that punishes the poor**
-- Quelle: St. Martin's Press, Wikipedia, Eubanks' Website, The Guardian
+- Quelle: St. Martin's Press, Eubanks' Website, The Guardian
 
 ### Cathy O'Neil — *Weapons of Math Destruction* (2016)
 - How big data and algorithms are used to target the poor, punish teachers, and sort students
 - "WMDs": opaque, scalable, and destructive mathematical models
 - The "score" that determines your life: credit scores, risk scores, and the quantification of inequality
 - **The weapons of math destruction: the score that determines your life**
-- Quelle: Crown, Wikipedia, O'Neil's Website, The Guardian
+- Quelle: Crown, O'Neil's Website, The Guardian
 
 ### Sasha Costanza-Chock — *Design Justice* (2020)
 - "Design justice": technology design must be led by marginalized communities
 - The critique of "user-centered design": it often centers the most privileged users
 - The "community-led design": the people most affected by technology should design it
 - **The design justice advocate: the community that designs its own technology**
-- Quelle: MIT Press, Wikipedia, Design Justice Network, Costanza-Chock's Website
+- Quelle: MIT Press, Design Justice Network, Costanza-Chock's Website
 
 ### Lilly Irani — *Chasing Innovation* (2019)
 - The "innovation" economy: the global labor that fuels Silicon Valley's dreams
 - The "micro-work" of AI: the hidden labor that trains AI systems (e.g., Amazon Mechanical Turk)
 - The "innovation" myth: the idea that technology is created by lone geniuses, not global labor
 - **The global labor of AI: the hidden workers who train the machine**
-- Quelle: Stanford University Press, Wikipedia, Irani's Website, The Guardian
+- Quelle: Stanford University Press, Irani's Website, The Guardian
 
 ### danah boyd — *It's Complicated* (2014) / Data & Society (2013–present)
 - The social media researcher who studies how teens use technology
 - The "networked publics": the new social spaces created by technology
 - Data & Society: a research institute that studies the social implications of data and AI
 - **The researcher of networked publics: the teens who live in the digital world**
-- Quelle: Yale University Press, Data & Society, Wikipedia, boyd's Website
+- Quelle: Yale University Press, Data & Society, boyd's Website
 
 ### Tressie McMillan Cottom — *Lower Ed* (2017) / *Thick* (2019)
 - The "lower ed" industry: for-profit colleges that exploit the poor using data and algorithms
@@ -499,14 +499,14 @@
 - The "black software": the black technologists who built the digital world
 - The critique of the "digital divide": it is not just access but power
 - **The historian of black software: the black technologists who built the digital world**
-- Quelle: Oxford University Press, Wikipedia, McIlwain's Website, The Guardian
+- Quelle: Oxford University Press, McIlwain's Website, The Guardian
 
 ### Seymour Papert — *Mindstorms* (1980) / Constructionism
 - The "constructionist" approach to learning: children learn by building, not just listening
 - The Logo programming language: children learn to "think like a computer"
 - The critique of the "computer as tutor": the computer should be a tool for creation, not instruction
 - **The constructionist educator: the child who learns by building the machine**
-- Quelle: Basic Books, Wikipedia, MIT Media Lab, Papert's Website
+- Quelle: Basic Books, MIT Media Lab, Papert's Website
 
 ---
 
@@ -517,119 +517,119 @@
 - The "death-world": the world where technology is used to manage populations for death
 - The "postcolony": the African state as a site of technology, power, and violence
 - **The philosopher of necropolitics: the power to decide who lives and who dies**
-- Quelle: Duke University Press, Wikipedia, Mbembe's Website, The Guardian
+- Quelle: Duke University Press, Mbembe's Website, The Guardian
 
 ### Dipesh Chakrabarty — *Provincializing Europe* (2000) / *The Climate of History* (2009)
 - The critique of Eurocentric historiography: the West is not the universal model
 - The "Anthropocene": the human as a geological force, but which humans?
 - The "provincializing" of Europe: Europe is not the center of history, including technological history
 - **The historian who provincializes Europe: the critique of the Eurocentric tech narrative**
-- Quelle: Princeton University Press, Wikipedia, Chakrabarty's Website, The Guardian
+- Quelle: Princeton University Press, Chakrabarty's Website, The Guardian
 
 ### Gayatri Spivak — "Can the Subaltern Speak?" (1988) / *A Critique of Postcolonial Reason* (1999)
 - The "subaltern": the marginalized who cannot speak for themselves in the dominant discourse
 - The critique of "strategic essentialism": the need to speak for groups while acknowledging diversity
 - The "epistemic violence": the way knowledge systems erase the marginalized
 - **The theorist of the subaltern: the voice that cannot speak in the dominant discourse**
-- Quelle: Harvard University Press, Wikipedia, Spivak's Website, The Guardian
+- Quelle: Harvard University Press, Spivak's Website, The Guardian
 
 ### Homi Bhabha — *The Location of Culture* (1994)
 - "Hybridity": the mixing of cultures, not the purity of origins
 - The "third space": the space of negotiation between cultures
 - The critique of "cultural diversity": it often masks power imbalances
 - **The theorist of hybridity: the mixing that creates new forms**
-- Quelle: Routledge, Wikipedia, Bhabha's Website, The Guardian
+- Quelle: Routledge, Bhabha's Website, The Guardian
 
 ### Edward Said — *Orientalism* (1978) / *Culture and Imperialism* (1993)
 - "Orientalism": the way the West constructs the East as its "other"
 - The "cultural imperialism": the way technology spreads Western values
 - The critique of the "universal": the West's claim to universal values is actually particular
 - **The theorist of Orientalism: the construction of the other that technology perpetuates**
-- Quelle: Pantheon, Wikipedia, Said's Website, The Guardian
+- Quelle: Pantheon, Said's Website, The Guardian
 
 ### Frantz Fanon — *Black Skin, White Masks* (1952) / *The Wretched of the Earth* (1961)
 - The "colonized mind": the internalization of colonial oppression
 - The "violence of the colonial system": technology as a tool of colonial control
 - The "new man": the decolonized subject who creates a new society
 - **The psychiatrist of decolonization: the mind that must be freed from colonial technology**
-- Quelle: Grove Press, Wikipedia, Fanon's Website, The Guardian
+- Quelle: Grove Press, Fanon's Website, The Guardian
 
 ### Aimé Césaire — *Discourse on Colonialism* (1950) / *Return to My Native Land* (1939)
 - The "colonialism" as a "civilization" that has failed
 - The "Negritude" movement: the affirmation of black identity and culture
 - The critique of "civilization": the West's technology is not civilization but barbarism
 - **The poet of Negritude: the civilization that technology has failed**
-- Quelle: Monthly Review Press, Wikipedia, Césaire's Website, The Guardian
+- Quelle: Monthly Review Press, Césaire's Website, The Guardian
 
 ### C.L.R. James — *The Black Jacobins* (1938) / *Beyond a Boundary* (1963)
 - The Haitian Revolution as the first anti-colonial revolution
 - The "black Jacobins": the enslaved who used the master's tools against him
 - The critique of "progress": the West's progress is built on colonial exploitation
 - **The historian of the Black Jacobins: the revolution that used the master's tools**
-- Quelle: Vintage, Wikipedia, James' Website, The Guardian
+- Quelle: Vintage, James' Website, The Guardian
 
 ### Sylvia Wynter — "Towards the Sociogenic Principle" (2003) / *On Being Human as Praxis* (2015)
 - The "sociogenic": the social construction of what it means to be human
 - The "Man": the Western category of the human that excludes the non-Western other
 - The critique of "humanism": the human is not a universal but a constructed category
 - **The theorist of the sociogenic: the human as a constructed category**
-- Quelle: Duke University Press, Wikipedia, Wynter's Website, The Guardian
+- Quelle: Duke University Press, Wynter's Website, The Guardian
 
 ### Katherine McKittrick — *Demonic Grounds* (2006) / *Sylvia Wynter* (2015)
 - "Demonic grounds": the spaces of black women's resistance
 - The "black feminist geography": the spatial politics of race and gender
 - The critique of "space": space is not neutral but racialized and gendered
 - **The geographer of demonic grounds: the space that is not neutral**
-- Quelle: University of Minnesota Press, Wikipedia, McKittrick's Website, The Guardian
+- Quelle: University of Minnesota Press, McKittrick's Website, The Guardian
 
 ### Alexander Weheliye — *Phonographies* (2005) / *Habeas Viscus* (2014)
 - "Phonographies": the black body as a technology of sound
 - "Habeas Viscus": the body as the site of racialization, not just the mind
 - The critique of "biopolitics": it is not just about life but about the racialization of life
 - **The theorist of habeas viscus: the body as the site of racialization**
-- Quelle: Duke University Press, Wikipedia, Weheliye's Website, The Guardian
+- Quelle: Duke University Press, Weheliye's Website, The Guardian
 
 ### Zakiyyah Iman Jackson — *Becoming Human* (2020)
 - The "animalization" of black people: the way blackness is associated with animality
 - The "human" as a racial category: the human is not universal but constructed against the non-human
 - The critique of "posthumanism": it often replicates the same exclusions as humanism
 - **The theorist of becoming human: the animalization that must be overcome**
-- Quelle: NYU Press, Wikipedia, Jackson's Website, The Guardian
+- Quelle: NYU Press, Jackson's Website, The Guardian
 
 ### Louis Chude-Sokei — *The Sound of Culture* (2015) / *The Last "Darky"* (2006)
 - The "sound of culture": the way technology and sound shape racial identity
 - The "automaton": the black body as a machine, the machine as a black body
 - The critique of "technology": it is not neutral but racialized from its origins
 - **The theorist of the automaton: the black body as the machine and the machine as the black body**
-- Quelle: University of Michigan Press, Wikipedia, Chude-Sokei's Website, The Guardian
+- Quelle: University of Michigan Press, Chude-Sokei's Website, The Guardian
 
 ### Tina Campt — *Listening to Images* (2017) / *A Black Gaze* (2021)
 - "Listening to images": the way images have a sound, a frequency, a vibration
 - The "black gaze": the way black people look at the world, not just the way the world looks at them
 - The critique of "visual culture": it is not just about seeing but about being seen
 - **The theorist of the black gaze: the gaze that looks back**
-- Quelle: Duke University Press, Wikipedia, Campt's Website, The Guardian
+- Quelle: Duke University Press, Campt's Website, The Guardian
 
 ### Jodi Dean — *Blog Theory* (2010) / *The Communist Horizon* (2012) / *Communicative Capitalism* (2009)
 - "Communicative capitalism": the way communication has become a form of capitalism
 - The "blog" as the new form of discourse: fragmented, immediate, and depoliticized
 - The critique of "participation": participation in digital media is not democracy but exploitation
 - **The theorist of communicative capitalism: the communication that is not democracy**
-- Quelle: Polity Press, Wikipedia, Dean's Website, The Guardian
+- Quelle: Polity Press, Dean's Website, The Guardian
 
 ### Adrianne Rich — "Diving into the Wreck" (1973) / *Of Woman Born* (1976) / *Blood, Bread, and Poetry* (1986)
 - The "wreck": the patriarchal society that must be explored and dismantled
 - The "female body" as the site of patriarchal control: technology that controls reproduction
 - The critique of "technology": it is not neutral but gendered from its origins
 - **The poet of the wreck: the patriarchal society that must be dismantled**
-- Quelle: W.W. Norton, Wikipedia, Rich's Website, The Guardian
+- Quelle: W.W. Norton, Rich's Website, The Guardian
 
 ### micha cárdenas — *The Poetics of Transfiguration* (2020) / *Shifting Futures* (2022)
 - "Transfiguration": the transformation of the body through technology
 - The "shifting futures": the future is not fixed but can be changed through collective action
 - The critique of "AI": it is not just a tool but a system of power that must be challenged
 - **The poet of transfiguration: the body that transforms through technology**
-- Quelle: Duke University Press, Wikipedia, cárdenas' Website, The Guardian
+- Quelle: Duke University Press, cárdenas' Website, The Guardian
 
 ---
 
@@ -639,49 +639,49 @@
 - "The decline of the global labor force and the dawn of the post-market era"
 - Automation and AI will eliminate most wage labor, creating a "post-market" society
 - **The labor apocalypse prediction: when machines do all the work**
-- Quelle: Tarcher/Putnam, Wikipedia, Post-Work Society (Grokipedia)
+- Quelle: Tarcher/Putnam, Post-Work Society (Grokipedia)
 
 ### Martin Ford — *Rise of the Robots* (2015)
 - Technology and the Threat of a Jobless Future
 - AI, robotics, and automation will eliminate jobs across all sectors — not just blue-collar
 - **The comprehensive job-loss thesis: no one is safe from the robots**
-- Quelle: Basic Books, Wikipedia, Martin Ford website
+- Quelle: Basic Books, Martin Ford website
 
 ### Nick Srnicek & Alex Williams — *Inventing the Future* (2015)
 - Post-capitalism, accelerationism, and the demand for full automation
 - "We demand full automation!" — the left-wing case for technological acceleration
 - **The left accelerationist manifesto: speed up automation to abolish work**
-- Quelle: Verso Books, Wikipedia, Plan C, Accelerationism Wiki
+- Quelle: Verso Books, Plan C, Accelerationism Wiki
 
 ### Aaron Bastani — *Fully Automated Luxury Communism* (2019)
 - "A manifesto" — automation + renewable energy + AI = post-scarcity communism
 - The "FALC" vision: machines do the work, humans enjoy the abundance
 - **The utopian promise: AI as the engine of communist abundance**
-- Quelle: Verso Books, Wikipedia, Grokipedia, Cambridge Repository
+- Quelle: Verso Books, Grokipedia, Cambridge Repository
 
 ### Erik Brynjolfsson & Andrew McAfee — *The Second Machine Age* (2014)
 - "Work, Progress, and Prosperity in a Time of Brilliant Technologies"
 - Digital technologies are doing for mental power what the steam engine did for physical power
 - **The productivity paradox: technology is booming but wages are stagnating**
-- Quelle: W.W. Norton, Wikipedia, MIT, Reddit
+- Quelle: W.W. Norton, MIT, Reddit
 
 ### Kai-Fu Lee — *AI Superpowers* (2018)
 - China, Silicon Valley, and the New World Order
 - The "Four Waves of AI": internet AI, business AI, perception AI, autonomous AI
 - **The geopolitical AI race: China vs. America for AI dominance**
-- Quelle: Houghton Mifflin, Wikipedia, Diamandis, RalphMayr
+- Quelle: Houghton Mifflin, Diamandis, RalphMayr
 
 ### Universal Basic Income (UBI) Debates (1960s–present)
 - Milton Friedman (negative income tax, 1962) → Martin Luther King Jr. (1967) → Guy Standing (2011) → Andrew Yang (2020)
 - The policy response to automation: unconditional income as a right
 - **The economic answer to the robot takeover: pay people to exist**
-- Quelle: Wikipedia, Basic Income Earth Network, Yang2020, Stanford
+- Quelle: Basic Income Earth Network, Yang2020, Stanford
 
 ### Platform Capitalism (2010s–present) — Nick Srnicek
 - Data as the new oil: platforms extract value from user behavior
 - AI as the engine of "surveillance capitalism" (Shoshana Zuboff, 2019)
 - **The AI economy: you are not the customer, you are the product being optimized**
-- Quelle: Polity Press, Wikipedia, Shoshana Zuboff, The Guardian
+- Quelle: Polity Press, Shoshana Zuboff, The Guardian
 
 ---
 
