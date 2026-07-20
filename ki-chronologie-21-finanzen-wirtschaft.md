@@ -540,12 +540,44 @@
   - Beschreibung: KI-optimierte Marktdesigns: Frequenzauktionen (FCC C-Band 2021: 81 Mrd. USD), Carbon Markets, DeFi-Automated Market Makers.
   - Quelle: <https://www.nobelprize.org/prizes/economic-sciences/2020/summary/>
 
----
+#### KI und Finanzblasen 2026 (Kreislauf-Invest / Circular Financing)
 
-*Letzte Aktualisierung: 2026-06-04*
+- **BIS Annual Economic Report 2026 — „Circular Financing"-Warnung**
+  - Jahr: 2026 (28.06.)
+  - Organisation: Bank for International Settlements (BIZ), Basel
+  - Beschreibung: Die „Zentralbank der Zentralbanken" benennt den KI-Investitionsboom als einen von vier „pressure points" für die Weltwirtschaft und nutzt den Begriff „circular financing" — Hyperscaler investieren in KI-Labore, die sich verpflichten, Compute bei genau diesen Hyperscalern zu kaufen. Historische Vergleiche: Eisenbahnblase 1840er, Elektro 1920er, Dotcom 2000. „Urgency" im Vokabular — gleiches Institut, das 2007 vor Subprime warnte. 5 Hyperscaler CapEx 2025+2026 > 1 Bio USD. Private-Credit-Kredite an KI-Unternehmen: ~3 Mrd (2010) → >40 Mrd (2025).
+  - Quelle: <https://www.bis.org/publ/arpdf/ar2026e1.htm> · Bulletin No. 120: <https://www.bis.org/publ/bisbull120.htm>
+
+- **Alphabet Q1 2026 — Anthropic-Buchgewinn treibt 81% Earnings-Wachstum**
+  - Jahr: 2026 (29.04.)
+  - Organisation: Alphabet Inc. (SEC-Filings)
+  - Beschreibung: 109,9 Mrd USD Umsatz (+22%), 62,6 Mrd USD Nettogewinn (+81%), davon 37,7 Mrd USD „Other Income" aus unrealisierten Buchgewinnen auf nicht-börsennotierte Beteiligungen (Anthropic allein: 36,9 Mrd USD). Effekt auf EPS: +2,35 USD. Operatives Ergebnis: +30% auf 39,7 Mrd USD. Ohne Bewertungseffekt: EPS-Miss statt Beat (CNBC). CapEx > Free Cashflow.
+  - Quelle: 8-K: <https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000043/googexhibit991q12026.htm> · 10-Q: <https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000048/goog-20260331.htm>
+
+- **Amazon Q1 2026 — >50% des Gewinnsprungs = Anthropic-Papiergewinn**
+  - Jahr: 2026 (Q1)
+  - Organisation: Amazon Inc.
+  - Beschreibung: 30,3 Mrd USD Nettogewinn (+77%), 16,8 Mrd USD pre-tax gains aus Anthropic-Beteiligung. Mehr als die Hälfte des Gewinnsprungs = Buchgewinn auf nicht-börsennotiertes Unternehmen. Free Cashflow kollabiert um ~95% auf 1,2 Mrd USD. CapEx 44,2 Mrd USD im Quartal. Anthropic-Beteiligung im selben Quartal um 12,3 Mrd USD nach oben geschrieben.
+  - Quelle: <https://ir.aboutamazon.com/>
+
+- **Anthropic — 200 Mrd USD 5-Jahres-Verpflichtung an Google Cloud + 100 Mrd USD 8-Jahres-Verpflichtung an AWS**
+  - Jahr: 2026 (05.05.)
+  - Organisation: Anthropic, Google, AWS
+  - Beschreibung: Nach Alphabet-Investment von 10 Mrd USD (Aufstockungsoption bis 40 Mrd) verpflichtet sich Anthropic, 200 Mrd USD über 5 Jahre für Google Cloud/TPUs auszugeben (The Information, 05.05.2026). AWS erweitert Anthropic-Commitment um 100 Mrd USD über 8 Jahre + bis zu 5 GW Trainium-Kapazität. Anthropic macht >40% von Googles ausgewiesenem Cloud-Backlog (~460 Mrd) aus. Kreislauf: Investor = Compute-Lieferant = Bewertungs-Empfänger.
+  - Quelle: <https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips> · Reuters via US News: <https://www.usnews.com/news/top-news/articles/2026-05-05/anthropic-commits-to-spending-200-billion-on-googles-cloud-and-chips-the-information-reports>
+
+- **„Perpetuum Mobile aus Geld" — Sascha Pallenbergs SEC-basierte Aufarbeitung**
+  - Jahr: 2026 (28.06.)
+  - Autor: Sascha Pallenberg (MeTacheles, Berlin/Taipei)
+  - Beschreibung: Journalistisch saubere Aufarbeitung der Kreislauf-Mechanik auf SEC-Filing-Basis. Argument: Man braucht keinen Betrug, um ein System zu bauen, in dem sich Bewertungen gegenseitig hochschaukeln. Szenario: Apple (investiert nicht in den Kreislauf) + chinesische Open-Source-Modelle als Disruptoren („Ende aus Cupertino"). Vergleich mit Eisenbahn 1840er, Elektro 1920er, Dotcom 2000 — BIZ-Vergleichsfälle.
+  - Quelle: <https://www.metacheles.de/kreislauf-invest-wie-big-techs-ki-umsaetze-sich-im-kreis-drehen/>
+
+*Letzte Aktualisierung: 2026-07-20*
 
 ---
 
 **Cross-Referenzen:**
 - → Verweis: ki-chronologie-11-arbeit-oekonomie.md
 - → Verweis: ki-chronologie-43-global-south.md
+- → Source-Doc: `themen/big-tech/big-tech-kreislauf-invest-2026.md`
+- → Theorie-Brücke: `../critical-theory-digital/01-theory/marx-fiktives-kapital-und-ki-kreislauf.md`
