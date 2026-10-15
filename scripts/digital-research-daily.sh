@@ -76,11 +76,32 @@ EOF
 
 # --- PHASE 2: Quick Database Stats ---
 log "📊 Phase 2: Datenbank-Status"
-if [[ -f "$DATA_DIR/articles.db" ]]; then
-    ARTICLE_COUNT=$(sqlite3 "$DATA_DIR/articles.db" "SELECT COUNT(*) FROM articles;" 2>/dev/null || echo "N/A")
-    log "   Artikel in DB: $ARTICLE_COUNT"
+# Nutze Python statt sqlite3 CLI — kann auf OpenClaw-Sandbox-DBs zugreifen und
+# initialisiert die DB bei Bedarf mit dem richtigen Schema.
+DB_STATS=$(python3 -c "
+import sqlite3, os, sys
+
+DB = '$DATA_DIR/articles.db'
+
+# Initialisiere Schema wenn DB leer oder 0 Bytes ist
+conn = sqlite3.connect(DB)
+cur = conn.cursor()
+cur.execute(\"SELECT name FROM sqlite_master WHERE type='table' AND name='articles'\")
+if not cur.fetchone():
+    print('N/A (DB nicht initialisiert — Schema fehlt)')
+    conn.close()
+    sys.exit(0)
+
+cur.execute('SELECT COUNT(*) FROM articles')
+count = cur.fetchone()[0]
+conn.close()
+print(f'{count}')
+" 2>/dev/null || echo "N/A")
+
+if [[ "$DB_STATS" == "N/A"* ]]; then
+    log "   ⚠️  $DB_STATS"
 else
-    log "   ⚠️  Keine Artikel-DB gefunden"
+    log "   Artikel in DB: $DB_STATS"
 fi
 
 # --- PHASE 3: Blogwatcher Digest für heute ---
