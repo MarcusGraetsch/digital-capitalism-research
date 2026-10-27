@@ -40,10 +40,21 @@ def log(msg):
 
 def load_config():
     """Load feed configuration"""
-    if not CONFIG_FILE.exists():
-        raise FileNotFoundError(f"Config file not found: {CONFIG_FILE}")
-    with open(CONFIG_FILE) as f:
-        return json.load(f)
+    # Der Config-Pfad wird historisch relativ zum Workspace aufgelöst. Die Datei
+    # liegt aber in projects/digital-research/data/ — der Scan crashte seit
+    # 2026-10-25 mit FileNotFoundError. Mehrere Kandidaten prüfen.
+    candidates = [
+        CONFIG_FILE,
+        RESEARCH_DIR / 'news-digest-config-v2.json',
+        Path('/root/.openclaw/workspace/projects/digital-research/data/news-digest-config-v2.json'),
+    ]
+    for path in candidates:
+        if path.exists():
+            with open(path) as f:
+                return json.load(f)
+    raise FileNotFoundError(
+        "Config file not found. Tried: " + ", ".join(str(c) for c in candidates)
+    )
 
 
 def load_state():

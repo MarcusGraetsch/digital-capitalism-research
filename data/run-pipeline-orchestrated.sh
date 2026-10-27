@@ -113,11 +113,20 @@ log INFO "phase_start phase=T2-synthesis"
 
 WORKSPACE="$(dirname "$RESEARCH_DIR")"
 
-run_step T2 weekly_briefing \
-  python3 "$WORKSPACE/generate_weekly_briefing.py" || true
+# Pfad-Fallbacks: die Skripte liegen teils direkt im Projekt-Root, teils in data/.
+# Die bisherigen Pfade ($WORKSPACE/generate_weekly_briefing.py usw.) existierten
+# nicht — die Steps liefen seit Wochen in "step_failed" (exit 2/1).
+SELF_IMPROVEMENT="/root/.openclaw/rook-agent/skills/xiucheng-self-improving-agent/self_improving.py"
 
-run_step T2 self_improvement \
-  python3 "$WORKSPACE/skills/xiucheng-self-improving-agent/self_improving.py" --report || true
+run_step T2 weekly_briefing \
+  python3 "$RESEARCH_DIR/../generate_weekly_briefing.py" || true
+
+if [[ -f "$SELF_IMPROVEMENT" ]]; then
+  run_step T2 self_improvement \
+    python3 "$SELF_IMPROVEMENT" --report || true
+else
+  log WARN "step_skip name=self_improvement reason=script_not_found path=$SELF_IMPROVEMENT"
+fi
 
 if [[ $SKIP_DIGEST -eq 0 ]]; then
   run_step T2 telegram_digest \

@@ -50,3 +50,6 @@ data/fulltext/
 
 # Local skill symlink workspace
 skills/
+
+# Local DB seed copies (runtime artifacts)
+data/.seed/

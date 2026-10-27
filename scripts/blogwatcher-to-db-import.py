@@ -16,7 +16,7 @@ from datetime import datetime
 RESEARCH_DIR = Path("/root/.openclaw/workspace/projects/digital-research")
 DATA_DIR = RESEARCH_DIR / "data"
 DB_FILE = DATA_DIR / "articles.db"
-BLOGWATCHER_DB = Path.home() / ".config" / "blogwatcher" / "blogwatcher.db"
+BLOGWATCHER_DB = Path.home() / ".blogwatcher" / "blogwatcher.db"
 
 # Blog → Category Mapping
 BLOG_CATEGORIES = {
@@ -47,12 +47,15 @@ def parse_articles(output):
     for line in output.split('\n'):
         line = line.strip()
         
-        # Artikel-ID
-        id_match = re.match(r'\[(\d+)\]\s*\[new\]', line)
+        # Artikel-ID + Titel stehen in derselben Zeile: "[1116] [new] Titel"
+        id_match = re.match(r'\[(\d+)\]\s*\[new\]\s*(.*)', line)
         if id_match:
             if current:
                 articles.append(current)
             current = {'id': id_match.group(1)}
+            title = id_match.group(2).strip()
+            if title:
+                current['title'] = title
             continue
         
         # Blog Name
@@ -70,7 +73,7 @@ def parse_articles(output):
             current['published'] = line.replace('Published:', '').strip()
             continue
         
-        # Title (after [new])
+        # Title-Fallback für abweichende Formate (Titel auf eigener Zeile)
         if '[new]' in line:
             title = line.replace('[new]', '').strip()
             if title and not title.startswith('Blog') and not title.startswith('URL'):
@@ -127,6 +130,18 @@ def import_articles():
     # DB-Verbindung
     conn = sqlite3.connect(str(DB_FILE))
     cursor = conn.cursor()
+
+    # Schema-Migration: created_at und blog_name fehlten in der articles-Tabelle
+    # (der Weekly-Briefing fragt created_at ab und stürzt seit 2026-10-25 ab).
+    existing = [row[1] for row in cursor.execute("PRAGMA table_info(articles)")]
+    if 'created_at' not in existing:
+        cursor.execute("ALTER TABLE articles ADD COLUMN created_at TEXT")
+        cursor.execute("UPDATE articles SET created_at = COALESCE(discovered_date, access_date) WHERE created_at IS NULL")
+        print("🔧 Migration: Spalte created_at ergänzt")
+    if 'blog_name' not in existing:
+        cursor.execute("ALTER TABLE articles ADD COLUMN blog_name TEXT")
+        print("🔧 Migration: Spalte blog_name ergänzt")
+    conn.commit()
     
     imported = 0
     skipped = 0
@@ -158,12 +173,13 @@ def import_articles():
                     access_date, email_account, email_date, email_subject,
                     content_status, fulltext_path, abstract, word_count,
                     category, tags, paywall, paywall_type, requires_manual_review,
-                    http_status, error_message, content_hash
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    http_status, error_message, content_hash, created_at, blog_name
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', (
                 article_id, url, domain, title, '', published,
                 datetime.now().strftime('%Y-%m-%d'), 'blogwatcher', published, '',
-                'new', '', '', 0, '', tags, 0, '', 0, 200, '', ''
+                'new', '', '', 0, '', tags, 0, '', 0, 200, '', '',
+                datetime.now().isoformat(), blog
             ))
             
             imported += 1
@@ -179,11 +195,16 @@ def import_articles():
     print(f"✅ Importiert: {imported} Artikel")
     print(f"⏭️  Übersprungen (vorhanden): {skipped} Artikel")
     
-    # Markiere alle als gelesen in blogwatcher
-    if imported > 0:
+    # Markiere importierte Artikel als gelesen in blogwatcher.
+    # Ohne diesen Schritt bleibt der unread-Stack bei ~1000 Artikeln stehen und
+    # jeder Lauf parst erneut alle Alt-Artikel (Performance + falscher Stau-Wert).
+    # Der Import hat oben ALLE ungelesenen Artikel übernommen (imported oder
+    # skipped = bereits in der DB), deshalb ist read-all hier äquivalent und
+    # um Faktor ~1000 schneller als Einzel-Calls.
+    if imported > 0 or skipped > 0:
         print("🔄 Markiere Artikel als gelesen in blogwatcher...")
-        # Da blogwatcher keine batch-read hat, machen wir es per CLI
-        # Alternativ: Direkt in blogwatcher.db schreiben
+        run_blogwatcher("read-all --yes")
+        print("✅ Ungelesene Artikel in blogwatcher zurückgesetzt")
     
     return imported, skipped
 
