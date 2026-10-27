@@ -130,11 +130,22 @@ else
 fi
 
 # --- PHASE 4: Integration in Research-DB ---
-log "⚙️  Phase 4: Integration (optionale DB-Sync)"
+log "⚙️  Phase 4: DB-Sync (blogwatcher → articles.db)"
+python3 "$RESEARCH_DIR/scripts/blogwatcher-to-db-import.py" >> "$LOG_FILE" 2>&1 || true
 
-# Die blogwatcher-Artikel könnten in die Haupt-DB importiert werden
-# Aktuell: Nur als separate Digest-Dateien gespeichert
-# Später: Import-Skript das blogwatcher-Artikel in articles.db überführt
+# DB-Stats nach Import
+DB_AFTER=$(python3 -c "
+import sqlite3
+conn = sqlite3.connect('$DATA_DIR/articles.db')
+cur = conn.cursor()
+try:
+    cur.execute('SELECT COUNT(*) FROM articles')
+    print(cur.fetchone()[0])
+except:
+    print('N/A')
+conn.close()
+" 2>/dev/null || echo "N/A")
+log "   📊 DB-Stand nach Import: $DB_AFTER Artikel"
 
 # --- Abschluss ---
 DURATION=$(($(date +%s) - $(date -d "$(head -2 "$LOG_FILE" | tail -1 | cut -d'[' -f2 | cut -d']' -f1)" +%s 2>/dev/null || echo 0)))
