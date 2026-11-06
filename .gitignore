@@ -53,3 +53,6 @@ skills/
 
 # Local DB seed copies (runtime artifacts)
 data/.seed/
+
+# Runtime cache
+src/.researchclaw_cache/
