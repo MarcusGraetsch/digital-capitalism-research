@@ -8,6 +8,7 @@ extracted, and it must stay polite towards the target host.
 from __future__ import annotations
 
 import asyncio
+from urllib.robotparser import RobotFileParser
 
 from researchclaw.web.batch_scraper import (
     BatchScraper,
@@ -401,3 +402,116 @@ class TestCircuitBreaker:
         s._note_throttled("example.com", 5.0)
         assert s._breaker_open("example.com")
         assert not s._breaker_open("other.com")
+
+
+# ---------------------------------------------------------------------------
+# Crawl-Delay (robots.txt)
+# ---------------------------------------------------------------------------
+
+
+class TestCrawlDelay:
+    def test_crawl_delay_is_remembered_from_robots(self):
+        s = BatchScraper()
+        parser = RobotFileParser()
+        parser.parse(["User-agent: *", "Crawl-delay: 20"])
+        s._remember_crawl_delay("example.com", parser)
+        assert s._domain_crawl_delay["example.com"] == 20.0
+
+    def test_crawl_delay_falls_back_to_wildcard(self):
+        s = BatchScraper(user_agent="ResearchClaw/0.5")
+        parser = RobotFileParser()
+        parser.parse(["User-agent: *", "Crawl-delay: 7"])
+        s._remember_crawl_delay("example.com", parser)
+        assert s._domain_crawl_delay["example.com"] == 7.0
+
+    def test_no_crawl_delay_means_no_entry(self):
+        s = BatchScraper()
+        parser = RobotFileParser()
+        parser.parse(["User-agent: *", "Disallow: /wp-admin"])
+        s._remember_crawl_delay("example.com", parser)
+        assert "example.com" not in s._domain_crawl_delay
+
+    def test_crawl_delay_can_be_disabled(self):
+        s = BatchScraper(respect_crawl_delay=False)
+        parser = RobotFileParser()
+        parser.parse(["User-agent: *", "Crawl-delay: 20"])
+        s._remember_crawl_delay("example.com", parser)
+        assert "example.com" not in s._domain_crawl_delay
+
+    def test_crawl_delay_raises_spacing(self, monkeypatch):
+        """A 20s Crawl-Delay must win over a 1.5s per-domain delay."""
+        import time
+
+        s = BatchScraper(per_domain_delay=1.5)
+        s._domain_crawl_delay["example.com"] = 20.0
+        # Soeben angefragt -> die Wartezeit ist der Abstand zur letzten Anfrage.
+        s._domain_last["example.com"] = time.monotonic()
+        waited = []
+
+        async def fake_sleep(delay):
+            waited.append(delay)
+
+        monkeypatch.setattr(asyncio, "sleep", fake_sleep)
+        asyncio.run(s._respect_domain_delay("example.com"))
+        assert any(w > 10 for w in waited)
+
+
+# ---------------------------------------------------------------------------
+# Fail breaker (unreachable domains)
+# ---------------------------------------------------------------------------
+
+
+class TestFailBreaker:
+    def test_timeout_is_not_retried(self, monkeypatch):
+        """A timeout costs 25s. Retrying it three times blocks the chunk."""
+        s = BatchScraper(respect_robots=False, max_retries=2, per_domain_delay=0.0)
+        calls = []
+
+        async def always_timeout(url):
+            calls.append(url)
+            return FetchResult(url=url, error="ReadTimeout: The read operation timed out")
+
+        monkeypatch.setattr(s, "_fetch_once", always_timeout)
+        res = asyncio.run(s.scrape("https://example.com/a"))
+        assert len(calls) == 1
+        assert res.content_status == "error"
+
+    def test_fail_breaker_opens_after_max_strikes(self):
+        s = BatchScraper(max_fail_strikes=3)
+        for _ in range(3):
+            s._note_failed("example.com")
+        assert s._fail_breaker_open("example.com")
+
+    def test_fail_breaker_stays_closed_below_threshold(self):
+        s = BatchScraper(max_fail_strikes=3)
+        s._note_failed("example.com")
+        assert not s._fail_breaker_open("example.com")
+
+    def test_success_resets_fail_strikes(self):
+        s = BatchScraper(max_fail_strikes=3)
+        s._note_failed("example.com")
+        s._note_failed("example.com")
+        s._note_success("example.com")
+        s._note_failed("example.com")
+        assert not s._fail_breaker_open("example.com")
+
+    def test_fail_breaker_skips_remaining_urls(self, monkeypatch):
+        s = BatchScraper(max_fail_strikes=1, respect_robots=False)
+        calls = []
+
+        async def always_timeout(url):
+            calls.append(url)
+            return FetchResult(url=url, error="ReadTimeout: timed out")
+
+        monkeypatch.setattr(s, "_fetch_once", always_timeout)
+        results = asyncio.run(
+            s.scrape_many([f"https://example.com/{i}" for i in range(5)])
+        )
+        assert len(calls) == 1
+        assert sum("fail breaker" in r.error for r in results) == 4
+
+    def test_fail_breaker_is_per_domain(self):
+        s = BatchScraper(max_fail_strikes=1)
+        s._note_failed("example.com")
+        assert s._fail_breaker_open("example.com")
+        assert not s._fail_breaker_open("other.com")

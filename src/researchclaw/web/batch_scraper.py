@@ -70,6 +70,13 @@ DEFAULT_ADAPTIVE_DELAY = 0.0
 DEFAULT_429_STRIKES = 3
 DEFAULT_BREAKER_COOLDOWN = 300.0
 
+# A domain that keeps dropping the connection (timeout, reset) is not
+# throttling us — it simply does not serve us. Retrying every remaining URL
+# of that domain only burns the run's time budget: a single hung URL costs
+# timeout x retries, and the chunk cannot finish before all of them are done.
+DEFAULT_MAX_FAIL_STRIKES = 3
+DEFAULT_FAIL_BREAKER_COOLDOWN = 900.0
+
 
 def _parse_retry_after(value: str | None) -> float | None:
     """Parse a ``Retry-After`` header (delta-seconds only, no date form)."""
@@ -119,6 +126,8 @@ class ExtractResult:
         """Status label matching the articles.content_status vocabulary."""
         if self.success:
             return "success"
+        if self.error.startswith("robots"):
+            return "blocked"
         if self.status_code == 403:
             return "paywall"
         if self.status_code in (401, 402):
@@ -126,11 +135,14 @@ class ExtractResult:
         if self.status_code and self.status_code != 200:
             # 404 = tot, 429 = gedrosselt, 5xx = Serverfehler
             return f"http_{self.status_code}"
-        if self.error.startswith("robots"):
-            return "blocked"
-        if not self.markdown:
+        if self.status_code == 200:
+            # Die Antwort kam, aber der Inhalt liess sich nicht extrahieren.
             return "too_short"
-        return "error"
+        if self.error:
+            # Kein HTTP-Status: Timeout, Verbindungsabbruch, DNS-Fehler.
+            # Das ist ein Fehler, kein "zu kurzer Inhalt".
+            return "error"
+        return "too_short"
 
 
 @dataclass
@@ -195,6 +207,9 @@ class BatchScraper:
         user_agent: str = DEFAULT_USER_AGENT,
         max_429_strikes: int = DEFAULT_429_STRIKES,
         breaker_cooldown: float = DEFAULT_BREAKER_COOLDOWN,
+        max_fail_strikes: int = DEFAULT_MAX_FAIL_STRIKES,
+        fail_breaker_cooldown: float = DEFAULT_FAIL_BREAKER_COOLDOWN,
+        respect_crawl_delay: bool = True,
     ) -> None:
         self.max_concurrency = max_concurrency
         self.per_domain_concurrency = per_domain_concurrency
@@ -205,10 +220,16 @@ class BatchScraper:
         self.user_agent = user_agent
         self.max_429_strikes = max_429_strikes
         self.breaker_cooldown = breaker_cooldown
+        self.max_fail_strikes = max_fail_strikes
+        self.fail_breaker_cooldown = fail_breaker_cooldown
+        self.respect_crawl_delay = respect_crawl_delay
 
         self._global_sem = asyncio.Semaphore(max_concurrency)
         self._domain_429_strikes: dict[str, int] = {}
         self._domain_breaker: dict[str, float] = {}
+        self._domain_fail_strikes: dict[str, int] = {}
+        self._domain_fail_breaker: dict[str, float] = {}
+        self._domain_crawl_delay: dict[str, float] = {}
         self._domain_sems: dict[str, asyncio.Semaphore] = {}
         self._domain_locks: dict[str, asyncio.Lock] = {}
         self._domain_last: dict[str, float] = {}
@@ -297,6 +318,11 @@ class BatchScraper:
                             status_code=429,
                             error="circuit breaker open: domain throttled repeatedly",
                         )
+                    if self._fail_breaker_open(domain):
+                        return FetchResult(
+                            url=url,
+                            error="fail breaker open: domain unreachable (timeouts/connection errors)",
+                        )
                     await self._respect_domain_delay(domain)
                     result = await self._fetch_once(url)
                     if not result.error:
@@ -305,6 +331,14 @@ class BatchScraper:
                     last_error = result.error
                     last_status = result.status_code
                     last_retry_after = result.retry_after
+                    if result.status_code is None:
+                        # Timeout, DNS-Fehler, Verbindungsabbruch: der Host
+                        # antwortet gar nicht. Ein Retry kostet nur erneut
+                        # timeout Sekunden — und bei 12 URLs derselben Domain
+                        # blockiert das den Chunk minutenlang. Also: zaehlen,
+                        # aber nicht wiederholen.
+                        self._note_failed(domain)
+                        return result
                     if result.status_code == 429:
                         wait = result.retry_after if result.retry_after is not None else backoff
                         self._note_throttled(domain, wait)
@@ -343,6 +377,28 @@ class BatchScraper:
                 domain, self.breaker_cooldown,
             )
 
+    def _note_failed(self, domain: str) -> None:
+        """Count a non-HTTP failure (timeout, reset, DNS) for the domain."""
+        strikes = self._domain_fail_strikes.get(domain, 0) + 1
+        self._domain_fail_strikes[domain] = strikes
+        if strikes >= self.max_fail_strikes:
+            self._domain_fail_breaker[domain] = time.monotonic() + self.fail_breaker_cooldown
+            logger.warning(
+                "domain %s unreachable %d times — skipping it for %.0fs",
+                domain, strikes, self.fail_breaker_cooldown,
+            )
+
+    def _fail_breaker_open(self, domain: str) -> bool:
+        """True while a domain is skipped because it does not answer us."""
+        until = self._domain_fail_breaker.get(domain)
+        if until is None:
+            return False
+        if time.monotonic() >= until:
+            self._domain_fail_breaker.pop(domain, None)
+            self._domain_fail_strikes.pop(domain, None)
+            return False
+        return True
+
     def _breaker_open(self, domain: str) -> bool:
         """True while the domain is skipped because it kept throttling us."""
         until = self._domain_breaker.get(domain)
@@ -357,6 +413,7 @@ class BatchScraper:
     def _note_success(self, domain: str) -> None:
         """Relax a domain's spacing again after a successful request."""
         self._domain_429_strikes.pop(domain, None)
+        self._domain_fail_strikes.pop(domain, None)
         current = self._domain_adaptive_delay.get(domain)
         if current is None:
             return
@@ -410,6 +467,9 @@ class BatchScraper:
                 self._domain_cooldown.pop(domain, None)
 
             spacing = self._domain_adaptive_delay.get(domain, self.per_domain_delay)
+            crawl_delay = self._domain_crawl_delay.get(domain, 0.0)
+            if crawl_delay > spacing:
+                spacing = crawl_delay
             last = self._domain_last.get(domain)
             if last is not None:
                 wait = spacing - (time.monotonic() - last)
@@ -471,7 +531,29 @@ class BatchScraper:
 
         parser = RobotFileParser()
         parser.parse(resp.text.splitlines())
+        self._remember_crawl_delay(domain, parser)
         return parser
+
+    def _remember_crawl_delay(self, domain: str, parser: RobotFileParser) -> None:
+        """Honour ``Crawl-Delay`` from robots.txt.
+
+        Hosts like labournet.de ask for 20s between requests. Ignoring that
+        is not "polite but slow" — it is a violation of the site's stated
+        limit, and it is also what earns an IP block.
+        """
+        if not self.respect_crawl_delay:
+            return
+        delay = None
+        for ua in (self.user_agent, "*"):
+            try:
+                delay = parser.crawl_delay(ua)
+            except Exception:  # noqa: BLE001
+                delay = None
+            if delay:
+                break
+        if delay:
+            self._domain_crawl_delay[domain] = float(delay)
+            logger.info("domain %s requests Crawl-Delay %.0fs", domain, float(delay))
 
     # ------------------------------------------------------------------
     # Extraction
