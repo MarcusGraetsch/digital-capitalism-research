@@ -64,6 +64,12 @@ MAX_429_BACKOFF = 120.0
 MAX_ADAPTIVE_DELAY = 30.0
 DEFAULT_ADAPTIVE_DELAY = 0.0
 
+# Circuit breaker: after N throttles a domain is skipped entirely for the
+# rest of the run. A throttled host usually blocks the IP, so hammering it
+# with further requests only wastes the run's time budget.
+DEFAULT_429_STRIKES = 3
+DEFAULT_BREAKER_COOLDOWN = 300.0
+
 
 def _parse_retry_after(value: str | None) -> float | None:
     """Parse a ``Retry-After`` header (delta-seconds only, no date form)."""
@@ -187,6 +193,8 @@ class BatchScraper:
         max_retries: int = DEFAULT_MAX_RETRIES,
         respect_robots: bool = True,
         user_agent: str = DEFAULT_USER_AGENT,
+        max_429_strikes: int = DEFAULT_429_STRIKES,
+        breaker_cooldown: float = DEFAULT_BREAKER_COOLDOWN,
     ) -> None:
         self.max_concurrency = max_concurrency
         self.per_domain_concurrency = per_domain_concurrency
@@ -195,8 +203,12 @@ class BatchScraper:
         self.max_retries = max_retries
         self.respect_robots = respect_robots
         self.user_agent = user_agent
+        self.max_429_strikes = max_429_strikes
+        self.breaker_cooldown = breaker_cooldown
 
         self._global_sem = asyncio.Semaphore(max_concurrency)
+        self._domain_429_strikes: dict[str, int] = {}
+        self._domain_breaker: dict[str, float] = {}
         self._domain_sems: dict[str, asyncio.Semaphore] = {}
         self._domain_locks: dict[str, asyncio.Lock] = {}
         self._domain_last: dict[str, float] = {}
@@ -233,6 +245,14 @@ class BatchScraper:
     async def scrape(self, url: str) -> ExtractResult:
         """Scrape a single URL."""
         t0 = time.monotonic()
+        domain = _domain_of(url)
+        if self._breaker_open(domain):
+            return ExtractResult(
+                url=url,
+                status_code=429,
+                error="circuit breaker open: domain throttled repeatedly",
+                elapsed_seconds=time.monotonic() - t0,
+            )
         if self.respect_robots and not await self._robots_allows(url):
             return ExtractResult(
                 url=url, error="robots.txt disallows this path", elapsed_seconds=time.monotonic() - t0
@@ -307,13 +327,33 @@ class BatchScraper:
         self._domain_adaptive_delay[domain] = min(
             max(current * 2, self.per_domain_delay * 2), MAX_ADAPTIVE_DELAY
         )
+        strikes = self._domain_429_strikes.get(domain, 0) + 1
+        self._domain_429_strikes[domain] = strikes
         logger.info(
-            "domain %s throttled (429) — cooldown %.1fs, spacing now %.1fs",
-            domain, wait, self._domain_adaptive_delay[domain],
+            "domain %s throttled (429) — cooldown %.1fs, spacing now %.1fs (strike %d/%d)",
+            domain, wait, self._domain_adaptive_delay[domain], strikes, self.max_429_strikes,
         )
+        if strikes >= self.max_429_strikes:
+            self._domain_breaker[domain] = time.monotonic() + self.breaker_cooldown
+            logger.warning(
+                "domain %s circuit breaker open for %.0fs — remaining URLs are skipped",
+                domain, self.breaker_cooldown,
+            )
+
+    def _breaker_open(self, domain: str) -> bool:
+        """True while the domain is skipped because it kept throttling us."""
+        until = self._domain_breaker.get(domain)
+        if until is None:
+            return False
+        if time.monotonic() >= until:
+            self._domain_breaker.pop(domain, None)
+            self._domain_429_strikes.pop(domain, None)
+            return False
+        return True
 
     def _note_success(self, domain: str) -> None:
         """Relax a domain's spacing again after a successful request."""
+        self._domain_429_strikes.pop(domain, None)
         current = self._domain_adaptive_delay.get(domain)
         if current is None:
             return

@@ -328,3 +328,58 @@ class TestRateLimiting:
         r = ExtractResult(url="u", status_code=429, error="HTTP 429")
         assert r.content_status == "http_429"
         assert r.content_status not in ("paywall", "blocked", "http_410")
+
+
+# ---------------------------------------------------------------------------
+# Circuit breaker
+# ---------------------------------------------------------------------------
+
+
+class TestCircuitBreaker:
+    def test_breaker_opens_after_max_strikes(self):
+        s = BatchScraper(max_429_strikes=3)
+        for _ in range(3):
+            s._note_throttled("example.com", 5.0)
+        assert s._breaker_open("example.com")
+
+    def test_breaker_stays_closed_below_threshold(self):
+        s = BatchScraper(max_429_strikes=3)
+        s._note_throttled("example.com", 5.0)
+        s._note_throttled("example.com", 5.0)
+        assert not s._breaker_open("example.com")
+
+    def test_success_resets_strikes(self):
+        s = BatchScraper(max_429_strikes=3)
+        s._note_throttled("example.com", 5.0)
+        s._note_throttled("example.com", 5.0)
+        s._note_success("example.com")
+        s._note_throttled("example.com", 5.0)
+        assert not s._breaker_open("example.com")
+
+    def test_breaker_expires_after_cooldown(self):
+        s = BatchScraper(max_429_strikes=1, breaker_cooldown=0.01)
+        s._note_throttled("example.com", 5.0)
+        assert s._breaker_open("example.com")
+        import time
+
+        time.sleep(0.02)
+        assert not s._breaker_open("example.com")
+
+    def test_breaker_skips_url_without_request(self, monkeypatch):
+        s = BatchScraper(max_429_strikes=1, respect_robots=False)
+
+        async def fail(url):
+            raise AssertionError("must not fetch while breaker is open")
+
+        monkeypatch.setattr(s, "_fetch", fail)
+        s._note_throttled("example.com", 5.0)
+        res = asyncio.run(s.scrape("https://example.com/a"))
+        assert not res.success
+        assert "circuit breaker" in res.error
+        assert res.content_status == "http_429"
+
+    def test_breaker_is_per_domain(self):
+        s = BatchScraper(max_429_strikes=1)
+        s._note_throttled("example.com", 5.0)
+        assert s._breaker_open("example.com")
+        assert not s._breaker_open("other.com")
