@@ -57,6 +57,26 @@ ROBOTS_TIMEOUT = 10.0
 # Status codes worth retrying: transient server/network conditions.
 RETRYABLE_STATUS = {408, 425, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524, 525}
 
+# 429 means "you are too fast". Retrying immediately makes it worse, so the
+# domain is put on cooldown and its request spacing is widened.
+DEFAULT_429_BACKOFF = 5.0
+MAX_429_BACKOFF = 120.0
+MAX_ADAPTIVE_DELAY = 30.0
+DEFAULT_ADAPTIVE_DELAY = 0.0
+
+
+def _parse_retry_after(value: str | None) -> float | None:
+    """Parse a ``Retry-After`` header (delta-seconds only, no date form)."""
+    if not value:
+        return None
+    try:
+        seconds = float(value.strip())
+    except (TypeError, ValueError):
+        return None
+    if seconds < 0:
+        return None
+    return min(seconds, MAX_429_BACKOFF)
+
 
 @dataclass
 class FetchResult:
@@ -68,6 +88,7 @@ class FetchResult:
     error: str = ""
     elapsed_seconds: float = 0.0
     from_cache: bool = False
+    retry_after: float | None = None
 
 
 @dataclass
@@ -179,6 +200,8 @@ class BatchScraper:
         self._domain_sems: dict[str, asyncio.Semaphore] = {}
         self._domain_locks: dict[str, asyncio.Lock] = {}
         self._domain_last: dict[str, float] = {}
+        self._domain_cooldown: dict[str, float] = {}
+        self._domain_adaptive_delay: dict[str, float] = {}
         self._robots: dict[str, RobotFileParser | None] = {}
         self._robots_locks: dict[str, asyncio.Lock] = {}
 
@@ -234,25 +257,70 @@ class BatchScraper:
     # ------------------------------------------------------------------
 
     async def _fetch(self, url: str) -> FetchResult:
-        """Fetch one URL with retries and per-domain politeness."""
+        """Fetch one URL with retries and per-domain politeness.
+
+        Rate limiting (429) is handled specially: the server's
+        ``Retry-After`` is honoured, the domain goes on cooldown, and its
+        request spacing is widened so the next request is not the one that
+        gets throttled again.
+        """
         domain = _domain_of(url)
         sem = self._domain_semaphore(domain)
-        lock = self._domain_lock(domain)
 
         async with self._global_sem:
             async with sem:
                 last_error = ""
+                last_status: int | None = None
+                last_retry_after: float | None = None
+                backoff = DEFAULT_429_BACKOFF
                 for attempt in range(self.max_retries + 1):
                     await self._respect_domain_delay(domain)
                     result = await self._fetch_once(url)
                     if not result.error:
+                        self._note_success(domain)
                         return result
                     last_error = result.error
+                    last_status = result.status_code
+                    last_retry_after = result.retry_after
+                    if result.status_code == 429:
+                        wait = result.retry_after if result.retry_after is not None else backoff
+                        self._note_throttled(domain, wait)
+                        if attempt < self.max_retries:
+                            await asyncio.sleep(wait)
+                            backoff = min(backoff * 2, MAX_429_BACKOFF)
+                        continue
                     if result.status_code not in RETRYABLE_STATUS and result.status_code is not None:
                         return result
                     if attempt < self.max_retries:
                         await asyncio.sleep(1.5 * (2**attempt))
-                return FetchResult(url=url, error=last_error)
+                return FetchResult(
+                    url=url,
+                    status_code=last_status,
+                    error=last_error,
+                    retry_after=last_retry_after,
+                )
+
+    def _note_throttled(self, domain: str, wait: float) -> None:
+        """Put a domain on cooldown and widen its request spacing."""
+        self._domain_cooldown[domain] = time.monotonic() + wait
+        current = self._domain_adaptive_delay.get(domain, DEFAULT_ADAPTIVE_DELAY)
+        self._domain_adaptive_delay[domain] = min(
+            max(current * 2, self.per_domain_delay * 2), MAX_ADAPTIVE_DELAY
+        )
+        logger.info(
+            "domain %s throttled (429) — cooldown %.1fs, spacing now %.1fs",
+            domain, wait, self._domain_adaptive_delay[domain],
+        )
+
+    def _note_success(self, domain: str) -> None:
+        """Relax a domain's spacing again after a successful request."""
+        current = self._domain_adaptive_delay.get(domain)
+        if current is None:
+            return
+        relaxed = max(self.per_domain_delay, current / 2)
+        self._domain_adaptive_delay[domain] = relaxed
+        if relaxed <= self.per_domain_delay:
+            self._domain_adaptive_delay.pop(domain, None)
 
     async def _fetch_once(self, url: str) -> FetchResult:
         import httpx
@@ -276,6 +344,7 @@ class BatchScraper:
                     html=html if resp.status_code == 200 else "",
                     error="" if resp.status_code == 200 else f"HTTP {resp.status_code}",
                     elapsed_seconds=time.monotonic() - t0,
+                    retry_after=_parse_retry_after(resp.headers.get("Retry-After")),
                 )
         except Exception as exc:  # noqa: BLE001
             return FetchResult(
@@ -283,12 +352,24 @@ class BatchScraper:
             )
 
     async def _respect_domain_delay(self, domain: str) -> None:
-        """Wait so that two requests to the same host are spaced apart."""
+        """Wait so that two requests to the same host are spaced apart.
+
+        Honours an active cooldown (set after a 429) and the adaptive
+        spacing that the domain has earned.
+        """
         lock = self._domain_lock(domain)
         async with lock:
+            cooldown_until = self._domain_cooldown.get(domain)
+            if cooldown_until is not None:
+                wait = cooldown_until - time.monotonic()
+                if wait > 0:
+                    await asyncio.sleep(wait)
+                self._domain_cooldown.pop(domain, None)
+
+            spacing = self._domain_adaptive_delay.get(domain, self.per_domain_delay)
             last = self._domain_last.get(domain)
             if last is not None:
-                wait = self.per_domain_delay - (time.monotonic() - last)
+                wait = spacing - (time.monotonic() - last)
                 if wait > 0:
                     await asyncio.sleep(wait)
             self._domain_last[domain] = time.monotonic()

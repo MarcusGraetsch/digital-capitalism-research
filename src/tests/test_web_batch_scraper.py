@@ -16,6 +16,7 @@ from researchclaw.web.batch_scraper import (
     ScrapeStats,
     _domain_of,
     _extract_title,
+    _parse_retry_after,
     markdown_to_frontmatter_body,
 )
 
@@ -233,3 +234,97 @@ class TestBatchScraper:
         res = asyncio.run(s.scrape("https://example.com/missing"))
         assert res.status_code == 404
         assert res.content_status == "http_404"
+
+
+# ---------------------------------------------------------------------------
+# Rate limiting (HTTP 429)
+# ---------------------------------------------------------------------------
+
+
+class TestRetryAfter:
+    def test_parses_seconds(self):
+        assert _parse_retry_after("120") == 120.0
+
+    def test_parses_float(self):
+        assert _parse_retry_after("2.5") == 2.5
+
+    def test_none_when_missing(self):
+        assert _parse_retry_after(None) is None
+
+    def test_none_when_not_numeric(self):
+        assert _parse_retry_after("Wed, 21 Oct 2026 07:28:00 GMT") is None
+
+    def test_none_when_negative(self):
+        assert _parse_retry_after("-5") is None
+
+    def test_capped_at_max_backoff(self):
+        assert _parse_retry_after("9999") == 120.0
+
+
+class TestRateLimiting:
+    def test_429_sets_cooldown_and_widens_spacing(self):
+        s = BatchScraper(per_domain_delay=1.0)
+        s._note_throttled("example.com", 10.0)
+        assert s._domain_cooldown["example.com"] > 0
+        assert s._domain_adaptive_delay["example.com"] == 2.0
+
+    def test_repeated_throttling_widens_further(self):
+        s = BatchScraper(per_domain_delay=1.0)
+        s._note_throttled("example.com", 10.0)
+        s._note_throttled("example.com", 10.0)
+        assert s._domain_adaptive_delay["example.com"] == 4.0
+
+    def test_adaptive_delay_is_capped(self):
+        s = BatchScraper(per_domain_delay=1.0)
+        for _ in range(20):
+            s._note_throttled("example.com", 5.0)
+        assert s._domain_adaptive_delay["example.com"] == 30.0
+
+    def test_success_relaxes_spacing_back(self):
+        s = BatchScraper(per_domain_delay=1.0)
+        s._note_throttled("example.com", 5.0)
+        s._note_success("example.com")
+        assert s._domain_adaptive_delay.get("example.com", 1.0) == 1.0
+
+    def test_success_without_throttle_is_noop(self):
+        s = BatchScraper(per_domain_delay=1.0)
+        s._note_success("example.com")
+        assert "example.com" not in s._domain_adaptive_delay
+
+    def test_429_retries_and_eventually_succeeds(self, monkeypatch):
+        s = BatchScraper(respect_robots=False, max_retries=2, per_domain_delay=0.0)
+        calls = {"n": 0}
+
+        async def fake_fetch_once(url):
+            calls["n"] += 1
+            if calls["n"] == 1:
+                return FetchResult(
+                    url=url, status_code=429, error="HTTP 429", retry_after=0.01
+                )
+            return FetchResult(url=url, status_code=200, html="<p>x</p>")
+
+        monkeypatch.setattr(s, "_fetch_once", fake_fetch_once)
+        res = asyncio.run(s.scrape("https://example.com/a"))
+        assert res.status_code == 200
+        assert calls["n"] == 2
+
+    def test_429_honours_retry_after(self, monkeypatch):
+        s = BatchScraper(respect_robots=False, max_retries=1, per_domain_delay=0.0)
+        waited = []
+
+        async def fake_sleep(delay):
+            waited.append(delay)
+
+        async def always_429(url):
+            return FetchResult(url=url, status_code=429, error="HTTP 429", retry_after=7.5)
+
+        monkeypatch.setattr(s, "_fetch_once", always_429)
+        monkeypatch.setattr(asyncio, "sleep", fake_sleep)
+        res = asyncio.run(s.scrape("https://example.com/a"))
+        assert res.status_code == 429
+        assert 7.5 in waited
+
+    def test_429_is_not_terminal(self):
+        r = ExtractResult(url="u", status_code=429, error="HTTP 429")
+        assert r.content_status == "http_429"
+        assert r.content_status not in ("paywall", "blocked", "http_410")
