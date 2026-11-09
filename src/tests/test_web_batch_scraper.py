@@ -369,14 +369,32 @@ class TestCircuitBreaker:
         s = BatchScraper(max_429_strikes=1, respect_robots=False)
 
         async def fail(url):
-            raise AssertionError("must not fetch while breaker is open")
+            raise AssertionError("must not send a request while breaker is open")
 
-        monkeypatch.setattr(s, "_fetch", fail)
+        monkeypatch.setattr(s, "_fetch_once", fail)
         s._note_throttled("example.com", 5.0)
         res = asyncio.run(s.scrape("https://example.com/a"))
         assert not res.success
         assert "circuit breaker" in res.error
         assert res.content_status == "http_429"
+
+    def test_breaker_checked_per_attempt_not_only_per_url(self, monkeypatch):
+        """All URLs of a chunk enter the queue at once — the breaker must be
+        evaluated inside the request path, not once when the URL is queued."""
+        s = BatchScraper(max_429_strikes=1, respect_robots=False, max_retries=0)
+        calls = []
+
+        async def always_429(url):
+            calls.append(url)
+            return FetchResult(url=url, status_code=429, error="HTTP 429")
+
+        monkeypatch.setattr(s, "_fetch_once", always_429)
+        results = asyncio.run(
+            s.scrape_many([f"https://example.com/{i}" for i in range(5)])
+        )
+        # First request trips the breaker, the remaining four must not be sent.
+        assert len(calls) == 1
+        assert sum("circuit breaker" in r.error for r in results) == 4
 
     def test_breaker_is_per_domain(self):
         s = BatchScraper(max_429_strikes=1)

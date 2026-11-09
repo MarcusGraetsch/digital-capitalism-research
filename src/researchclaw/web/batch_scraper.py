@@ -246,13 +246,6 @@ class BatchScraper:
         """Scrape a single URL."""
         t0 = time.monotonic()
         domain = _domain_of(url)
-        if self._breaker_open(domain):
-            return ExtractResult(
-                url=url,
-                status_code=429,
-                error="circuit breaker open: domain throttled repeatedly",
-                elapsed_seconds=time.monotonic() - t0,
-            )
         if self.respect_robots and not await self._robots_allows(url):
             return ExtractResult(
                 url=url, error="robots.txt disallows this path", elapsed_seconds=time.monotonic() - t0
@@ -294,6 +287,16 @@ class BatchScraper:
                 last_retry_after: float | None = None
                 backoff = DEFAULT_429_BACKOFF
                 for attempt in range(self.max_retries + 1):
+                    # The breaker is checked per attempt, not once per URL:
+                    # all URLs of a chunk enter this queue at the same time, so
+                    # a check in scrape() would pass every one of them before
+                    # the first 429 even arrives.
+                    if self._breaker_open(domain):
+                        return FetchResult(
+                            url=url,
+                            status_code=429,
+                            error="circuit breaker open: domain throttled repeatedly",
+                        )
                     await self._respect_domain_delay(domain)
                     result = await self._fetch_once(url)
                     if not result.error:
