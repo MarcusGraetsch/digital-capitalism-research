@@ -41,8 +41,8 @@ FULLTEXT_DIR = RESEARCH_DIR / "fulltext"
 DB_FILE = Path(os.environ.get("ARTICLES_DB", REPO_ROOT / "data" / "articles.db"))
 
 # Statuses, die auf einen Endzustand hindeuten — erneut zu versuchen ist
-# sinnlos (Paywall, robots-gesperrt, HTTP 410).
-TERMINAL_STATUSES = ("paywall", "blocked", "http_410")
+# sinnlos (Paywall, robots-gesperrt, HTTP 410 gone, HTTP 404 nicht vorhanden).
+TERMINAL_STATUSES = ("paywall", "blocked", "http_410", "http_404")
 
 
 def generate_id(url: str) -> str:
