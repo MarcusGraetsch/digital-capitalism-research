@@ -39,6 +39,7 @@ import asyncio
 import logging
 import time
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from typing import Any
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
@@ -60,7 +61,10 @@ RETRYABLE_STATUS = {408, 425, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524, 
 # 429 means "you are too fast". Retrying immediately makes it worse, so the
 # domain is put on cooldown and its request spacing is widened.
 DEFAULT_429_BACKOFF = 5.0
-MAX_429_BACKOFF = 120.0
+# Obergrenze fuer die Cooldown-Dauer. labournet.de fragt per Retry-After
+# 15 Minuten — das ist die Frist, die der Server uns gibt, und sie muss
+# eingehalten werden. Wer sie ignoriert, wird geblockt statt gedrosselt.
+MAX_429_BACKOFF = 900.0
 MAX_ADAPTIVE_DELAY = 30.0
 DEFAULT_ADAPTIVE_DELAY = 0.0
 
@@ -79,16 +83,41 @@ DEFAULT_FAIL_BREAKER_COOLDOWN = 900.0
 
 
 def _parse_retry_after(value: str | None) -> float | None:
-    """Parse a ``Retry-After`` header (delta-seconds only, no date form)."""
+    """Parse a ``Retry-After`` header.
+
+    RFC 9110 allows two forms: delta-seconds ("120") and an HTTP-date
+    ("Mon, 09 Nov 2026 15:24:38 +0000"). Real hosts use both — nginx in
+    front of labournet.de sends the date form. Ignoring it means ignoring
+    the cooldown the server asked for, which is exactly how a 429 turns into
+    a block.
+    """
     if not value:
         return None
+    raw = value.strip()
     try:
-        seconds = float(value.strip())
+        seconds = float(raw)
+    except (TypeError, ValueError):
+        pass
+    else:
+        if seconds < 0:
+            return None
+        return min(seconds, MAX_429_BACKOFF)
+
+    try:
+        from email.utils import parsedate_to_datetime
+
+        when = parsedate_to_datetime(raw)
     except (TypeError, ValueError):
         return None
-    if seconds < 0:
+    if when is None:
         return None
-    return min(seconds, MAX_429_BACKOFF)
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=timezone.utc)
+    delta = (when - datetime.now(timezone.utc)).total_seconds()
+    if delta < 0:
+        # The date is in the past — retry immediately.
+        return 0.0
+    return min(delta, MAX_429_BACKOFF)
 
 
 @dataclass
@@ -371,10 +400,14 @@ class BatchScraper:
             domain, wait, self._domain_adaptive_delay[domain], strikes, self.max_429_strikes,
         )
         if strikes >= self.max_429_strikes:
-            self._domain_breaker[domain] = time.monotonic() + self.breaker_cooldown
+            # Der Breaker darf nie kuerzer laufen als die vom Server
+            # verlangte Wartezeit — sonst requestet man die Domain erneut,
+            # obwohl der Host noch gesperrt hat.
+            cooldown = max(self.breaker_cooldown, wait)
+            self._domain_breaker[domain] = time.monotonic() + cooldown
             logger.warning(
                 "domain %s circuit breaker open for %.0fs — remaining URLs are skipped",
-                domain, self.breaker_cooldown,
+                domain, cooldown,
             )
 
     def _note_failed(self, domain: str) -> None:

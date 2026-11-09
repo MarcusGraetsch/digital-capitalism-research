@@ -253,13 +253,28 @@ class TestRetryAfter:
         assert _parse_retry_after(None) is None
 
     def test_none_when_not_numeric(self):
-        assert _parse_retry_after("Wed, 21 Oct 2026 07:28:00 GMT") is None
+        assert _parse_retry_after("not a date at all") is None
+
+    def test_parses_http_date(self):
+        """nginx in front of labournet.de sends the date form."""
+        from datetime import datetime, timedelta, timezone
+
+        when = datetime.now(timezone.utc) + timedelta(seconds=90)
+        parsed = _parse_retry_after(when.strftime("%a, %d %b %Y %H:%M:%S +0000"))
+        assert parsed is not None
+        assert 60 <= parsed <= 120
+
+    def test_http_date_in_past_returns_zero(self):
+        assert _parse_retry_after("Mon, 09 Nov 2020 15:24:38 +0000") == 0.0
+
+    def test_http_date_is_capped(self):
+        assert _parse_retry_after("Wed, 21 Oct 2099 07:28:00 GMT") == 900.0
 
     def test_none_when_negative(self):
         assert _parse_retry_after("-5") is None
 
     def test_capped_at_max_backoff(self):
-        assert _parse_retry_after("9999") == 120.0
+        assert _parse_retry_after("9999") == 900.0
 
 
 class TestRateLimiting:
@@ -359,12 +374,21 @@ class TestCircuitBreaker:
 
     def test_breaker_expires_after_cooldown(self):
         s = BatchScraper(max_429_strikes=1, breaker_cooldown=0.01)
-        s._note_throttled("example.com", 5.0)
+        s._note_throttled("example.com", 0.0)
         assert s._breaker_open("example.com")
         import time
 
         time.sleep(0.02)
         assert not s._breaker_open("example.com")
+
+    def test_breaker_never_shorter_than_server_asked(self):
+        """The server's Retry-After is the deadline — the breaker must not
+        expire earlier, or we request the domain again while it is still
+        blocking us."""
+        s = BatchScraper(max_429_strikes=1, breaker_cooldown=300.0)
+        s._note_throttled("example.com", 900.0)
+        assert s._breaker_open("example.com")
+        assert s._domain_breaker["example.com"] > 600.0
 
     def test_breaker_skips_url_without_request(self, monkeypatch):
         s = BatchScraper(max_429_strikes=1, respect_robots=False)
